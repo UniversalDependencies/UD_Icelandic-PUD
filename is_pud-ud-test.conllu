@@ -2112,7 +2112,7 @@
 9	tengsl	tengsl	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	_
 10	við	við	ADP	ao	_	12	case	_	_
 11	þennan	þessi	PRON	fakeo	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
-12	skóla	skóli	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_
+12	skóla	skóli	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
 14	stúlkurnar	stúlka	NOUN	nvfog	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	conj	_	_
 15	tvær	tveir	NUM	tfvfo	Case=Acc|Gender=Fem|Number=Plur	14	appos	_	_
@@ -3984,7 +3984,7 @@
 11	finna	finna	VERB	sng	VerbForm=Inf|Voice=Act	9	acl	_	_
 12	„	„	PUNCT	„	PunctSide=Ini	13	punct	_	SpaceAfter=No
 13	etým	etým	NOUN	aa	_	11	obj	_	SpaceAfter=No
-14	“	“	PUNCT	“	PunctSide=Fin	13	punct	_	_
+14	“	“	PUNCT	“	PunctSide=Fin	13	punct	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01066093
@@ -5149,7 +5149,7 @@
 16	sitja	sitja	VERB	sng	VerbForm=Inf|Voice=Act	12	xcomp	_	_
 17	fyrir	fyrir	ADV	aa	_	16	compound:prt	_	_
 18	hjá	hjá	ADP	aþ	_	19	case	_	_
-19	sér	sig	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	16	obl	_	_
+19	sér	sig	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	16	obl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01089
@@ -5166,7 +5166,7 @@
 8	og	og	CCONJ	c	_	9	cc	_	_
 9	lítið	lítill	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	_
 10	um	um	ADP	ao	_	11	case	_	_
-11	mat	matur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_
+11	mat	matur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01089033
@@ -5193,14 +5193,14 @@
 19	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
 20	tekið	taka	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	_
 21	við	við	ADP	ao	_	22	case	_	_
-22	hana	hún	PRON	fpveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	20	obl	_	_
+22	hana	hún	PRON	fpveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	20	obl	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01090
 # sent_id = n01090004
 # text = Ég horfði á mótókross og því meira sem ég horfði, því oftar rakst ég á andlit einnar konu, á ljósmyndum sem litu út fyrir að vera frá 8. áratugnum.
 # text_en = I looked at motocross and the more I looked, this one woman’s face kept coming up, in photographs that looked as if they were from the 1970s.
-1	Ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+1	Ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
 2	horfði	horfa	VERB	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	á	á	ADP	ao	_	4	case	_	_
 4	mótókross	mótókross	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl:arg	_	_
@@ -5209,7 +5209,7 @@
 7	meira	mikill	ADJ	lheovm	Case=Acc|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	14	obl	_	_
 8	sem	sem	SCONJ	ct	_	10	mark	_	_
 9	ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
-10	horfði	horfa	VERB	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+10	horfði	horfa	VERB	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
 12	því	það	PRON	fpheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	14	obl	_	_
 13	oftar	oft	ADV	aam	_	12	advmod	_	_
@@ -5218,7 +5218,7 @@
 16	á	á	ADP	ao	_	17	case	_	_
 17	andlit	andlit	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	14	obl:arg	_	_
 18	einnar	einn	NUM	tfvee	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	_
-19	konu	kona	NOUN	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	17	nmod:poss	_	_
+19	konu	kona	NOUN	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	17	nmod:poss	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	22	punct	_	_
 21	á	á	ADP	aþ	_	22	case	_	_
 22	ljósmyndum	ljósmynd	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	17	nmod	_	_
@@ -5230,7 +5230,7 @@
 28	vera	vera	AUX	sng	VerbForm=Inf|Voice=Act	31	cop	_	_
 29	frá	frá	ADP	aþ	_	31	case	_	_
 30	8.	8.	ADJ	lkeþvf	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
-31	áratugnum	áratugur	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	24	xcomp	_	_
+31	áratugnum	áratugur	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	24	xcomp	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01090037
@@ -5266,7 +5266,7 @@
 28	þegar	þegar	SCONJ	c	_	30	mark	_	_
 29	ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
 30	finn	finna	VERB	sfg1en	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	_
-31	hana	hún	PRON	fpveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	30	obj	_	_
+31	hana	hún	PRON	fpveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	30	obj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01091
@@ -5289,21 +5289,21 @@
 14	auðveldlega	auðveldlega	ADV	aa	_	11	advmod	_	_
 15	enn	enn	ADV	aa	_	17	advmod	_	_
 16	eina	einn	PRON	foveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
-17	ferðina	ferð	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	_
+17	ferðina	ferð	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = n01091017
 # text = Yfirmaður náttúrverndarmála, Jeff Knott, sagði: „Það kæmi mér mjög á óvart ef annaðhvort bann eða leyfisveiting kæmi til sögunnar í kjölfar hennar.“
 # text_en = Their head of nature policy, Jeff Knott, stated: “I’d be amazed if either a ban or licensing was introduced off the back of it”.
 1	Yfirmaður	yfirmaður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	_
-2	náttúrverndarmála	náttúrverndarmáli	NOUN	nkfe	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	1	nmod:poss	_	_
+2	náttúrverndarmála	náttúrverndarmáli	NOUN	nkfe	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	1	nmod:poss	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4	Jeff	Jeff	PROPN	e	_	1	appos	_	_
-5	Knott	Knott	PROPN	e	_	4	flat:name	_	_
+5	Knott	Knott	PROPN	e	_	4	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	_	_
-7	sagði	segja	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	sagði	segja	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 8	:	:	PUNCT	:	_	7	punct	_	_
-9	„	„	PUNCT	„	PunctSide=Ini	11	punct	_	_
+9	„	„	PUNCT	„	PunctSide=Ini	11	punct	_	SpaceAfter=No
 10	Það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	11	expl	_	_
 11	kæmi	koma	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
 12	mér	ég	PRON	fp1eþ	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
@@ -5320,8 +5320,8 @@
 23	sögunnar	saga	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	obl	_	_
 24	í	í	ADP	ao	_	25	case	_	_
 25	kjölfar	kjölfar	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	_
-26	hennar	hennar	ADP	as	_	25	nmod:poss	_	_
-27	.	.	PUNCT	.	_	11	punct	_	_
+26	hennar	hennar	ADP	as	_	25	nmod:poss	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
 28	“	“	PUNCT	“	PunctSide=Fin	11	punct	_	_
 
 # sent_id = n01091019
@@ -5336,20 +5336,20 @@
 7	við	við	ADP	ao	_	10	case	_	_
 8	marga	margur	ADJ	lkfosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 9	leiðandi	leiða	VERB	slg	Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
-10	náttúruverndarsinna	náttúruverndarsinr	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	obl	_	_
+10	náttúruverndarsinna	náttúruverndarsinr	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
 12	allt	allur	PRON	foheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	14	advmod	_	_
 13	frá	frá	ADP	aþ	_	14	case	_	_
 14	upphafsmanni	upphafsmann	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_
-15	undirskriftasöfnunarinnar	undirskriftasöfnun	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod:poss	_	_
+15	undirskriftasöfnunarinnar	undirskriftasöfnun	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod:poss	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
 17	Mark	Mark	PROPN	nhen-s	Case=Nom|Gender=Neut|Number=Sing	14	appos	_	_
-18	Avery	Avery	PROPN	nveo-s	Case=Acc|Gender=Fem|Number=Sing	17	flat:name	_	_
+18	Avery	Avery	PROPN	nveo-s	Case=Acc|Gender=Fem|Number=Sing	17	flat:name	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	17	punct	_	_
 20	til	til	ADP	ae	_	21	case	_	_
 21	sjónvarpsmannsins	sjónvarpsmaður	NOUN	nkeeg	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	_
 22	Chris	Chris	PROPN	e	_	21	nmod:poss	_	_
-23	Packham	Packham	PROPN	e	_	22	flat:name	_	_
+23	Packham	Packham	PROPN	e	_	22	flat:name	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = n01092
@@ -5365,7 +5365,7 @@
 7	hafi	hafa	VERB	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 8	rangt	rangur	ADJ	lheosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	obj	_	_
 9	fyrir	fyrir	ADP	aþ	_	10	case	_	_
-10	sér	sig	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	8	nmod	_	_
+10	sér	sig	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01092014
@@ -5375,7 +5375,7 @@
 2	hvað	hver	PRON	fshen	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	_	_
 3	með	með	ADP	aþ	_	4	case	_	_
 4	afstöðu	afstaða	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
-5	Ástralíu	Ástralía	PROPN	nvee-s	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	_
+5	Ástralíu	Ástralía	PROPN	nvee-s	Case=Gen|Gender=Fem|Number=Sing	4	nmod:poss	_	SpaceAfter=No
 6	?	?	PUNCT	?	_	4	punct	_	_
 
 # sent_id = n01092025
@@ -5388,9 +5388,9 @@
 5	í	í	ADP	aþ	_	6	case	_	_
 6	Marokkó	Marokkó	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
 7	á	á	ADP	aþ	_	8	case	_	_
-8	miðdeginum	miðdagur	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
+8	miðdeginum	miðdagur	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
-10	laugardegi	laugardagur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	_
+10	laugardegi	laugardagur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	_	_
 12	þegar	þegar	SCONJ	c	_	14	mark	_	_
 13	iðnríki	iðnríki	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	nsubj	_	_
@@ -5406,13 +5406,13 @@
 23	áætlanir	áætlun	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	18	obl	_	_
 24	sínar	sinn	PRON	fevfo	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	23	nmod:poss	_	_
 25	og	og	CCONJ	c	_	26	cc	_	_
-26	markmið	markmið	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	23	conj	_	_
+26	markmið	markmið	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	23	conj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01092040
 # text = „Við leitum mögulegra leiða til að takmarka málaferli við þau sem eiga raunverulegra hagsmuna að gæta í verkefni“ var haft eftir honum.
 # text_en = “We are actively thinking of possible ways to limit the scope of litigation to only those with a real standing in a project,” he was quoted as saying.
-1	„	„	PUNCT	„	PunctSide=Ini	3	punct	_	_
+1	„	„	PUNCT	„	PunctSide=Ini	3	punct	_	SpaceAfter=No
 2	Við	ég	PRON	fp1fn	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	leitum	leita	VERB	sfg1fn	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	csubj	_	_
 4	mögulegra	mögulegur	ADJ	lvfesf	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
@@ -5430,24 +5430,24 @@
 16	að	að	PART	cn	_	17	mark	_	_
 17	gæta	gæta	VERB	sng	VerbForm=Inf|Voice=Act	13	xcomp	_	_
 18	í	í	ADP	ao	_	19	case	_	_
-19	verkefni	verkefni	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	17	obl	_	_
+19	verkefni	verkefni	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	17	obl	_	SpaceAfter=No
 20	“	“	PUNCT	“	PunctSide=Fin	3	punct	_	_
 21	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
 22	haft	hafa	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 23	eftir	eftir	ADP	aþ	_	24	case	_	_
-24	honum	hann	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	22	obl:arg	_	_
+24	honum	hann	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	22	obl:arg	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	22	punct	_	_
 
 # newdoc id = n01093
 # sent_id = n01093007
 # text = „Þorskstofninn í Eystrasalti gæti hrunið“ án takmarkananna sem stungið er upp á, sagði einn embættismaður ESB.
 # text_en = “Celtic Sea cod could collapse,” without the proposed limits, one EU official said.
-1	„	„	PUNCT	„	PunctSide=Ini	6	punct	_	_
+1	„	„	PUNCT	„	PunctSide=Ini	6	punct	_	SpaceAfter=No
 2	Þorskstofninn	þorskstofn	NOUN	nkeng	Case=NOM|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	í	í	ADP	aþ	_	4	case	_	_
 4	Eystrasalti	Eystrasalt	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
 5	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
-6	hrunið	hrynja	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
+6	hrunið	hrynja	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No
 7	“	“	PUNCT	“	PunctSide=Fin	6	punct	_	_
 8	án	án	ADP	ae	_	9	case	_	_
 9	takmarkananna	takmarkan	NOUN	nhfeg	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	6	obl	_	_
@@ -5455,12 +5455,12 @@
 11	stungið	stinga	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	acl:relcl	_	_
 12	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 13	upp	upp	ADV	aa	_	11	compound:prt	_	_
-14	á	á	ADV	aa	_	13	fixed	_	_
+14	á	á	ADV	aa	_	13	fixed	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	6	punct	_	_
 16	sagði	segja	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	_
 17	einn	einn	PRON	foken	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
 18	embættismaður	embættismaður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	16	nsubj	_	_
-19	ESB	ESB	ADP	as	_	18	nmod:poss	_	_
+19	ESB	ESB	ADP	as	_	18	nmod:poss	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = n01093024
@@ -5472,11 +5472,11 @@
 4	einnig	einnig	ADV	aa	_	5	advmod	_	_
 5	áætluð	áætla	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	fyrir	fyrir	ADP	ao	_	7	case	_	_
-7	þorsk	þorskur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	_
+7	þorsk	þorskur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
-9	kola	koli	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	_
+9	kola	koli	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
-11	rauðsprettu	rauðspretta	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	conj	_	_
+11	rauðsprettu	rauðspretta	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	flúru	flúra	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	conj	_	_
 14	og	og	CCONJ	c	_	15	cc	_	_
@@ -5484,7 +5484,7 @@
 16	í	í	ADP	aþ	_	17	case	_	_
 17	Kelta-	Kelta-	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
 18	og	og	CCONJ	c	_	19	cc	_	_
-19	Írlandshafi	Írlandshaf	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	17	conj	_	_
+19	Írlandshafi	Írlandshaf	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01093025
@@ -5493,7 +5493,7 @@
 1	Náttúruverndarsinnar	náttúruverndarsinnar	NOUN	nvfng	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	_
 2	fögnuðu	fagna	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	tilkynningu	tilkynning	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	_
-4	ráðsins	ráð	NOUN	nheeg	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	_
+4	ráðsins	ráð	NOUN	nheeg	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01094
@@ -5503,13 +5503,13 @@
 1	Aðeins	aðeins	ADV	aa	_	2	advmod	_	_
 2	50	50	NUM	ta	_	4	nsubj	_	_
 3	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
-4	markaðir	marka	NOUN	sþgkfn	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	markaðir	marka	NOUN	sþgkfn	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01094022
 # text = „Í Agora þurfti að fá boð um inngöngu, en það er auðvelt að nálgast marga þessara markaða ef maður veit hvar á að leita“ bætir dr. Lee við.
 # text_en = “Agora was invitation-only but many of these marketplaces are easily accessible if you know how to search,” Dr Lee adds.
-1	„	„	PUNCT	„	PunctSide=Ini	4	punct	_	_
+1	„	„	PUNCT	„	PunctSide=Ini	4	punct	_	SpaceAfter=No
 2	Í	í	ADP	aþ	_	3	case	_	_
 3	Agora	Agora	PROPN	e	_	4	obl	_	_
 4	þurfti	þurfa	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5517,7 +5517,7 @@
 6	fá	fá	VERB	sng	VerbForm=Inf|Voice=Act	4	csubj	_	_
 7	boð	boð	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	6	obj	_	_
 8	um	um	ADP	ao	_	9	case	_	_
-9	inngöngu	innganga	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	_
+9	inngöngu	innganga	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	4	punct	_	_
 11	en	en	CCONJ	c	_	14	cc	_	_
 12	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	14	nsubj	_	_
@@ -5534,12 +5534,12 @@
 23	hvar	hvar	ADV	aa	_	24	mark	_	_
 24	á	á	VERB	aþ	_	22	xcomp	_	_
 25	að	að	PART	cn	_	26	mark	_	_
-26	leita	leita	VERB	sng	VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	leita	leita	VERB	sng	VerbForm=Inf|Voice=Act	24	xcomp	_	SpaceAfter=No
 27	“	“	PUNCT	“	PunctSide=Fin	4	punct	_	_
 28	bætir	bæta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 29	dr.	dr.	NOUN	as	_	30	nmod	_	_
 30	Lee	Lee	PROPN	e	_	28	nsubj	_	_
-31	við	við	ADV	aa	_	28	compound:prt	_	_
+31	við	við	ADV	aa	_	28	compound:prt	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	28	punct	_	_
 
 # newdoc id = n01095
@@ -5565,7 +5565,7 @@
 17	sitt	sinn	PRON	fehen	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	18	det	_	_
 18	hatur	hatur	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	_
 19	á	á	ADP	aþ	_	20	case	_	_
-20	nútímauppeldi	nútímauppeldi	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	18	nmod	_	_
+20	nútímauppeldi	nútímauppeldi	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01095009
@@ -5577,7 +5577,7 @@
 4	ekki	ekki	ADV	aa	_	5	advmod	_	_
 5	ófreskju	ófreskja	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	_
 6	í	í	ADP	aþ	_	7	case	_	_
-7	hálfkæringi	hálfkæringur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	_
+7	hálfkæringi	hálfkæringur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01095019
@@ -5591,20 +5591,20 @@
 6	kominn	koma	VERB	sþgken	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 7	aftur	aftur	ADV	aa	_	6	advmod	_	_
 8	á	á	ADP	ao	_	9	case	_	_
-9	EMicro	EMicro	PROPN	e	_	6	obl	_	_
+9	EMicro	EMicro	PROPN	e	_	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	_	_
 
 # newdoc id = n01096
 # sent_id = n01096006
 # text = Heimurinn, og þar af leiðandi Bretland, glímir við skort á fólki með hæfileikana sem þarf til að snúa vörn í sókn.
 # text_en = The world – and by extension the UK – is facing a shortage of people with the skills needed to mount an effective defence.
-1	Heimurinn	heimur	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	_
+1	Heimurinn	heimur	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	og	og	CCONJ	c	_	7	cc	_	_
 4	þar	þar	ADV	aa	_	7	advmod	_	_
 5	af	af	ADV	aa	_	4	fixed	_	_
 6	leiðandi	leiða	VERB	slg	Tense=Pres|VerbForm=Part|Voice=Act	4	fixed	_	_
-7	Bretland	Bretland	PROPN	nhen-s	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	_
+7	Bretland	Bretland	PROPN	nhen-s	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	glímir	glíma	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	við	við	ADP	ao	_	11	case	_	_
@@ -5620,7 +5620,7 @@
 20	snúa	snúa	VERB	sng	VerbForm=Inf|Voice=Act	17	xcomp	_	_
 21	vörn	vörn	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obj	_	_
 22	í	í	ADP	ao	_	23	case	_	_
-23	sókn	sókn	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	_
+23	sókn	sókn	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = n01096032
@@ -5641,13 +5641,13 @@
 13	kerfa	kerfi	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	_
 14	og	og	CCONJ	c	_	16	cc	_	_
 15	erlendra	erlendur	ADJ	lhfesf	Case=Gen|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	_
-16	ríkja	ríki	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	13	conj	_	_
+16	ríkja	ríki	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	13	conj	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	7	punct	_	_
 18	en	en	CCONJ	c	_	20	cc	_	_
 19	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	20	nsubj	_	_
 20	virkar	virka	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 21	ekki	ekki	ADV	aa	_	22	advmod	_	_
-22	alltaf	alltaf	ADV	aa	_	20	advmod	_	_
+22	alltaf	alltaf	ADV	aa	_	20	advmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01096040
@@ -5671,10 +5671,10 @@
 16	hugmynd	hugmynd	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	parataxis	_	_
 17	sem	sem	SCONJ	ct	_	18	nsubj	_	_
 18	kallast	kalla	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	acl:relcl	_	_
-19	„	„	PUNCT	„	PunctSide=Ini	21	punct	_	_
+19	„	„	PUNCT	„	PunctSide=Ini	21	punct	_	SpaceAfter=No
 20	virk	virkur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
-21	vörn	vörn	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	xcomp	_	_
-22	“	“	PUNCT	“	PunctSide=Fin	21	punct	_	_
+21	vörn	vörn	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	xcomp	_	SpaceAfter=No
+22	“	“	PUNCT	“	PunctSide=Fin	21	punct	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	7	punct	_	_
 
 # newdoc id = n01097
@@ -5701,7 +5701,7 @@
 18	allra	allur	PRON	fohfe	Case=Gen|Gender=Neut|Number=Plur|PronType=Ind	19	det	_	_
 19	ríkja	ríki	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	15	obl:arg	_	_
 20	í	í	ADP	aþ	_	21	case	_	_
-21	landinu	land	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	_
+21	landinu	land	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = n01097041
@@ -5711,7 +5711,7 @@
 2	kom	koma	VERB	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	auga	auga	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	_
 4	á	á	ADP	ao	_	5	case	_	_
-5	nokkra	nokkur	PRON	fokfo	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	obl:arg	_	_
+5	nokkra	nokkur	PRON	fokfo	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	2	obl:arg	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01097098
@@ -5721,12 +5721,12 @@
 2	áfangastaður	áfangastaður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	minn	minn	PRON	feken	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	2	nmod:poss	_	_
 4	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
-5	Bellingham	Bellingham	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	Bellingham	Bellingham	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	rétt	rétt	ADV	aa	_	8	advmod	_	_
 8	hjá	hjá	ADP	aþ	_	9	case	_	_
 9	landamærum	landamæri	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	_
-10	Kanada	Kanada	PROPN	nhee-s	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	_
+10	Kanada	Kanada	PROPN	nhee-s	Case=Gen|Gender=Neut|Number=Sing	9	nmod:poss	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = n01098
@@ -5742,7 +5742,7 @@
 7	héldum	halda	VERB	sfg1fþ	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 8	áfram	áfram	ADV	aa	_	7	advmod	_	_
 9	í	í	ADP	ao	_	10	case	_	_
-10	suðurátt	suðurátt	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	_
+10	suðurátt	suðurátt	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01098041
@@ -5754,7 +5754,7 @@
 4	tvo	tveir	NUM	tfkfo	Case=Acc|Gender=Masc|Number=Plur	5	nummod	_	_
 5	bænaturna	bænatur	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	_
 6	líður	líða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	hjá	hjá	ADV	aa	_	6	compound:prt	_	_
+7	hjá	hjá	ADV	aa	_	6	compound:prt	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = n01098044
@@ -5784,7 +5784,7 @@
 22	bankar	banka	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
 23	varlega	varlega	ADV	aa	_	22	advmod	_	_
 24	í	í	ADP	ao	_	25	case	_	_
-25	undirvagninn	undirvagn	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	_
+25	undirvagninn	undirvagn	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01099
@@ -5801,32 +5801,32 @@
 8	um	um	ADV	aa	_	6	compound:prt	_	_
 9	á	á	ADP	aþ	_	10	case	_	_
 10	morgunmarkaðnum	morgunmarkaður	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	_
-11	(	(	PUNCT	(	_	12	punct	_	_
+11	(	(	PUNCT	(	_	12	punct	_	SpaceAfter=No
 12	6:30	6:30	NUM	ta	_	10	appos	_	_
 13	til	til	ADP	ae	_	14	case	_	_
-14	10:00	10:00	NUM	ta	_	12	conj	_	_
-15	)	)	PUNCT	)	_	12	punct	_	_
+14	10:00	10:00	NUM	ta	_	12	conj	_	SpaceAfter=No
+15	)	)	PUNCT	)	_	12	punct	_	SpaceAfter=No
 16	:	:	PUNCT	:	_	4	punct	_	_
-17	hrísgrjónapinnar	hrísgrjónapi	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	parataxis	_	_
+17	hrísgrjónapinnar	hrísgrjónapi	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	17	punct	_	_
 19	vespulirfuhýði	vespulirfuhýði	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	conj	_	_
-20	(	(	PUNCT	(	_	22	punct	_	_
+20	(	(	PUNCT	(	_	22	punct	_	SpaceAfter=No
 21	púpurnar	púpa	NOUN	nvfng	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	22	nsubj	_	_
 22	þykja	þykja	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl	_	_
-23	lostæti	lostæti	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	xcomp	_	_
-24	)	)	PUNCT	)	_	22	punct	_	_
+23	lostæti	lostæti	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	xcomp	_	SpaceAfter=No
+24	)	)	PUNCT	)	_	22	punct	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	_	_
-26	vísundalungu	vísundalunga	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	17	conj	_	_
+26	vísundalungu	vísundalunga	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	_	_
 28	börkur	börkur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	_
 29	og	og	CCONJ	c	_	30	cc	_	_
 30	laufblöð	laufblað	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	28	conj	_	_
-31	betelhnetutrjáa	betelhnetutré	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	30	nmod:poss	_	_
+31	betelhnetutrjáa	betelhnetutré	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	30	nmod:poss	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	34	punct	_	_
 33	lifandi	lifandi	ADJ	lkfnof	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	34	amod	_	_
 34	körtur	körtur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	_
 35	og	og	CCONJ	c	_	36	cc	_	_
-36	leirgeddur	leirgedda	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	17	conj	_	_
+36	leirgeddur	leirgedda	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	17	punct	_	_
 
 # newdoc id = n01101
@@ -5849,7 +5849,7 @@
 14	af	af	ADP	aþ	_	15	case	_	_
 15	hendi	hönd	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	_
 16	árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	_
-17	1997	1997	NUM	ta	_	11	obl	_	_
+17	1997	1997	NUM	ta	_	11	obl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01101007
@@ -5862,16 +5862,16 @@
 5	löggjafar	löggjafi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	_
 6	sverja	sverja	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	_	_
 7	Hong	Hong	PROPN	e	_	6	iobj	_	_
-8	Kong	Kong	PROPN	e	_	7	flat:name	_	_
+8	Kong	Kong	PROPN	e	_	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	_	_
 10	sem	sem	SCONJ	c	_	11	mark	_	_
 11	hluta	hluti	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	acl	_	_
 12	af	af	ADP	aþ	_	13	case	_	_
 13	Alþýðulýðveldinu	Alþýðulýðveldi	PROPN	nheþgs	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
-14	Kína	Kína	PROPN	nheo-s	Case=Acc|Gender=Neut|Number=Sing	13	compound	_	_
+14	Kína	Kína	PROPN	nheo-s	Case=Acc|Gender=Neut|Number=Sing	13	compound	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	_	_
 16	hollustu	hollusta	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	_
-17	sína	sinn	PRON	feveo	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	16	nmod:poss	_	_
+17	sína	sinn	PRON	feveo	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	16	nmod:poss	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01101012
@@ -5879,14 +5879,14 @@
 # text_en = The Hong Kong government, which is led by pro-Beijing lawmakers, have argued that the pair should not take office.
 1	Ríkisstjórn	ríkisstjórn	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nsubj	_	_
 2	Hong	Hong	PROPN	e	_	1	nmod:poss	_	_
-3	Kong	Kong	PROPN	e	_	2	flat:name	_	_
+3	Kong	Kong	PROPN	e	_	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	9	punct	_	_
 5	sem	sem	SCONJ	c	_	9	mark	_	_
 6	löggjafar	löggjafi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	_
 7	hliðhollir	hliðhollur	ADJ	lkfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
 8	Beijing	Beijing	PROPN	e	_	7	nmod:poss	_	_
 9	fara	fara	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
-10	fyrir	fyrir	ADV	aa	_	9	compound:prt	_	_
+10	fyrir	fyrir	ADV	aa	_	9	compound:prt	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	9	punct	_	_
 12	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 13	haldið	halda	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
@@ -5899,13 +5899,13 @@
 20	að	að	PART	cn	_	21	mark	_	_
 21	taka	taka	VERB	sng	VerbForm=Inf|Voice=Act	18	xcomp	_	_
 22	við	við	ADP	aþ	_	23	case	_	_
-23	embætti	embætti	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	21	obl:arg	_	_
+23	embætti	embætti	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	21	obl:arg	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = n01101015
 # text = „Beijing telur íhlutun nauðsynlega til að koma í veg fyrir áframhaldandi lagalega kreppu í borginni“ sagði hann.
 # text_en = “Beijing believes its intervention is necessary to prevent a continued legislative paralysis in the city,” he said.
-1	„	„	PUNCT	„	PunctSide=Ini	3	punct	_	_
+1	„	„	PUNCT	„	PunctSide=Ini	3	punct	_	SpaceAfter=No
 2	Beijing	beijing	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	telur	telja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	íhlutun	íhlutun	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -5920,10 +5920,10 @@
 13	lagalega	lagalegur	ADJ	lveosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	kreppu	kreppa	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obl:arg	_	_
 15	í	í	ADP	aþ	_	16	case	_	_
-16	borginni	borg	NOUN	nveþg	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	_
+16	borginni	borg	NOUN	nveþg	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 17	“	“	PUNCT	“	PunctSide=Fin	3	punct	_	_
 18	sagði	segja	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
-19	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	18	nsubj	_	_
+19	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	18	nsubj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = n01101017
@@ -5938,7 +5938,7 @@
 7	sig	sig	PRON	fpkeo	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	6	obj	_	_
 8	undir	undir	ADP	aþ	_	9	case	_	_
 9	hrinu	hrina	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	obl:arg	_	_
-10	mótmæla	mótmæla	NOUN	sng	VerbForm=Inf|Voice=Act	9	nmod:poss	_	_
+10	mótmæla	mótmæla	NOUN	sng	VerbForm=Inf|Voice=Act	9	nmod:poss	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01102
@@ -5954,9 +5954,9 @@
 7	Andrews	Andrews	PROPN	nkeo-s	Case=Acc|Gender=Masc|Number=Sing	6	nmod:poss	_	_
 8	Marr	Marr	PROPN	e	_	7	flat:name	_	_
 9	á	á	ADP	aþ	_	10	case	_	_
-10	BBC	BBC	ADP	as	_	6	nmod	_	_
+10	BBC	BBC	ADP	as	_	6	nmod	_	SpaceAfter=No
 11	:	:	PUNCT	:	_	2	punct	_	_
-12	„	„	PUNCT	„	PunctSide=Ini	21	punct	_	_
+12	„	„	PUNCT	„	PunctSide=Ini	21	punct	_	SpaceAfter=No
 13	Almennar	almennur	ADJ	lvfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
 14	kosningar	kosning	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	21	nsubj	_	_
 15	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
@@ -5968,8 +5968,8 @@
 21	síðasta	síðari	ADJ	lheove	Case=Acc|Definite=Def|Degree=Sup|Gender=Neut|Number=Sing	2	parataxis	_	_
 22	sem	sem	SCONJ	ct	_	24	mark	_	_
 23	ríkisstjórnin	ríkisstjórn	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	24	nsubj	_	_
-24	vill	vill	VERB	as	_	21	acl:relcl	_	_
-25	.	.	PUNCT	.	_	21	punct	_	_
+24	vill	vill	VERB	as	_	21	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	21	punct	_	SpaceAfter=No
 26	“	“	PUNCT	“	PunctSide=Fin	21	punct	_	_
 
 # newdoc id = n01103
@@ -5984,7 +5984,7 @@
 6	ljúka	ljúka	VERB	sng	VerbForm=Inf|Voice=Act	3	csubj	_	_
 7	ferli	ferill	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	_
 8	sínum	sinn	PRON	fekeþ	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	7	nmod:poss	_	_
-9	hér	hér	ADV	aa	_	6	advmod	_	_
+9	hér	hér	ADV	aa	_	6	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01104
@@ -6005,7 +6005,7 @@
 12	sem	sem	SCONJ	c	_	11	fixed	_	_
 13	maður	maður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	_
 14	hafði	hafa	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl	_	_
-15	yfirhöndina	yfirhönd	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	_
+15	yfirhöndina	yfirhönd	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	_	_
 17	en	en	CCONJ	c	_	19	cc	_	_
 18	að	að	PART	cn	_	19	mark	_	_
@@ -6017,7 +6017,7 @@
 24	röð	röð	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	_
 25	bendir	benda	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	_
 26	til	til	ADP	ae	_	27	case	_	_
-27	veikleika	veikleiki	NOUN	nkfe	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	25	obl:arg	_	_
+27	veikleika	veikleiki	NOUN	nkfe	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	25	obl:arg	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = n01104019
@@ -6033,7 +6033,7 @@
 8	sex	sex	NUM	tfhfþ	Case=Dat|Gender=Neut|Number=Plur	9	nummod	_	_
 9	stigum	stig	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	_
 10	á	á	ADP	aþ	_	11	case	_	_
-11	heimavelli	heimavöllur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	_
+11	heimavelli	heimavöllur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01105
@@ -6057,7 +6057,7 @@
 15	Monte	Monte	PROPN	nxeþ-s	Case=Dat|Number=Sing	10	obl	_	_
 16	Carlo	Carlo	PROPN	e	_	15	flat:name	_	_
 17	í	í	ADP	aþ	_	18	case	_	_
-18	apríl	apríl	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	_
+18	apríl	apríl	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01105013
@@ -6075,7 +6075,7 @@
 10	virðist	virða	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	_
 11	stöðugt	stöðugt	ADV	aa	_	12	advmod	_	_
 12	leita	leita	VERB	sng	VerbForm=Inf|Voice=Act	10	xcomp	_	_
-13	svara	svar	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	_
+13	svara	svar	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = n01105023
@@ -6092,7 +6092,7 @@
 9	átt	eiga	VERB	ssg	VerbForm=Sup|Voice=Act	2	ccomp	_	_
 10	hlut	hlutur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	_
 11	að	að	ADP	aþ	_	12	case	_	_
-12	máli	mál	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	_
+12	máli	mál	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01106
@@ -6117,7 +6117,7 @@
 16	hafa	hafa	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	aukist	auka	VERB	ssm	VerbForm=Sup|Voice=Pass	3	ccomp	_	_
 18	til	til	ADP	ae	_	19	case	_	_
-19	muna	munur	NOUN	nkfe	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	17	obl	_	_
+19	muna	munur	NOUN	nkfe	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01106015
@@ -6125,9 +6125,9 @@
 # text_en = Ms Hopley added: “The spike in political risk should not go unnoticed.”
 1	Hopley	Hopley	PROPN	e	_	2	nsubj	_	_
 2	bætti	bæta	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	við	við	ADV	aa	_	2	compound:prt	_	_
+3	við	við	ADV	aa	_	2	compound:prt	_	SpaceAfter=No
 4	:	:	PUNCT	:	_	2	punct	_	_
-5	„	„	PUNCT	„	PunctSide=Ini	7	punct	_	_
+5	„	„	PUNCT	„	PunctSide=Ini	7	punct	_	SpaceAfter=No
 6	Það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	7	nsubj	_	_
 7	ætti	eiga	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 8	ekki	ekki	ADV	aa	_	7	advmod	_	_
@@ -6138,18 +6138,18 @@
 13	hinni	hinn	DET	gveþ	Case=Dat|Gender=Fem|Number=Sing	16	det	_	_
 14	stórauknu	stóraukna	ADJ	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	16	amod	_	_
 15	pólitísku	pólitískur	ADJ	lveþvf	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
-16	áhættu	áhættu	NOUN	as	_	10	obl:arg	_	_
-17	.	.	PUNCT	.	_	7	punct	_	_
+16	áhættu	áhættu	NOUN	as	_	10	obl:arg	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
 18	“	“	PUNCT	“	PunctSide=Fin	7	punct	_	_
 
 # newdoc id = n01107
 # sent_id = n01107005
 # text = Fréttir af blekkingum fyrirtækisins, sem höfðu staðið yfir árum saman, lækkuðu virði fyrirtækisins um milljarða evra og kostuðu framkvæmdastjórann Martin Winterkorn starfið.
 # text_en = News of the company’s deceit - which had run for years - wiped tens of billions of euros from VW's value and cost chief executive Martin Winterkorn his job.
-1	Fréttir	frétt	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	13	nsubj	_	_
+1	Fréttir	frétt	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
 2	af	af	ADP	aþ	_	3	case	_	_
 3	blekkingum	blekkingur	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	_
-4	fyrirtækisins	fyrirtæki	NOUN	nheeg	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	_
+4	fyrirtækisins	fyrirtæki	NOUN	nheeg	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	_	_
 6	sem	sem	SCONJ	ct	_	8	nsubj	_	_
 7	höfðu	hafa	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
@@ -6169,7 +6169,7 @@
 21	framkvæmdastjórann	framkvæmdastjóri	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	20	obj	_	_
 22	Martin	Martin	PROPN	e	_	21	appos	_	_
 23	Winterkorn	Winterkorn	PROPN	e	_	22	flat:name	_	_
-24	starfið	starf	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	20	obj	_	_
+24	starfið	starf	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	20	obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = n01107006
@@ -6199,7 +6199,7 @@
 22	milljónir	milljón	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	19	obj	_	_
 23	evra	evra	NOUN	x	_	22	nmod:pass	_	_
 24	í	í	ADP	ao	_	25	case	_	_
-25	úrbætur	úrbót	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	_
+25	úrbætur	úrbót	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01107008
@@ -6208,7 +6208,7 @@
 1	Rannsóknin	rannsókn	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	hófst	hefja	VERB	sfm3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	í	í	ADP	aþ	_	4	case	_	_
-4	júní	júní	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	_
+4	júní	júní	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	2	punct	_	_
 6	með	með	ADP	aþ	_	7	case	_	_
 7	áherslu	áhersla	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	_
@@ -6217,13 +6217,13 @@
 10	og	og	CCONJ	c	_	11	cc	_	_
 11	vörumerkjastjórann	vörumerkjastjóri	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	conj	_	_
 12	Herbert	Herbert	PROPN	nkeo-s	Case=Acc|Gender=Masc|Number=Sing	11	appos	_	_
-13	Diess	Diess	PROPN	e	_	12	flat:name	_	_
+13	Diess	Diess	PROPN	e	_	12	flat:name	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	_	_
 15	sem	sem	SCONJ	ct	_	16	nsubj	_	_
 16	starfar	starfa	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
 17	enn	enn	ADV	aa	_	16	advmod	_	_
 18	hjá	hjá	ADP	aþ	_	19	case	_	_
-19	bílaframleiðandanum	bílaframleiðandi	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	16	obl:arg	_	_
+19	bílaframleiðandanum	bílaframleiðandi	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	16	obl:arg	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01107010
@@ -6237,7 +6237,7 @@
 6	stjórnarformaður	stjórnarformaður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	_
 7	í	í	ADP	aþ	_	8	case	_	_
 8	október	október	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	_
-9	2015	2015	NUM	ta	_	8	nummod	_	_
+9	2015	2015	NUM	ta	_	8	nummod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
 11	mánuði	mánuður	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	_
 12	eftir	eftir	ADP	ao	_	16	mark	_	_
@@ -6245,7 +6245,7 @@
 14	hneykslið	hneyksli	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	nsubj	_	_
 15	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	_	_
 16	gert	gera	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	acl	_	_
-17	opinbert	opinber	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	xcomp	_	_
+17	opinbert	opinber	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01108
@@ -6261,7 +6261,7 @@
 7	samdráttur	samdráttur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	hæfist	hefja	VERB	svm3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	acl	_	_
 9	í	í	ADP	ao	_	10	case	_	_
-10	júlí	júlí	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	_
+10	júlí	júlí	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
 12	strax	strax	ADV	aa	_	14	advmod	_	_
 13	eftir	eftir	ADP	ao	_	14	case	_	_
@@ -6276,7 +6276,7 @@
 22	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
 23	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	21	cop	_	_
 24	stöðugur	stöðugur	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
-25	vöxtur	vöxtur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	nsubj	_	_
+25	vöxtur	vöxtur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01108005
@@ -6292,7 +6292,7 @@
 8	neytendur	neytandi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	11	nsubj	_	_
 9	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
 10	áfram	áfram	ADV	aa	_	11	advmod	_	_
-11	bjartsýnir	bjartsýn	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	4	conj	_	_
+11	bjartsýnir	bjartsýn	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	auk	auk	ADP	ae	_	19	cc	_	_
 14	þess	það	PRON	fphee	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	13	fixed	_	_
@@ -6305,7 +6305,7 @@
 21	sinna	sinna	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
 22	þjónustu	þjónusta	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	_
 23	við	við	ADP	ao	_	24	case	_	_
-24	neytendur	neytandi	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	22	nmod	_	_
+24	neytendur	neytandi	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01108015
@@ -6325,7 +6325,7 @@
 12	enn	enn	ADV	aa	_	11	advmod	_	_
 13	við	við	ADP	ao	_	15	case	_	_
 14	umtalsverðan	umtalsverðan	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	amod	_	_
-15	fjárlagahalla	fjárlagahalli	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obl:arg	_	_
+15	fjárlagahalla	fjárlagahalli	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obl:arg	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01109
@@ -6344,11 +6344,11 @@
 10	verðið	verð	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	_
 11	hækki	hækka	VERB	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	_
 12	á	á	ADP	ao	_	13	case	_	_
-13	veturna	vetur	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	obl	_	_
+13	veturna	vetur	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
 15	þegar	þegar	SCONJ	c	_	17	mark	_	_
 16	notkun	notkun	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	nsubj	_	_
-17	eykst	auka	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	_
+17	eykst	auka	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01109012
@@ -6371,11 +6371,11 @@
 15	pund	pund	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	_
 16	fyrir	fyrir	ADP	ao	_	17	case	_	_
 17	gjaldskrá	gjaldskrá	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	_
-18	þess	það	PRON	fphee	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	17	nmod:poss	_	_
+18	þess	það	PRON	fphee	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	17	nmod:poss	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	_	_
 20	Simple	Simple	PROPN	e	_	17	appos	_	_
 21	and	and	PROPN	e	_	20	flat:name	_	_
-22	Select	Select	PROPN	e	_	20	flat:name	_	_
+22	Select	Select	PROPN	e	_	20	flat:name	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01109022
@@ -6389,7 +6389,7 @@
 6	stöðluð	staðlaður	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	_
 7	eða	eða	CCONJ	c	_	9	cc	_	_
 8	fyrirframgreidd	fyrirframgreiddur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
-9	gjaldskrá	gjaldskrá	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+9	gjaldskrá	gjaldskrá	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 10	?	?	PUNCT	?	_	9	punct	_	_
 
 # newdoc id = n01110
@@ -6415,7 +6415,7 @@
 17	í	í	ADP	ao	_	18	case	_	_
 18	verðlaun	verðlaun	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	16	nmod	_	_
 19	á	á	ADP	aþ	_	20	case	_	_
-20	ári	ár	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	_
+20	ári	ár	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = n01110008
@@ -6431,7 +6431,7 @@
 8	óþekkjanleg	óþekkjanlegur	ADJ	lhfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	_
 9	frá	frá	ADP	aþ	_	11	case	_	_
 10	venjulegum	venjulegur	ADJ	lkeþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
-11	sparisjóðsreikningi	sparisjóðsreikningur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
+11	sparisjóðsreikningi	sparisjóðsreikningur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = n01110022
@@ -6454,7 +6454,7 @@
 15	að	að	PART	cn	_	14	fixed	_	_
 16	fjármagna	fjármagna	VERB	sng	VerbForm=Inf|Voice=Act	13	xcomp	_	_
 17	útgjöld	útgjöld	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	16	obj	_	_
-18	ríkisstjórnarinnar	ríkisstjórn	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod:poss	_	_
+18	ríkisstjórnarinnar	ríkisstjórn	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod:poss	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	13	punct	_	_
 
 # newdoc id = n01111
@@ -6477,7 +6477,7 @@
 14	fé	fé	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	_
 15	sitt	sinn	PRON	feheo	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	14	nmod:poss	_	_
 16	í	í	ADP	ao	_	17	case	_	_
-17	sjóðina	sjóð	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	_
+17	sjóðina	sjóð	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01111021
@@ -6493,7 +6493,7 @@
 8	Target	Target	PROPN	e	_	7	flat:name	_	_
 9	Return-	Return-	PROPN	e	_	8	flat:name	_	_
 10	og	og	CCONJ	c	_	11	cc	_	_
-11	Income-sjóðirnir	Income-sjóður	PROPN	nkfngs	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	_
+11	Income-sjóðirnir	Income-sjóður	PROPN	nkfngs	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	15	punct	_	_
 13	sem	sem	SCONJ	ct	_	15	mark	_	_
 14	fjárfestar	fjárfestir	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	15	nsubj	_	_
@@ -6506,7 +6506,7 @@
 21	punda	pund	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	20	nmod:poss	_	_
 22	hvorn	hvor	PRON	fskeo	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	15	obj	_	_
 23	um	um	ADP	ao	_	24	case	_	_
-24	sig	sig	PRON	fokeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	_
+24	sig	sig	PRON	fokeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = n01111030
@@ -6529,7 +6529,7 @@
 15	fallinu	fall	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	14	obj	_	_
 16	á	á	ADP	ao	_	17	case	_	_
 17	gengi	gengi	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	_
-18	Sterlingspundsins	Sterlingspund	PROPN	nheegs	Case=Gen|Gender=Neut|Number=Sing	17	nmod:poss	_	_
+18	Sterlingspundsins	Sterlingspund	PROPN	nheegs	Case=Gen|Gender=Neut|Number=Sing	17	nmod:poss	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01112
@@ -6558,7 +6558,7 @@
 20	til	til	ADP	ae	_	22	mark	_	_
 21	að	að	PART	cn	_	20	fixed	_	_
 22	framleiða	framleiða	VERB	sng	VerbForm=Inf|Voice=Act	14	advcl	_	_
-23	skó	skór	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	22	obj	_	_
+23	skó	skór	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01112012
@@ -6569,7 +6569,7 @@
 3	aukið	auka	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 4	kröfur	krafa	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	_
 5	um	um	ADP	ao	_	6	case	_	_
-6	breytingar	breyting	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	_
+6	breytingar	breyting	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01112014
@@ -6611,7 +6611,7 @@
 34	rusl	rusl	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	35	nsubj	_	_
 35	berist	bera	VERB	svm3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	ccomp	_	_
 36	í	í	ADP	ao	_	37	case	_	_
-37	hafið	haf	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	35	obl	_	_
+37	hafið	haf	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	35	obl	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	9	punct	_	_
 
 # newdoc id = n01113
@@ -6631,7 +6631,7 @@
 11	náð	ná	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 12	mér	ég	PRON	fp1eþ	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
 13	að	að	ADP	aþ	_	14	case	_	_
-14	fullu	fullur	ADJ	lheþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	nmod	_	_
+14	fullu	fullur	ADJ	lheþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	11	punct	_	_
 
 # newdoc id = n01114
@@ -6647,9 +6647,9 @@
 7	væri	vera	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
 8	nú	nú	ADV	aa	_	7	advmod	_	_
 9	undir	undir	ADP	aþ	_	12	case	_	_
-10	„	„	PUNCT	„	PunctSide=Ini	12	punct	_	_
+10	„	„	PUNCT	„	PunctSide=Ini	12	punct	_	SpaceAfter=No
 11	gríðarlegu	gríðarlegur	ADJ	lheþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
-12	álagi	álag	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	4	acl	_	_
+12	álagi	álag	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	4	acl	_	SpaceAfter=No
 13	“	“	PUNCT	“	PunctSide=Fin	12	punct	_	_
 14	og	og	CCONJ	c	_	15	cc	_	_
 15	hvatti	hvetja	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -6661,7 +6661,7 @@
 21	ábyrgð	ábyrgð	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	_
 22	á	á	ADP	aþ	_	24	case	_	_
 23	eigin	eiginn	ADJ	lveþof	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
-24	heilsu	heilsa	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	_
+24	heilsu	heilsa	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01114025
@@ -6689,7 +6689,7 @@
 20	á	á	ADP	aþ	_	21	case	_	_
 21	Bretlandi	Bretland	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
 22	á	á	ADP	ao	_	23	case	_	_
-23	veturna	vetur	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	19	obl	_	_
+23	veturna	vetur	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	7	punct	_	_
 
 # newdoc id = n01115
@@ -6700,7 +6700,7 @@
 2	spila	spila	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	laugardaginn	laugardagur	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	_
 4	10.	10.	NUM	ta	_	5	nummod	_	_
-5	júní	júní	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_
+5	júní	júní	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01115013
@@ -6721,7 +6721,7 @@
 13	enn	enn	ADV	aa	_	14	advmod	_	_
 14	betri	góður	ADJ	lhfnvm	Case=Nom|Definite=Def|Degree=Cmp|Gender=Neut|Number=Plur	9	acl	_	_
 15	árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	_
-16	2017	2017	NUM	ta	_	14	obl	_	_
+16	2017	2017	NUM	ta	_	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01116
@@ -6737,7 +6737,7 @@
 7	á	á	ADP	aþ	_	10	case	_	_
 8	miðjum	miður	ADJ	lkeþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 9	sjöunda	sjöunda	ADJ	lveþvf	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
-10	áratugnum	áratugur	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	_
+10	áratugnum	áratugur	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	2	punct	_	_
 12	þegar	þegar	SCONJ	c	_	14	mark	_	_
 13	hún	hún	PRON	fpven	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	14	nsubj	_	_
@@ -6746,7 +6746,7 @@
 16	á	á	ADP	aþ	_	17	case	_	_
 17	geðveikrahælinu	geðveikrahæli	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	_
 18	í	í	ADP	aþ	_	19	case	_	_
-19	Marat/Sade	Marat/Sade	PROPN	e	_	17	nmod	_	_
+19	Marat/Sade	Marat/Sade	PROPN	e	_	17	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01116014
@@ -6754,7 +6754,7 @@
 # text_en = The dress is contemporary.
 1	Búningarnir	búningur	NOUN	nkfng	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	nútímalegir	nútímalegur	ADJ	lkfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+3	nútímalegir	nútímalegur	ADJ	lkfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01116018
@@ -6764,10 +6764,10 @@
 2	fær	fá	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	hún	hún	PRON	fpven	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	2	nsubj	_	_
 4	alla	allur	PRON	foveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
-5	orkuna	orka	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	_
+5	orkuna	orka	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	?	?	PUNCT	?	_	8	punct	_	_
 7	Eða	eða	SCONJ	c	_	8	cc	_	_
-8	röddina	rödd	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	_
+8	röddina	rödd	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	sem	sem	SCONJ	ct	_	13	nsubj	_	_
 11	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
@@ -6777,7 +6777,7 @@
 15	hún	hún	PRON	fpven	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	17	nsubj	_	_
 16	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	valdið	valda	VERB	ssg	VerbForm=Sup|Voice=Act	13	acl	_	_
-18	höggbylgjum	höggbylgja	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	_
+18	höggbylgjum	höggbylgja	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
 19	?	?	PUNCT	?	_	8	punct	_	_
 
 # sent_id = n01116021
@@ -6793,12 +6793,12 @@
 8	æðarnar	æð	NOUN	nvfng	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	_
 9	koma	koma	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 10	í	í	ADP	ao	_	11	case	_	_
-11	ljós	ljós	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	_
+11	ljós	ljós	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	9	punct	_	_
 13	hendurnar	hönd	NOUN	nvfng	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	16	nsubj	_	_
 14	á	á	ADP	aþ	_	15	case	_	_
 15	henni	hún	PRON	fpveþ	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs	13	nmod	_	_
-16	skjálfa	skjálfa	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	skjálfa	skjálfa	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01116035
@@ -6813,7 +6813,7 @@
 7	ljósi	ljós	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	_
 8	frábærrar	frábær	ADJ	lveesf	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	frammistöðu	frammistaða	NOUN	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	7	nmod:poss	_	_
-10	Glendu	Glenda	PROPN	nvee-s	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	_
+10	Glendu	Glenda	PROPN	nvee-s	Case=Gen|Gender=Fem|Number=Sing	9	nmod:poss	_	SpaceAfter=No
 11	?	?	PUNCT	?	_	4	punct	_	_
 
 # newdoc id = n01117
@@ -6830,7 +6830,7 @@
 8	og	og	CCONJ	c	_	9	cc	_	_
 9	sjónvarpi	sjónvarp	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	_
 10	áratugum	áratugur	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	_
-11	saman	saman	ADV	aa	_	10	advmod	_	_
+11	saman	saman	ADV	aa	_	10	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01117014
@@ -6845,7 +6845,7 @@
 7	rétt	rétt	ADJ	aa	_	10	nsubj	_	_
 8	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 9	að	að	ADV	aa	_	10	advmod	_	_
-10	staðið	standa	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	_
+10	staðið	standa	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = n01118
@@ -6856,7 +6856,7 @@
 1	Látið	láta	VERB	sbg2fn	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	þið	þú	PRON	fp2fn	Case=Nom|Number=Plur|Person=2|PronType=Prs	1	nsubj	_	_
 3	hljóðnemann	hljóðnemi	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
-4	falla	falla	VERB	sng	VerbForm=Inf|Voice=Act	1	xcomp	_	_
+4	falla	falla	VERB	sng	VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = n01118010
@@ -6875,13 +6875,13 @@
 11	fullri	fullur	ADJ	lveþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
 12	lengd	lengd	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	_
 13	til	til	ADP	ae	_	14	case	_	_
-14	þessa	þessi	PRON	fahee	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	_
+14	þessa	þessi	PRON	fahee	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = n01118017
 # text = „Kvikmyndir höfðu breyst svo gríðarlega að fjölskylduáhorfendur voru orðnir afhuga Hollywood.“
 # text_en = "Cinema had changed so drastically that Hollywood had alienated the family audience."
-1	„	„	PUNCT	„	PunctSide=Ini	4	punct	_	_
+1	„	„	PUNCT	„	PunctSide=Ini	4	punct	_	SpaceAfter=No
 2	Kvikmyndir	kvikmynd	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	_
 3	höfðu	hafa	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	breyst	breyta	VERB	ssm	VerbForm=Sup|Voice=Pass	0	root	_	_
@@ -6892,8 +6892,8 @@
 9	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	orðnir	verða	VERB	sþgkfn	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	cop	_	_
 11	afhuga	afhuga	ADJ	lkfnof	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	advcl	_	_
-12	Hollywood	Hollywood	PROPN	e	_	11	obl:arg	_	_
-13	.	.	PUNCT	.	_	4	punct	_	_
+12	Hollywood	Hollywood	PROPN	e	_	11	obl:arg	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 14	“	“	PUNCT	“	PunctSide=Fin	4	punct	_	_
 
 # newdoc id = n01119
@@ -6914,7 +6914,7 @@
 12	og	og	CCONJ	c	_	15	cc	_	_
 13	miskunnarlauss	miskunnarlaus	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	15	amod	_	_
 14	félagslegs	félagslegur	ADJ	lheesf	Case=Gen|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
-15	drama	drama	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	_
+15	drama	drama	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01119012
@@ -6939,7 +6939,7 @@
 17	að	að	PART	cn	_	16	fixed	_	_
 18	sjá	sjá	VERB	sng	VerbForm=Inf|Voice=Act	14	advcl	_	_
 19	á	á	ADP	aþ	_	20	case	_	_
-20	sunnudagseftirmiðdegi	sunnudagseftirmiðdagur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	_
+20	sunnudagseftirmiðdegi	sunnudagseftirmiðdagur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01119017
@@ -6948,13 +6948,13 @@
 1	Svo	svo	ADV	aa	_	0	root	_	_
 2	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	auðvitað	auðvitað	ADV	aa	_	2	advmod	_	_
-4	Bob	Bob	PROPN	e	_	1	nsubj	_	_
+4	Bob	Bob	PROPN	e	_	1	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	sem	sem	SCONJ	ct	_	9	nsubj	_	_
 7	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 8	stöðug	stöðugur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	uppspretta	uppspretta	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	acl:relcl	_	_
-10	skemmtunar	skemmtun	NOUN	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	9	nmod:poss	_	_
+10	skemmtunar	skemmtun	NOUN	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	9	nmod:poss	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01119019
@@ -6969,21 +6969,21 @@
 7	best	vel	ADV	aae	_	10	advmod	_	_
 8	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 9	á	á	ADV	aa	_	10	advmod	_	_
-10	kosið	kjósa	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	_
+10	kosið	kjósa	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = n01120
 # sent_id = n01120008
 # text = Nútímaáhorfendum, sem fæstir hafa reynslu af stríðsátökum, finnst afrek Doss vera á mörkum hins ómögulega.
 # text_en = To modern audiences, most of whom will have little experience of frontline conflict, Doss’s feats belong to the realm of the unimaginable.
-1	Nútímaáhorfendum	nútímaáhorfandi	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	10	nsubj	_	_
+1	Nútímaáhorfendum	nútímaáhorfandi	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	5	punct	_	_
 3	sem	sem	SCONJ	ct	_	5	mark	_	_
 4	fæstir	fár	ADJ	lkfnse	Case=Nom|Definite=Ind|Degree=Sup|Gender=Masc|Number=Plur	5	nsubj	_	_
 5	hafa	hafa	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 6	reynslu	reynsla	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	_
 7	af	af	ADP	aþ	_	8	case	_	_
-8	stríðsátökum	stríðsátök	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	_
+8	stríðsátökum	stríðsátök	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	5	punct	_	_
 10	finnst	finna	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 11	afrek	afrek	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	_	_
@@ -6992,7 +6992,7 @@
 14	á	á	ADP	aþ	_	15	case	_	_
 15	mörkum	mark	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	10	ccomp	_	_
 16	hins	hinn	DET	ghee	Case=Gen|Gender=Neut|Number=Sing	17	det	_	_
-17	ómögulega	ómögulegur	ADJ	lheevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	nmod:poss	_	_
+17	ómögulega	ómögulegur	ADJ	lheevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	nmod:poss	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = n01120010
@@ -7002,7 +7002,7 @@
 2	Doss	Doss	PROPN	e	_	1	nmod:poss	_	_
 3	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	líka	líka	ADV	aa	_	5	advmod	_	_
-5	ólíkindaleg	ólíkindaleg	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+5	ólíkindaleg	ólíkindaleg	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	sem	sem	SCONJ	ct	_	8	nsubj	_	_
 8	gerir	gera	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
@@ -7010,7 +7010,7 @@
 10	þeim	sá	PRON	fakeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	mun	munur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	_
 12	meira	mjög	ADV	aam	_	13	advmod	_	_
-13	hrífandi	hrífandi	ADJ	lheoof	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	_
+13	hrífandi	hrífandi	ADJ	lheoof	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01120020
@@ -7021,7 +7021,7 @@
 3	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	vopnaðir	vopnaður	ADJ	lkfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
 5	nema	nema	SCONJ	c	_	6	mark	_	_
-6	ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+6	ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01121
@@ -7044,7 +7044,7 @@
 14	og	og	CCONJ	c	_	15	cc	_	_
 15	óstyrka	óstyrki	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	_
 16	Odi	Odi	PROPN	e	_	9	obj	_	_
-17	framar	frammi	ADV	aam	_	9	advmod	_	_
+17	framar	frammi	ADV	aam	_	9	advmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01121051
@@ -7055,19 +7055,19 @@
 3	þáttaröðin	þáttaröð	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nsubj	_	_
 4	upp	upp	ADV	aa	_	1	compound:prt	_	_
 5	til	til	ADP	ae	_	6	case	_	_
-6	þessa	þessi	PRON	fahee	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	obl	_	_
+6	þessa	þessi	PRON	fahee	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	obl	_	SpaceAfter=No
 7	?	?	PUNCT	?	_	1	punct	_	_
 
 # newdoc id = n01122
 # sent_id = n01122024
 # text = „Ofurhetjur eru utan mannlegrar reynslu, og það sama á við um þetta, svo ég meðhöndlaði þetta eins og drama“ segir Zimmer.
 # text_en = “Superheroes are outside of human experience and so is this, so I treated it like a drama,” Zimmer says.
-1	„	„	PUNCT	„	PunctSide=Ini	6	punct	_	_
+1	„	„	PUNCT	„	PunctSide=Ini	6	punct	_	SpaceAfter=No
 2	Ofurhetjur	ofurhetja	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	6	nsubj	_	_
 3	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 4	utan	utan	ADP	ae	_	6	case	_	_
 5	mannlegrar	mannlegur	ADJ	lveesf	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
-6	reynslu	reynsla	NOUN	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+6	reynslu	reynsla	NOUN	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	_	_
 8	og	og	CCONJ	c	_	11	cc	_	_
 9	það	sá	PRON	fahen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
@@ -7075,7 +7075,7 @@
 11	á	eiga	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 12	við	við	ADV	aa	_	11	compound:prt	_	_
 13	um	um	ADP	ao	_	14	case	_	_
-14	þetta	þessi	PRON	faheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obl	_	_
+14	þetta	þessi	PRON	faheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obl	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	_	_
 16	svo	svo	ADV	aa	_	18	mark	_	_
 17	ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
@@ -7083,10 +7083,10 @@
 19	þetta	þessi	PRON	faheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	18	obj	_	_
 20	eins	eins	ADV	aa	_	22	mark	_	_
 21	og	og	CCONJ	c	_	20	fixed	_	_
-22	drama	drama	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	_
+22	drama	drama	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
 23	“	“	PUNCT	“	PunctSide=Fin	6	punct	_	_
 24	segir	segja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
-25	Zimmer	Zimmer	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+25	Zimmer	Zimmer	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	24	punct	_	_
 
 # newdoc id = n01123
@@ -7100,7 +7100,7 @@
 5	ekki	ekki	ADV	aa	_	4	advmod	_	_
 6	af	af	ADP	aþ	_	8	case	_	_
 7	einhverri	einhver	PRON	foveþ	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
-8	drápsþörf	drápsþörf	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	4	obl:arg	_	_
+8	drápsþörf	drápsþörf	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	4	obl:arg	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01123012
@@ -7110,14 +7110,14 @@
 2	fæddist	fæða	VERB	sfm3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	31.	31.	NUM	ta	_	4	nummod	_	_
 4	október	október	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	_
-5	1832	1832	NUM	ta	_	4	nummod	_	_
+5	1832	1832	NUM	ta	_	4	nummod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	2	punct	_	_
 7	í	í	ADP	aþ	_	8	case	_	_
 8	þorpi	þorp	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	_
 9	í	í	ADP	aþ	_	10	case	_	_
 10	grennd	grennd	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	_
 11	við	við	ADP	ao	_	12	case	_	_
-12	Sunderland	Sunderland	PROPN	nheo-s	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	_
+12	Sunderland	Sunderland	PROPN	nheo-s	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01123024
@@ -7137,14 +7137,14 @@
 12	að	að	PART	cn	_	13	mark	_	_
 13	ómaka	ómaka	VERB	sng	VerbForm=Inf|Voice=Act	10	xcomp	_	_
 14	mig	ég	PRON	fp1eo	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
-15	lengi	lengi	ADV	aa	_	13	advmod	_	_
+15	lengi	lengi	ADV	aa	_	13	advmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01125
 # sent_id = n01125009
 # text = Efnisveggfóður, þar sem yfirborð er þakið með efni, er ekki lengur afturhvarf til áttunda áratugarins heldur er það á miklu flugi á nýjan leik.
 # text_en = No longer a throwback to the Seventies, flock – or coating a surface is material – is flying again.
-1	Efnisveggfóður	efnisveggfóður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	_
+1	Efnisveggfóður	efnisveggfóður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	þar	þar	ADV	aa	_	7	mark	_	_
 4	sem	sem	SCONJ	c	_	3	fixed	_	_
@@ -7152,7 +7152,7 @@
 6	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	þakið	þakinn	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	acl	_	_
 8	með	með	ADP	ao	_	9	case	_	_
-9	efni	efni	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	7	obl:arg	_	_
+9	efni	efni	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	7	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	14	punct	_	_
 11	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
 12	ekki	ekki	ADV	aa	_	13	advmod	_	_
@@ -7169,7 +7169,7 @@
 23	flugi	flug	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	14	advcl	_	_
 24	á	á	ADP	ao	_	26	case	_	_
 25	nýjan	nýr	ADJ	lkeosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
-26	leik	leikur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	obl	_	_
+26	leik	leikur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = n01125016
@@ -7185,7 +7185,7 @@
 8	til	til	ADP	ae	_	10	mark	_	_
 9	að	að	PART	cn	_	8	fixed	_	_
 10	hanna	hanna	VERB	sng	VerbForm=Inf|Voice=Act	5	acl	_	_
-11	sýningaríbúðina	sýningaríbúð	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	_
+11	sýningaríbúðina	sýningaríbúð	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01125030
@@ -7207,7 +7207,7 @@
 14	að	að	PART	cn	_	15	mark	_	_
 15	búa	búa	VERB	sng	VerbForm=Inf|Voice=Act	12	acl	_	_
 16	til	til	ADV	aa	_	17	case	_	_
-17	hluti	hlutur	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	15	obl:arg	_	_
+17	hluti	hlutur	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	15	obl:arg	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	9	punct	_	_
 
 # newdoc id = n01127
@@ -7222,13 +7222,13 @@
 6	Hong	Hong	PROPN	e	_	5	nmod:poss	_	_
 7	Kong	Kong	PROPN	e	_	6	flat:name	_	_
 8	yfir	yfir	ADP	ao	_	9	case	_	_
-9	Jutting	Jutting	PROPN	e	_	4	obl:arg	_	_
+9	Jutting	Jutting	PROPN	e	_	4	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	14	punct	_	_
 11	sem	sem	SCONJ	ct	_	14	nsubj	_	_
 12	nú	nú	ADV	aa	_	14	advmod	_	_
 13	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
 14	31	31	NUM	ta	_	9	acl:relcl	_	_
-15	árs	ár	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	_
+15	árs	ár	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	_	_
 17	vegna	vegna	ADP	ae	_	19	case	_	_
 18	tveggja	tveir	NUM	tfvfe	Case=Gen|Gender=Fem|Number=Plur	19	nummod	_	_
@@ -7244,7 +7244,7 @@
 28	réttmæta	réttmætur	ADJ	lveosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
 29	greftrun	greftrun	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	27	obj	_	_
 30	á	á	ADP	aþ	_	31	case	_	_
-31	líki	lík	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	29	nmod	_	_
+31	líki	lík	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01127089
@@ -7266,11 +7266,11 @@
 1	Í	í	ADP	aþ	_	2	case	_	_
 2	hæstarétti	hæstiréttur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	_
 3	Hong	Hong	PROPN	e	_	2	nmod:poss	_	_
-4	Kong	Kong	PROPN	e	_	3	flat:name	_	_
+4	Kong	Kong	PROPN	e	_	3	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
 6	tveimur	tveir	NUM	tfhfþ	Case=Dat|Gender=Neut|Number=Plur	7	nummod	_	_
 7	árum	ár	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	_
-8	síðar	síðar	ADV	aam	_	7	advmod	_	_
+8	síðar	síðar	ADV	aam	_	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	_	_
 10	virtist	virða	VERB	sfm3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 11	Jutting	Jutting	PROPN	nxen-s	Case=Nom|Number=Sing	10	nsubj	_	_
@@ -7278,7 +7278,7 @@
 13	að	að	ADP	aþ	_	15	case	_	_
 14	mestu	mikill	ADJ	lheþse	Case=Dat|Definite=Ind|Degree=Sup|Gender=Neut|Number=Sing	15	amod	_	_
 15	leyti	leyti	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	_
-16	yfirvegaður	yfirvegaður	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	xcomp	_	_
+16	yfirvegaður	yfirvegaður	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	_	_
 
 # newdoc id = n01128
@@ -7309,7 +7309,7 @@
 22	mörgum	margur	ADJ	lvfþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	_
 23	reglum	regla	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	25	obj	_	_
 24	við	ég	PRON	fp1fn	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
-25	fylgjum	fylgja	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	15	conj	_	_
+25	fylgjum	fylgja	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = n01128021
@@ -7337,7 +7337,7 @@
 20	velta	velta	VERB	sng	VerbForm=Inf|Voice=Act	18	acl	_	_
 21	fyrir	fyrir	ADP	aþ	_	22	case	_	_
 22	sér	sig	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	20	obl:arg	_	_
-23	afleiðingunum	afleiðing	NOUN	nvfþg	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	20	obj	_	_
+23	afleiðingunum	afleiðing	NOUN	nvfþg	Case=Dat|Definite=Def|Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01128025
@@ -7354,7 +7354,7 @@
 9	sig	sig	PRON	fphfo	Case=Acc|Gender=Neut|Number=Plur|PronType=Prs	8	obj	_	_
 10	betur	vel	ADV	aam	_	8	advmod	_	_
 11	á	á	ADP	aþ	_	12	case	_	_
-12	netinu	net	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	_
+12	netinu	net	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01128033
@@ -7372,7 +7372,7 @@
 10	öryggisbrot	öryggisbrot	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	_
 11	og	og	CCONJ	c	_	13	cc	_	_
 12	skaðlegan	skaðlegur	ADJ	lkeosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
-13	tölvupóst	tölvupóstur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	_
+13	tölvupóst	tölvupóstur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01129
@@ -7381,16 +7381,16 @@
 # text_en = Voting has, in the vernacular of terror, become the new soft target.
 1	Nú	nú	ADV	aa	_	12	advmod	_	_
 2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
-3	kosningar	kosning	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	12	nsubj	_	_
+3	kosningar	kosning	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
 5	hvað	hver	PRON	fshen	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	7	mark	_	_
 6	hryðjuverk	hryðjuverk	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
-7	varðar	varða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+7	varðar	varða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
 9	orðnar	verða	VERB	sþgvfn	Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	cop	_	_
 10	nýja	nýr	ADJ	lhenvf	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 11	mjúka	mjúkur	ADJ	lhenvf	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
-12	skotmarkið	skotmark	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
+12	skotmarkið	skotmark	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = n01129010
@@ -7403,7 +7403,7 @@
 5	og	og	CCONJ	c	_	4	fixed	_	_
 6	hún	hún	PRON	fpven	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	7	nsubj	_	_
 7	gerist	gera	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl	_	_
-8	alvarlegust	alvarlegust	NOUN	nxen	Case=Nom|Definite=Ind|Number=Sing	7	xcomp	_	_
+8	alvarlegust	alvarlegust	NOUN	nxen	Case=Nom|Definite=Ind|Number=Sing	7	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01129017
@@ -7427,7 +7427,7 @@
 16	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
 17	ekki	ekki	ADV	aa	_	19	advmod	_	_
 18	á	á	ADP	aþ	_	19	case	_	_
-19	listanum	listi	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	12	acl	_	_
+19	listanum	listi	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	12	acl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01129021
@@ -7443,7 +7443,7 @@
 8	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
 9	ringulreið	ringulreið	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	nsubj	_	_
 10	á	á	ADP	ao	_	11	case	_	_
-11	kosningadag	kosningadagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+11	kosningadag	kosningadagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	11	punct	_	_
 
 # newdoc id = n01130
@@ -7455,7 +7455,7 @@
 3	miðpunkturinn	miðpunktur	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 4	í	í	ADP	aþ	_	6	case	_	_
 5	þessum	þessi	PRON	favfþ	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
-6	kosningum	kosning	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	_
+6	kosningum	kosning	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01130025
@@ -7464,7 +7464,7 @@
 1	Donald	Donald	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	Trump	Trump	PROPN	e	_	1	flat:name	_	_
 3	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-4	drembinn	drembi	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
+4	drembinn	drembi	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	hrokafullur	hrokafullur	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	forréttindamaður	forréttindamaður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	_
@@ -7480,7 +7480,7 @@
 17	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
 18	eitur	eitur	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	conj	_	_
 19	fyrir	fyrir	ADP	ao	_	20	case	_	_
-20	Bandaríkin	Bandaríki	PROPN	nhfogs	Case=Acc|Gender=Neut|Number=Plur	18	nmod	_	_
+20	Bandaríkin	Bandaríki	PROPN	nhfogs	Case=Acc|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01131
@@ -7498,7 +7498,7 @@
 9	í	í	ADP	aþ	_	12	case	_	_
 10	tveggja	tveir	NUM	tfvfe	Case=Gen|Gender=Fem|Number=Plur	11	nummod	_	_
 11	vikna	vika	NOUN	nvfe	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur	12	nmod	_	_
-12	utankjörfundarkosningu	utankjörfundarkosning	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	_
+12	utankjörfundarkosningu	utankjörfundarkosning	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = n01131013
@@ -7520,7 +7520,7 @@
 14	heildarforskot	heildarforskot	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	conj	_	_
 15	þeirra	hann	PRON	fpkfe	Case=Gen|Gender=Masc|Number=Plur|PronType=Prs	14	nmod:poss	_	_
 16	um	um	ADP	ao	_	17	case	_	_
-17	16.500	16.500	NUM	ta	_	14	nmod	_	_
+17	16.500	16.500	NUM	ta	_	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01132
@@ -7530,14 +7530,14 @@
 1	Þetta	þessi	PRON	fahen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	auðvitað	auðvitað	ADV	aa	_	4	advmod	_	_
-4	kosningarnar	kosning	NOUN	nvfng	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	_
+4	kosningarnar	kosning	NOUN	nvfng	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	ekki	ekki	ADV	aa	_	8	advmod	_	_
-7	„	„	PUNCT	„	PunctSide=Ini	8	punct	_	_
+7	„	„	PUNCT	„	PunctSide=Ini	8	punct	_	SpaceAfter=No
 8	Game	Game	PROPN	e	_	4	conj	_	_
 9	of	of	PROPN	e	_	8	flat:name	_	_
-10	Thrones	Thrones	PROPN	e	_	8	flat:name	_	_
-11	“	“	PUNCT	“	PunctSide=Fin	8	punct	_	_
+10	Thrones	Thrones	PROPN	e	_	8	flat:name	_	SpaceAfter=No
+11	“	“	PUNCT	“	PunctSide=Fin	8	punct	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01132013
@@ -7555,26 +7555,26 @@
 10	bækurnar	bók	NOUN	nvfog	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	6	obl:arg	_	_
 11	í	í	ADP	aþ	_	12	case	_	_
 12	bókaröðinni	bókaröð	NOUN	nveþg	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	_
-13	vinsælu	vinsæll	ADJ	lkfovf	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+13	vinsælu	vinsæll	ADJ	lkfovf	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
 15	en	en	CCONJ	c	_	17	cc	_	_
 16	þær	hún	PRON	fpvfn	Case=Nom|Gender=Fem|Number=Plur|PronType=Prs	17	nsubj	_	_
 17	bera	bera	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 18	nú	nú	ADV	aa	_	17	advmod	_	_
 19	nöfnin	nafn	NOUN	nhfog	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	17	obj	_	_
-20	„	„	PUNCT	„	PunctSide=Ini	21	punct	_	_
+20	„	„	PUNCT	„	PunctSide=Ini	21	punct	_	SpaceAfter=No
 21	The	The	PROPN	e	_	19	appos	_	_
 22	Winds	Winds	PROPN	e	_	21	flat:name	_	_
 23	of	of	PROPN	e	_	21	flat:name	_	_
-24	Winter	Winter	PROPN	e	_	21	flat:name	_	_
+24	Winter	Winter	PROPN	e	_	21	flat:name	_	SpaceAfter=No
 25	“	“	PUNCT	“	PunctSide=Fin	21	punct	_	_
 26	og	og	CCONJ	c	_	28	cc	_	_
-27	„	„	PUNCT	„	PunctSide=Ini	28	punct	_	_
+27	„	„	PUNCT	„	PunctSide=Ini	28	punct	_	SpaceAfter=No
 28	A	A	PROPN	e	_	21	conj	_	_
 29	Dream	Dream	PROPN	e	_	28	flat:name	_	_
 30	of	of	PROPN	e	_	28	flat:name	_	_
-31	Spring	Spring	PROPN	e	_	28	flat:name	_	_
-32	“	“	PUNCT	“	PunctSide=Fin	28	punct	_	_
+31	Spring	Spring	PROPN	e	_	28	flat:name	_	SpaceAfter=No
+32	“	“	PUNCT	“	PunctSide=Fin	28	punct	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01133
@@ -7593,7 +7593,7 @@
 10	ætli	ætla	VERB	svg3fn	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
 11	að	að	PART	cn	_	12	mark	_	_
 12	markaðssetja	markaðssetja	VERB	sng	VerbForm=Inf|Voice=Act	10	xcomp	_	_
-13	rafmótorhjólin	rafmótorhjól	NOUN	nhfog	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	12	obj	_	_
+13	rafmótorhjólin	rafmótorhjól	NOUN	nhfog	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	12	obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01133022
@@ -7631,14 +7631,14 @@
 5	um	um	ADV	aa	_	9	case	_	_
 6	meira	mjög	ADV	aam	_	9	advmod	_	_
 7	en	en	CCONJ	c	_	6	fixed	_	_
-8	1	1	NUM	ta	_	9	nummod	_	_
-9	%	%	SYM	%	_	4	obl	_	_
+8	1	1	NUM	ta	_	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	%	_	4	obl	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
 11	í	í	ADP	ao	_	12	case	_	_
 12	takt	taktur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	_
 13	við	við	ADP	ao	_	15	case	_	_
 14	evrópska	evrópskur	ADJ	lkfosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
-15	markaði	markaður	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	_
+15	markaði	markaður	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01134007
@@ -7657,7 +7657,7 @@
 11	bandarísk	bandarískur	ADJ	lhfosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	14	amod	_	_
 12	og	og	CCONJ	c	_	13	cc	_	_
 13	áströlsk	ástralskur	ADJ	lhfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	11	conj	_	_
-14	skuldabréf	skuldabréf	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	conj	_	_
+14	skuldabréf	skuldabréf	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01134015
@@ -7682,7 +7682,7 @@
 17	sveitarfélög	sveitarfélag	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	19	nsubj	_	_
 18	hafa	hafa	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
 19	safnað	safna	VERB	ssg	VerbForm=Sup|Voice=Act	14	acl:relcl	_	_
-20	upp	upp	ADV	aa	_	19	advmod	_	_
+20	upp	upp	ADV	aa	_	19	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01134020
@@ -7701,7 +7701,7 @@
 11	athygli	athygli	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	_
 12	heimsbyggðarinnar	heimsbyggð	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod:poss	_	_
 13	á	á	ADP	aþ	_	14	case	_	_
-14	málinu	mál	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	10	obl:arg	_	_
+14	málinu	mál	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	10	obl:arg	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01135
@@ -7724,7 +7724,7 @@
 14	á	á	ADP	aþ	_	15	case	_	_
 15	KFC-móðurfélaginu	KFC-móðurfélag	PROPN	nheþgs	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
 16	Yum	Yur	PROPN	nkfþ-s	Case=Dat|Gender=Masc|Number=Plur	15	nmod:poss	_	_
-17	Brands	Brandur	PROPN	nkee-s	Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	_
+17	Brands	Brandur	PROPN	nkee-s	Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	10	punct	_	_
 
 # newdoc id = n01136
@@ -7750,7 +7750,7 @@
 17	lokum	lok	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	15	obl	_	_
 18	fyrir	fyrir	ADP	ao	_	19	case	_	_
 19	hæstarétt	hæstiréttur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	_
-20	Bandaríkjanna	Bandaríki	PROPN	nhfegs	Case=Gen|Gender=Neut|Number=Plur	19	nmod:poss	_	_
+20	Bandaríkjanna	Bandaríki	PROPN	nhfegs	Case=Gen|Gender=Neut|Number=Plur	19	nmod:poss	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = n01136006
@@ -7764,10 +7764,10 @@
 6	í	í	ADP	aþ	_	7	case	_	_
 7	myndinni	mynd	NOUN	nveþg	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	3	obl	_	_
 8	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
-9	Loving-hjónin	Loving-hjón	PROPN	nhfngs	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	_
+9	Loving-hjónin	Loving-hjón	PROPN	nhfngs	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	_	_
 11	einkum	einkum	ADV	aa	_	12	advmod	_	_
-12	Richard	Richard	PROPN	e	_	9	conj	_	_
+12	Richard	Richard	PROPN	e	_	9	conj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	_	_
 14	treg	tregur	ADJ	lhfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	_
 15	til	til	ADP	ae	_	17	mark	_	_
@@ -7777,14 +7777,14 @@
 19	í	í	ADP	aþ	_	21	mark	_	_
 20	að	að	PART	cn	_	21	mark	_	_
 21	móta	móta	VERB	sng	VerbForm=Inf|Voice=Act	18	acl	_	_
-22	mannkynssöguna	mannkynssaga	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	_
+22	mannkynssöguna	mannkynssaga	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = n01136010
 # text = „Loving“ hefst þegar Richard og Mildred eru þegar orðin hjón og því er hlaupið yfir tilhugalífið, sem hefði verið áhugavert að sjá, þótt ekki væri nema stuttlega.
 # text_en = "Loving" opens with Richard and Mildred already a couple, eliding over a courtship that would have been interesting to see, if only in brief.
-1	„	„	PUNCT	„	PunctSide=Ini	2	punct	_	_
-2	Loving	Loving	PROPN	nven-s	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+1	„	„	PUNCT	„	PunctSide=Ini	2	punct	_	SpaceAfter=No
+2	Loving	Loving	PROPN	nven-s	Case=Nom|Gender=Fem|Number=Sing	nsubj	_	SpaceAfter=No
 3	“	“	PUNCT	“	PunctSide=Fin	2	punct	_	_
 4	hefst	hefja	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	þegar	þegar	SCONJ	c	_	12	mark	_	_
@@ -7800,20 +7800,20 @@
 15	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
 16	hlaupið	hlaupa	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	_
 17	yfir	yfir	ADP	ao	_	18	case	_	_
-18	tilhugalífið	tilhugalíf	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	16	obl	_	_
+18	tilhugalífið	tilhugalíf	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	23	punct	_	_
 20	sem	sem	SCONJ	ct	_	23	nsubj	_	_
 21	hefði	hafa	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
 22	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	23	cop	_	_
 23	áhugavert	áhugaverður	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	acl:relcl	_	_
 24	að	að	PART	cn	_	25	mark	_	_
-25	sjá	sjá	VERB	sng	VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	sjá	sjá	VERB	sng	VerbForm=Inf|Voice=Act	23	xcomp	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	25	punct	_	_
 27	þótt	þótt	SCONJ	c	_	31	mark	_	_
 28	ekki	ekki	ADV	aa	_	31	advmod	_	_
 29	væri	vera	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	31	cop	_	_
 30	nema	nema	SCONJ	c	_	31	advmod	_	_
-31	stuttlega	stuttlega	ADV	aa	_	25	advcl	_	_
+31	stuttlega	stuttlega	ADV	aa	_	25	advcl	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01137
@@ -7821,7 +7821,7 @@
 # text = Frægt fólk, aðdáendur og jafnvel fréttamenn CNN klæða sig upp sem persónur úr „Stranger Things“ um hátíðarnar.
 # text_en = Celebrities, fans and even CNN reporters are dressing up like "Stranger Things" characters this holiday.
 1	Frægt	frægur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
-2	fólk	fólk	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	_
+2	fólk	fólk	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	aðdáendur	aðdáandi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	_
 5	og	og	CCONJ	c	_	7	cc	_	_
@@ -7834,12 +7834,12 @@
 12	sem	sem	SCONJ	c	_	13	mark	_	_
 13	persónur	persóna	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	_
 14	úr	úr	ADP	aþ	_	16	case	_	_
-15	„	„	PUNCT	„	PunctSide=Ini	16	punct	_	_
+15	„	„	PUNCT	„	PunctSide=Ini	16	punct	_	SpaceAfter=No
 16	Stranger	Stranger	PROPN	e	_	13	nmod	_	_
-17	Things	Things	PROPN	e	_	16	flat:name	_	_
+17	Things	Things	PROPN	e	_	16	flat:name	_	SpaceAfter=No
 18	“	“	PUNCT	“	PunctSide=Fin	16	punct	_	_
 19	um	um	ADP	ao	_	20	case	_	_
-20	hátíðarnar	hátíð	NOUN	nvfog	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	_
+20	hátíðarnar	hátíð	NOUN	nvfog	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = n01137010
@@ -7857,7 +7857,7 @@
 10	síminn	sími	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	_
 11	minn	minn	PRON	feken	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	10	nmod:poss	_	_
 12	að	að	ADP	aþ	_	13	case	_	_
-13	glóa	glói	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	9	xcomp	_	_
+13	glóa	glói	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01138
@@ -7870,21 +7870,21 @@
 4	helstu	heldri	ADJ	lkfþve	Case=Dat|Definite=Def|Degree=Sup|Gender=Masc|Number=Plur	5	amod	_	_
 5	mönnum	maður	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	_
 6	Negans	Negi	PROPN	nkeegs	Case=Gen|Gender=Masc|Number=Sing	5	nmod:poss	_	_
-7	(	(	PUNCT	(	_	8	punct	_	_
+7	(	(	PUNCT	(	_	8	punct	_	SpaceAfter=No
 8	Jeffrey	Jeffrey	PROPN	e	_	2	appos	_	_
 9	Dean	Dean	PROPN	e	_	8	flat:name	_	_
-10	Morgan	Morgan	PROPN	e	_	8	flat:name	_	_
+10	Morgan	Morgan	PROPN	e	_	8	flat:name	_	SpaceAfter=No
 11	)	)	PUNCT	)	_	8	punct	_	_
 12	fær	fá	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 13	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	12	nsubj	_	_
 14	ákveðið	ákveðinn	ADJ	lheosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
-15	frelsi	frelsi	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	_
+15	frelsi	frelsi	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = n01138017
 # text = „Norman er einn af mínum bestu félögum svo það var algjörlega ömurlegt að sjá hann í þessu tilfinningalega ástandi.“
 # text_en = "Norman is one of my good buddies, so it totally sucked to see him in that emotional state."
-1	„	„	PUNCT	„	PunctSide=Ini	4	punct	_	_
+1	„	„	PUNCT	„	PunctSide=Ini	4	punct	_	SpaceAfter=No
 2	Norman	Norman	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	einn	einn	PRON	foken	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
@@ -7903,8 +7903,8 @@
 17	í	í	ADP	aþ	_	20	case	_	_
 18	þessu	þessi	PRON	faheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	20	det	_	_
 19	tilfinningalega	tilfinningalega	ADJ	aa	_	20	amod	_	_
-20	ástandi	ástandi	ADP	as	_	15	obl	_	_
-21	.	.	PUNCT	.	_	15	punct	_	_
+20	ástandi	ástandi	ADP	as	_	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No
 22	“	“	PUNCT	“	PunctSide=Fin	15	punct	_	_
 
 # sent_id = n01138026
@@ -7916,19 +7916,19 @@
 4	þáttum	þáttur	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	_
 5	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 6	umræðuþátturinn	umræðuþáttur	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	_
-7	„	„	PUNCT	„	PunctSide=Ini	8	punct	_	_
+7	„	„	PUNCT	„	PunctSide=Ini	8	punct	_	SpaceAfter=No
 8	The	The	PROPN	e	_	6	appos	_	_
 9	Talking	Talking	PROPN	e	_	8	flat:name	_	_
-10	Dead	Dead	PROPN	e	_	8	flat:name	_	_
+10	Dead	Dead	PROPN	e	_	8	flat:name	_	SpaceAfter=No
 11	“	“	PUNCT	“	PunctSide=Fin	8	punct	_	_
-12	sýndur	sýna	VERB	sþgken	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+12	sýndur	sýna	VERB	sþgken	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	_	_
 
 # newdoc id = n01139
 # sent_id = n01139006
 # text = „Starf okkar heldur áfram í borgunum þar sem við höfum hafið starfsemi eða stöndum í framkvæmdum“ sagði Barratt.
 # text_en = "In the cities where we've launched or are under construction, our work will continue," Barratt said.
-1	„	„	PUNCT	„	PunctSide=Ini	4	punct	_	_
+1	„	„	PUNCT	„	PunctSide=Ini	4	punct	_	SpaceAfter=No
 2	Starf	starf	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
 3	okkar	ég	PRON	fp1fe	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod:poss	_	_
 4	heldur	halda	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -7944,10 +7944,10 @@
 14	eða	eða	CCONJ	c	_	15	cc	_	_
 15	stöndum	stand	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	12	conj	_	_
 16	í	í	ADP	aþ	_	17	case	_	_
-17	framkvæmdum	framkvæmd	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	15	obl	_	_
+17	framkvæmdum	framkvæmd	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
 18	“	“	PUNCT	“	PunctSide=Fin	4	punct	_	_
 19	sagði	segja	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
-20	Barratt	Barratt	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+20	Barratt	Barratt	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = n01139016
@@ -7959,7 +7959,7 @@
 4	vera	vera	AUX	sng	VerbForm=Inf|Voice=Act	5	cop	_	_
 5	aðalorsök	aðalorsakur	NOUN	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	xcomp	_	_
 6	fjárfestingarútgjalda	fjárfestingarútgjalda	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nmod:poss	_	_
-7	einingarinnar	eining	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod:poss	_	_
+7	einingarinnar	eining	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod:poss	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01139027
@@ -7972,7 +7972,7 @@
 5	við	við	ADV	ao	_	7	mark	_	_
 6	að	að	PART	cn	_	5	fixed	_	_
 7	afskrifa	afskrifa	VERB	sng	VerbForm=Inf|Voice=Act	3	advcl	_	_
-8	þjónustuna	þjónusta	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	_
+8	þjónustuna	þjónusta	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01140
@@ -7991,7 +7991,7 @@
 10	að	að	PART	cn	_	11	mark	_	_
 11	fylgjast	fylgja	VERB	snm	VerbForm=Inf|Voice=Pass	8	acl	_	_
 12	með	með	ADP	aþ	_	13	case	_	_
-13	drónum	dróna	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	11	obl:arg	_	_
+13	drónum	dróna	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	11	obl:arg	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01141
@@ -8005,7 +8005,7 @@
 5	nýtt	nýr	ADJ	lheosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
 6	spjallforrit	spjallforrit	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
 7	fyrir	fyrir	ADP	ao	_	8	case	_	_
-8	vinnustaði	vinnustaður	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	_
+8	vinnustaði	vinnustaður	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	sem	sem	SCONJ	ct	_	12	nsubj	_	_
 11	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -8014,7 +8014,7 @@
 14	keppa	keppa	VERB	sng	VerbForm=Inf|Voice=Act	12	xcomp	_	_
 15	við	við	ADP	ao	_	16	case	_	_
 16	toppforritið	toppforrit	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	14	obl	_	_
-17	Slack	Slack	PROPN	e	_	16	appos	_	_
+17	Slack	Slack	PROPN	e	_	16	appos	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01141007
