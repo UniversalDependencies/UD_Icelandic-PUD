@@ -14503,7 +14503,7 @@
 16	Heródesar	Heródes	PROPN	nvee-s	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
 17	svo	svo	ADV	aa	_	18	mark	_	_
 18	rétta	réttur	ADJ	lkeovf	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	advcl	_	_
-19	mætti	mæta	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
+19	mætti	mega	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
 20	yfir	yfir	ADP	aþ	_	21	case	_	_
 21	honum	hann	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	18	obl:arg	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	_	_
@@ -14546,7 +14546,7 @@
 9	ef	ef	SCONJ	c	_	15	mark	_	_
 10	aukalegur	aukalegur	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	hlaupmánuður	hlaupmánuður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	_
-12	hefði	hafa	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
+12	hefði	hafa	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
 13	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	15	cop	_	_
 14	þetta	þessi	PRON	faheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	_
 15	ár	ár	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	8	advcl	_	SpaceAfter=No
@@ -15372,7 +15372,7 @@
 8	Habsborgara	Habsborgari	PROPN	nkfe-s	Case=Gen|Gender=Masc|Number=Plur	7	nmod:poss	_	_
 9	og	og	CCONJ	c	_	11	cc	_	_
 10	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
-11	keisari	keisari	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	xomp	_	_
+11	keisari	keisari	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	10	xcomp	_	_
 12	hins	hinn	DET	ghee	Case=Gen|Gender=Neut|Number=Sing	15	det	_	_
 13	heilaga	heilagur	ADJ	lheevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
 14	rómverska	rómverskur	ADJ	lheevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
@@ -17498,7 +17498,7 @@
 8	sundurgreining	sundurgreining	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_
 9	og	og	CCONJ	c	_	13	cc	_	_
 10	þannig	þannig	ADV	aa	_	13	advmod	_	_
-11	gat	geta	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
+11	gat	geta	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
 12	ratsjáraðflugskerfið	ratsjáraðflugskerfi	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	_
 13	gert	gera	VERB	ssg	VerbForm=Sup|Voice=Act	5	conj	_	_
 14	ratsjármönnum	ratsjármaður	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	13	obj	_	_
@@ -17587,13 +17587,13 @@
 # text_en = With population growth, new indigenous quarters were created.
 1	Með	með	ADP	aþ	_	3	case	_	_
 2	vaxandi	vaxandi	ADJ	lkeþof	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
-3	fólksfjölda	fólksfjöldi	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-4	urðu	verða	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	fólksfjölda	fólksfjöldi	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	_
+4	urðu	verða	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	ný	nýr	ADJ	lhfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
-6	hverfi	hverfi	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	_
+6	hverfi	hverfi	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	_
 7	innfæddra	innfæddur	ADJ	lhfesf	Case=Gen|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	6	nmod:poss	_	_
 8	til	til	ADV	aa	_	4	compound:prt	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	3	punct	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w01106052
 # text = Bandalag lýðræðisafla um frelsun Kongó náðu yfirráðum yfir Lubumbashi í apríl 1997.
@@ -17706,7 +17706,7 @@
 # text = Herzl varð gripin sálartogstreitu á milli löngunarinnar til að ná árangri í bókmenntum og til að vera opinber persóna.
 # text_en = A mental clash gripped Herzl, between the craving for literary success and a desire to act as a public figure.
 1	Herzl	herzl	PROPN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	_
-2	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	varð	verða	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	gripin	grípa	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	sálartogstreitu	sálartogstreita	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	_
 5	á	á	ADV	aa	_	7	case	_	_
@@ -18302,7 +18302,7 @@
 12	ekki	ekki	ADV	aa	_	14	advmod	_	_
 13	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
 14	hvít	hvítur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	acl	_	SpaceAfter=No
-15	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
 16	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	21	nsubj	_	_
 17	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
 18	ekki	ekki	ADV	aa	_	21	advmod	_	_
@@ -18554,7 +18554,7 @@
 16	að	að	PART	cn	_	17	mark	_	_
 17	taka	taka	VERB	sng	VerbForm=Inf|Voice=Act	15	acl	_	_
 18	völdin	vald	NOUN	nhfog	Case=Acc|Definite=Def|Gender=Neut|Number=Plur	17	obj	_	_
-19	á	á	ADP	aa	_	20	advmod	_	_
+19	á	á	ADP	aa	_	20	case	_	_
 20	ný	ný	ADJ	aa	_	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -18771,9 +18771,9 @@
 15	síðustu	síðari	ADJ	lvfþve	Case=Dat|Definite=Def|Degree=Sup|Gender=Fem|Number=Plur	16	amod	_	_
 16	keppnunum	keppnun	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	12	nmod	_	_
 17	og	og	CCONJ	c	_	20	cc	_	_
-18	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	20	nsubj	_	_
-19	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
-20	NASCAR	NASCAR	PROPN	e	_	10	conj	_	_
+18	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	19	nsubj	_	_
+19	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+20	NASCAR	NASCAR	PROPN	e	_	19	xcomp	_	_
 21	Winston-bikarmeistari	Winston-bikarmeistar	PROPN	nkeþ-s	Case=Dat|Gender=Masc|Number=Sing	20	flat:name	_	_
 22	2003	2003	NUM	ta	_	20	nummod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	25	punct	_	_
@@ -18996,7 +18996,7 @@
 7	og	og	CCONJ	c	_	8	cc	_	_
 8	Uaxactun	Uaxactun	PROPN	e	_	6	conj	_	_
 9	sýndu	sýna	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
-10	gátu	geta	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
+10	gátu	geta	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
 11	þessi	þessi	PRON	fahfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	12	det	_	_
 12	svæði	svæði	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	nsubj	_	_
 13	passað	passa	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
@@ -19060,7 +19060,7 @@
 19	sú	sá	PRON	faven	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
 20	að	að	SCONJ	c	_	24	mark	_	_
 21	kanóar	kanó	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	24	nsubj	_	_
-22	hafi	hafa	AUX	svg3fn	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
+22	hafi	hafa	AUX	svg3fn	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	_
 23	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	24	cop	_	_
 24	aðalsiglingarmáti	aðalsiglingarmáti	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	ccomp	_	_
 25	Maya	Maya	PROPN	e	_	24	nmod:poss	_	_
@@ -19503,7 +19503,7 @@
 # text_en = As early as 1926, Meyer had written to Irène Joliot-Curie suggesting that Rona work with her to learn how his laboratory could make their own polonium samples.
 1	Svo	svo	ADV	aa	_	2	advmod	_	_
 2	snemma	snemma	ADV	aa	_	8	advmod	_	_
-3	sem	sem	SCONJ	c	_	2	advmod	_	_
+3	sem	sem	SCONJ	c	_	8	mark	_	_
 4	árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	_
 5	1926	1926	NUM	ta	_	8	obl	_	_
 6	hafði	hafa	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
@@ -19538,7 +19538,7 @@
 1	Þegar	þegar	SCONJ	cc	_	5	mark	5:mark	_
 2	Hans	hann	PRON	fpkee	Case=Gen|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	5:nsubj	_
 3	Pettersson	Pettersson	PROPN	e	_	2	flat:name	2:flat	_
-4	gat	geta	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+4	gat	geta	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 5	tryggt	tryggja	VERB	ssg	VerbForm=Sup|Voice=Act	12	advcl	12:advcl	_
 6	fjármagn	fjármagn	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obj	5:obj	_
 7	til	til	ADP	ae	_	9	mark	9:mark	_
@@ -19696,7 +19696,7 @@
 2	Cecily	Cecily	PROPN	e	_	5	nsubj	_	_
 3	dóttir	dóttir	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	appos	_	_
 4	þeirra	hún	PRON	fpvfe	Case=Gen|Gender=Fem|Number=Plur|PronType=Prs	3	nmod:poss	_	_
-5	giftist	gifta	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	30	advcl	_	_
+5	giftist	gifta	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	28	advcl	_	_
 6	Ríkharði	Ríkharð	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	5	obj	_	_
 7	Plantagenet	Plantagenet	PROPN	e	_	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	_	_
@@ -19718,15 +19718,15 @@
 24	og	og	CCONJ	c	_	25	cc	_	_
 25	Ríkharð	Ríkharður	PROPN	nkeo-s	Case=Acc|Gender=Masc|Number=Sing	22	conj	_	_
 26	III	iii	NUM	ta	_	25	flat:name	_	SpaceAfter=No
-27	,	,	PUNCT	,	_	30	punct	_	_
-28	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	cop	_	_
-29	Joan	Joan	PROPN	e	_	30	nsubj	_	_
-30	amma	amma	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+29	Joan	Joan	PROPN	e	_	28	nsubj	_	_
+30	amma	amma	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	28	xcomp	_	_
 31	tveggja	tveir	NUM	tfvfe	Case=Gen|Gender=Fem|Number=Plur	32	nummod	_	_
 32	Jórvíkurkonunga	Jórvíkurkonungur	PROPN	nkfe-s	Case=Gen|Gender=Masc|Number=Plur	30	nmod:poss	_	_
 33	yfir	yfir	ADP	aþ	_	34	case	_	_
 34	Englandi	England	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	30	punct	_	_
+35	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = w01142031
 # text = John af Gaunt lést árið 1399.
@@ -19889,12 +19889,12 @@
 9	11.	11.	NUM	ta	_	10	nummod	_	_
 10	apríl	apríl	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	_
 11	og	og	CCONJ	c	_	17	cc	_	_
-12	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
+12	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 13	þar	þar	ADV	aa	_	17	advmod	_	_
 14	með	með	ADV	aa	_	13	fixed	_	_
 15	fyrsti	fyrstur	ADJ	lkenve	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	17	amod	_	_
 16	sitjandi	sitjandi	ADJ	lkenof	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
-17	Bandaríkjaforsetinn	Bandaríkjaforseti	PROPN	nkengs	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+17	Bandaríkjaforsetinn	Bandaríkjaforseti	PROPN	nkengs	Case=Nom|Gender=Masc|Number=Sing	12	xcomp	_	_
 18	sem	sem	SCONJ	ct	_	19	nsubj	_	_
 19	lifði	lifa	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
 20	af	af	ADP	aþ	_	19	compound:prt	_	_
@@ -19955,12 +19955,12 @@
 # text = Almennilegt kenningakerfi yrði því að vera byggt upp með tilliti til endanlegs markmiðs þess.
 # text_en = A proper theology would therefore have to be constructed in the light of its future goal.
 1	Almennilegt	almennilegur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	2:amod	_
-2	kenningakerfi	kenningakerfi	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	7:nsubj	_
-3	yrði	verða	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+2	kenningakerfi	kenningakerfi	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	7:nsubj	_
+3	yrði	verða	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	7:aux	_
 4	því	því	ADV	aa	_	7	advmod	3:advmod	_
 5	að	að	PART	cn	_	7	mark	7:mark	_
 6	vera	vera	AUX	sng	VerbForm=Inf|Voice=Act	7	aux	7:aux	_
-7	byggt	byggja	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+7	byggt	byggja	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	xcomp	0:root	_
 8	upp	upp	ADV	aa	_	7	advmod	7:advmod	_
 9	með	með	ADP	aþ	_	10	case	10:case	_
 10	tilliti	tillit	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	7	obl:arg	7:obl:arg	_
@@ -20224,15 +20224,15 @@
 # sent_id = w01150047
 # text = Þegar það var orðið ljóst að Ottómanveldið myndi missa alla Makedóníu og yfirráð yfir Albaníu áttuðu stórveldin sig á því að þau yrðu að breyta ákvörðun sinni.
 # text_en = After it became obvious that Ottoman Empire would lose all of Macedonia and its territorial connection with Albania, the Great Powers realized they had to change their decision.
-1	Þegar	þegar	SCONJ	c	_	5	mark	5:mark	_
-2	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	5	nsubj	5:nsubj	_
-3	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
-4	orðið	verða	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	5:cop	_
-5	ljóst	ljós	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advcl	16:advcl	_
+1	Þegar	þegar	SCONJ	c	_	4	mark	5:mark	_
+2	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	5:nsubj	_
+3	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	5:aux	_
+4	orðið	verða	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	advcl	5:cop	_
+5	ljóst	ljós	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	xcomp	16:advcl	_
 6	að	að	SCONJ	c	_	9	mark	9:mark	_
 7	Ottómanveldið	Ottómanveldi	PROPN	nhengs	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	9:nsubj	_
 8	myndi	munu	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
-9	missa	missa	VERB	sng	VerbForm=Inf|Voice=Act	5	ccomp	5:ccomp	_
+9	missa	missa	VERB	sng	VerbForm=Inf|Voice=Act	4	ccomp	5:ccomp	_
 10	alla	allur	PRON	fokfo	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	11	det	11:det	_
 11	Makedóníu	Makedónía	PROPN	nkfo-s	Case=Acc|Gender=Fem|Number=Sing	9	obj	9:obj	_
 12	og	og	CCONJ	c	_	13	cc	13:cc	_
