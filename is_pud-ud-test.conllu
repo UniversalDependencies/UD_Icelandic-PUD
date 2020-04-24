@@ -45,7 +45,7 @@
 8	samfélagsmiðlum	samfélagsmiðill	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	_
 9	hjá	hjá	ADP	aþ	_	10	case	10:case	_
 10	þinginu	þing	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	nmod	8:nmod	_
-11	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	root	_	_
+11	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12	þetta	þessi	PRON	fahen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	14:nsubj	_
 13	svolítið	svolítið	ADV	aa	_	14	advmod	14:advmod	_
 14	öðruvísi	öðruvísi	ADJ	lhenof	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	xcomp	_	SpaceAfter=No
@@ -398,39 +398,39 @@
 # sent_id = n01008017
 # text = Þetta hlutfall hefur hækkað stöðugt í áranna rás — aðeins 11 prósent heildaratkvæða voru greidd fyrir kosningadag árið 1996 samkvæmt Manntalsstofu -- og það er líklegt til að aukast aftur í ár.
 # text_en = That share has been rising steadily over the years — only 11 percent of the total vote was cast before Election Day in 1996, according to the Census Bureau  -- and seems likely to jump again this year.
-1	Þetta	þessi	PRON	fahen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	2:det	_
-2	hlutfall	hlutfall	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	_
-3	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	4:aux:pass	_
-4	hækkað	hækka	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	0:root	_
-5	stöðugt	stöðugt	ADV	aa	_	4	advmod	4:advmod	_
-6	í	í	ADP	aþ	_	8	case	8:case	_
-7	áranna	ár	NOUN	nhfeg	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	8	nmod:poss	8:nmod:poss	_
-8	rás	rás	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	4	obl	4:obl	_
-9	—	—	PUNCT	x	_	4	punct	4:punct	_
-10	aðeins	aðeins	ADV	aa	_	11	advmod	11:advmod	_
-11	11	11	NUM	ta	_	12	nummod	12:nummod	_
-12	prósent	prósent	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	15	nsubj	15:nsubj	_
+1	Þetta	þessi	PRON	fahen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	hlutfall	hlutfall	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	hækkað	hækka	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
+5	stöðugt	stöðugt	ADV	aa	_	4	advmod	_	_
+6	í	í	ADP	aþ	_	8	case	_	_
+7	áranna	ár	NOUN	nhfeg	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	8	nmod:poss	_	_
+8	rás	rás	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	_
+9	—	—	PUNCT	x	_	4	punct	_	_
+10	aðeins	aðeins	ADV	aa	_	11	advmod	_	_
+11	11	11	NUM	ta	_	12	nummod	_	_
+12	prósent	prósent	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	15	nsubj	_	_
 13	heildaratkvæða	heildaratkvæða	NOUN	nvfe	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur	12	nmod:poss	_	_
-14	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	15:aux:pass	_
-15	greidd	greiða	VERB	sþghfn	Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	conj	4:conj	_
-16	fyrir	fyrir	ADP	ao	_	17	case	17:case	_
-17	kosningadag	kosningadagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obl	15:obl	_
-18	árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	17	nmod	17:nmod	_
-19	1996	1996	NUM	ta	_	18	nmod	18:nmod	_
-20	samkvæmt	samkvæmt	ADP	aþ	_	21	case	21:case	_
-21	Manntalsstofu	Manntalsstofa	NOUN	nveþ-s	Case=Dat|Gender=Fem|Number=Sing	15	obl	15:obl	_
-22	--	--	PUNCT	--	_	21	punct	21:punct	_
-23	og	og	CCONJ	c	_	26	cc	26:cc	_
-24	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	26	expl	26:expl	_
-25	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	cop	26:cop	_
-26	líklegt	líklegur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	conj	4:conj	_
-27	til	til	SCONJ	ae	_	29	mark	29:mark	_
-28	að	að	PART	cn	_	27	fixed	27:fixed	_
-29	aukast	auka	VERB	snm	VerbForm=Inf|Voice=Pass	26	xcomp	26:xcomp	_
-30	aftur	aftur	ADV	aa	_	29	advmod	29:advmod	_
-31	í	í	ADP	ao	_	32	case	32:case	_
-32	ár	ár	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	29	obl	29:obl	SpaceAfter=No
-33	.	.	PUNCT	.	_	4	punct	4:punct	_
+14	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	greidd	greiða	VERB	sþghfn	Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	_
+16	fyrir	fyrir	ADP	ao	_	17	case	_	_
+17	kosningadag	kosningadagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	_
+18	árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	_
+19	1996	1996	NUM	ta	_	18	nmod	_	_
+20	samkvæmt	samkvæmt	ADP	aþ	_	21	case	_	_
+21	Manntalsstofu	Manntalsstofa	NOUN	nveþ-s	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+22	--	--	PUNCT	--	_	21	punct	_	_
+23	og	og	CCONJ	c	_	26	cc	_	_
+24	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	26	expl	_	_
+25	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	cop	_	_
+26	líklegt	líklegur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	_
+27	til	til	SCONJ	ae	_	29	mark	_	_
+28	að	að	PART	cn	_	27	fixed	_	_
+29	aukast	auka	VERB	snm	VerbForm=Inf|Voice=Pass	26	xcomp	_	_
+30	aftur	aftur	ADV	aa	_	29	advmod	_	_
+31	í	í	ADP	ao	_	32	case	_	_
+32	ár	ár	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n01009
 # sent_id = n01009027
@@ -440,7 +440,7 @@
 2	dag	dagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	_
 3	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 4	Khanzir	Khanzir	NOUN	nken-s	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-5	ef	ef	SCONJ	c	_	9	advmod	_	_
+5	ef	ef	SCONJ	c	_	9	conj	_	_
 6	til	til	ADV	aa	_	5	flat	_	_
 7	vill	vilja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	flat	_	_
 8	einmana	einmana	ADJ	lhenof	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
@@ -901,7 +901,6 @@
 16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 17	“	“	PUNCT	“	PunctSide=Fin	4	punct	_	_
 
-
 # newdoc id = n01018
 # sent_id = n01018024
 # text = Þetta er stundum eins og ofurkraftur.
@@ -991,7 +990,7 @@
 9	þessari	þessi	PRON	faveþ	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
 10	viku	vika	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
-12	allt	allur	PRON	fohen	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	14	advmod	_	_
+12	allt	allur	ADV	fohen	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	14	advmod	_	_
 13	frá	frá	ADP	aþ	_	14	case	_	_
 14	þyrlum	þyrla	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	7	appos	_	_
 15	til	til	ADP	ae	_	16	case	_	_
@@ -1162,7 +1161,7 @@
 2	vísindamenn	vísindamaður	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	segja	segja	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	að	að	SCONJ	c	_	9	mark	_	_
-5	nú	nú	ADV	aa	_	6	advmod	_	_
+5	nú	nú	ADV	aa	_	7	advmod	_	_
 6	sé	vera	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 7	þörf	þörf	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	_
 8	á	á	ADP	aþ	_	9	case	_	_
@@ -1555,7 +1554,7 @@
 7	hún	hún	PRON	fpven	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	8	nsubj	_	_
 8	skildi	skilja	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 9	af	af	ADP	aþ	_	10	case	_	_
-10	hverju	hver	PRON	fsheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	12	advmod	_	_
+10	hverju	hver	PRON	fsheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	12	obl	_	_
 11	fólk	fólk	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	nsubj	_	_
 12	kynni	kunna	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	_
 13	að	að	PART	cn	_	14	mark	_	_
