@@ -1750,8 +1750,8 @@
 8	,	,	PUNCT	,	_	5	punct	_	_
 9	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
 10	að	að	ADP	aþ	_	11	case	_	_
-11	sögn	sögn	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	_
-12	ekki	ekki	ADV	aa	_	9	advmod	_	_
+11	sögn	sögn	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	_
+12	ekki	ekki	ADV	aa	_	14	advmod	_	_
 13	á	á	ADP	ao	_	14	case	_	_
 14	tökustað	tökustaður	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 15	þegar	þegar	SCONJ	c	_	17	mark	_	_
@@ -1836,7 +1836,7 @@
 # text_en = However there are many MLAs with deeply-held religious beliefs who oppose any new legislation.
 1	Það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	6	nsubj	_	_
 2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-3	þó	þó	ADV	aa	_	2	advmod	_	_
+3	þó	þó	ADV	aa	_	4	advmod	_	_
 4	margir	margur	ADJ	lkfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
 5	sanntrúaðir	sanntrúaður	ADJ	lkfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
 6	þingmenn	þingmaður	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_
@@ -1860,7 +1860,7 @@
 6	erfðaefni	erfðaefni	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
 7	í	í	ADP	aþ	_	8	case	_	_
 8	æxlum	æxill	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	_
-9	geti	geta	VERB	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+9	geti	geta	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	hjálpað	hjálpa	VERB	ssg	VerbForm=Sup|Voice=Act	2	ccomp	_	_
 11	til	til	ADV	aa	_	10	compound:prt	_	_
 12	við	við	ADP	ao	_	14	mark	_	_
@@ -1951,8 +1951,8 @@
 10	hægra	hægur	ADJ	lkeovf	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	lunga	lungi	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
 12	Pugh	Pugh	PROPN	e	_	11	nmod:poss	_	_
-13	fer	fara	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
-14	vaxandi	vaxa	VERB	slg	Tense=Pres|VerbForm=Part|Voice=Act	4	ccomp	_	_
+13	fer	fara	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+14	vaxandi	vaxa	VERB	slg	Tense=Pres|VerbForm=Part|Voice=Act	13	xcomp	_	_
 15	og	og	CCONJ	c	_	17	cc	_	_
 16	hún	hún	PRON	fpven	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	17	nsubj	_	_
 17	þurfti	þurfa	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -1991,7 +1991,7 @@
 23	verkefna	verkefni	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	21	nmod:poss	_	_
 24	svo	svo	ADV	aa	_	25	mark	_	_
 25	tryggja	tryggja	VERB	sng	VerbForm=Inf|Voice=Act	19	advcl	_	_
-26	megi	mega	VERB	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
+26	megi	mega	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
 27	að	að	ADP	aþ	_	34	mark	_	_
 28	máli	mál	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	34	nsubj	_	_
 29	kanadískra	kanadískur	ADJ	lhfesf	Case=Gen|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	30	amod	_	_
@@ -2016,7 +2016,7 @@
 6	Bandaríkjanna	Bandaríki	PROPN	nhfegs	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	5	nmod:poss	_	_
 7	þetta	þessi	PRON	faheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
-9	sama	sami	PRON	fbheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	10	advmod	_	_
+9	sama	sami	ADV	fbheo	_	10	advmod	_	_
 10	hver	hver	PRON	fsken	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	14	nsubj	_	_
 11	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	10	appos	_	_
 12	eða	eða	CCONJ	c	_	13	cc	_	_
@@ -2030,7 +2030,7 @@
 # text_en = Despite the release of a photo this morning, police in B.C. say they have more questions than answers about an apparently homeless man charged in the fatal stabbing of a teen girl at her Abbotsford high school.
 1	Þótt	þótt	SCONJ	c	_	5	mark	_	_
 2	ljósmynd	ljósmynd	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	hafi	hafa	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	hafi	hafa	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	5	aux	_	_
 5	birt	birta	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	_
 6	í	í	ADP	ao	_	7	case	_	_
@@ -2079,7 +2079,7 @@
 7	að	að	SCONJ	c	_	9	mark	_	_
 8	Klein	Klein	NOUN	nven-s	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 9	virðist	virða	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	ccomp	_	_
-10	ekki	ekki	ADV	aa	_	11	advmod	_	_
+10	ekki	ekki	ADV	aa	_	9	advmod	_	_
 11	vera	vera	AUX	sng	VerbForm=Inf|Voice=Act	13	cop	_	_
 12	á	á	ADP	aþ	_	13	case	_	_
 13	sakaskrá	sakaskrá	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	9	xcomp	_	_
