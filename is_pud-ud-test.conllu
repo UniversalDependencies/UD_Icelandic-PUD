@@ -2553,7 +2553,7 @@
 # text_en = The review is also investigating inflammatory Facebook posts from September, alleged to come from police officers in the northern Ontario city.
 1	Í	í	ADP	aþ	_	2	case	_	_
 2	úttektinni	úttekt	NOUN	nveþg	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	23	obl	_	_
-3	verða	verða	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
+3	verða	verða	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
 4	ögrandi	ögrandi	ADJ	lhenof	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
 5	Facebook-færslur	Facebook-færslur	NOUN	nken-s	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
 6	frá	frá	ADP	aþ	_	7	case	_	_
@@ -2799,7 +2799,7 @@
 9	trúnaðarbrots	trúnaðarbrotur	NOUN	nkee	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	_
 10	úrskurðaði	úrskurða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 11	loks	loks	ADV	aa	_	10	advmod	_	_
-12	að	að	SCONJ	c	_	14	mark	_	_
+12	að	að	SCONJ	c	_	15	mark	_	_
 13	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	15	nsubj	_	_
 14	hefðu	hafa	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
 15	samræmst	samræma	VERB	ssm	VerbForm=Sup|Voice=Pass	10	ccomp	_	_
@@ -3414,7 +3414,7 @@
 # text_en = Still, there are questions left unanswered.
 1	Enn	enn	ADV	aa	_	5	cc	_	_
 2	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
-3	þó	þó	ADV	aa	_	2	advmod	_	_
+3	þó	þó	ADV	aa	_	5	advmod	_	_
 4	spurningum	spurning	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	_
 5	ósvarað	ósvaraður	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	_
@@ -4181,7 +4181,7 @@
 1	Rúmlega	rúmlega	ADV	aa	_	2	advmod	_	_
 2	330	330	NUM	ta	_	3	nummod	_	_
 3	áhafnarmeðlimir	áhafnarmeðlimur	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	_
-4	eru	vera	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	um	um	ADP	ao	_	6	case	_	_
 6	borð	borð	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 7	í	í	ADP	aþ	_	8	case	_	_
@@ -4282,7 +4282,7 @@
 5	þeirra	hann	PRON	fpkfe	Case=Gen|Gender=Masc|Number=Plur|PronType=Prs	4	nmod:poss	_	_
 6	á	á	ADP	aþ	_	7	case	_	_
 7	Facebook	Facebook	PROPN	nxeþ-s	Case=Dat|Number=Sing	4	nmod	_	_
-8	var	vera	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+8	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
 9	setning	setning	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	_
 10	sem	sem	SCONJ	ct	_	12	mark	_	_
 11	hefði	hafa	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -4292,7 +4292,7 @@
 15	„	„	PUNCT	„	PunctSide=Ini	19	punct	_	SpaceAfter=No
 16	Ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 17	hef	hafa	AUX	sfg1en	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
-18	ekki	ekki	ADV	aa	_	17	advmod	_	_
+18	ekki	ekki	ADV	aa	_	19	advmod	_	_
 19	þekkt	þekkja	VERB	ssg	VerbForm=Sup|Voice=Act	2	parataxis	_	_
 20	neinn	neinn	PRON	fokeo	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	19	obj	_	_
 21	afrískari	afrískarir	ADJ	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	20	acl	_	_
@@ -4306,7 +4306,7 @@
 # text = Hver getur stöðvað þetta ástralska lið?
 # text_en = Who can stop this Australia side?
 1	Hver	hver	PRON	fsken	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	3	nsubj	_	_
-2	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	getur	geta	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	stöðvað	stöðva	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 4	þetta	þessi	PRON	faheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
 5	ástralska	ástralskur	ADJ	lheovf	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
@@ -4317,8 +4317,8 @@
 # text = Var ekki lengur innistæða fyrir heilögu tilkalli þeirra til þess að vera bestir í heimi?
 # text_en = Was their divine right to the mantle as the world’s best no longer warranted?
 1	Var	vera	AUX	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
-2	ekki	ekki	ADV	aa	_	1	advmod	_	_
-3	lengur	lengi	ADV	aam	_	1	advmod	_	_
+2	ekki	ekki	ADV	aa	_	4	advmod	_	_
+3	lengur	lengi	ADV	aam	_	4	advmod	_	_
 4	innistæða	innistæða	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	_
 5	fyrir	fyrir	ADP	aþ	_	7	case	_	_
 6	heilögu	heilagur	ADJ	lheþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
@@ -4674,7 +4674,7 @@
 # text = Ég get bara gert það við lífið mitt.
 # text_en = I can just do that with my life.
 1	Ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	get	geta	VERB	sfg1en	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+2	get	geta	AUX	sfg1en	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	bara	bara	ADV	aa	_	4	advmod	_	_
 4	gert	gera	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 5	það	það	PRON	fpheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	4	obj	_	_
@@ -4687,7 +4687,7 @@
 # text = Ég vildi horfa á hana með þeim, en þau ákváðu loks að þau vildu frekar horfa á hana án mín.
 # text_en = I wanted to watch it with them, but they decided they’d rather watch it without me in the end.
 1	Ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	vildi	vilja	VERB	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	vildi	vilja	AUX	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	horfa	horfa	VERB	sng	VerbForm=Inf|Voice=Act	0	root	_	_
 4	á	á	ADP	ao	_	5	case	_	_
 5	hana	hún	PRON	fpveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	3	obl:arg	_	_
@@ -4700,9 +4700,9 @@
 12	loks	loks	ADV	aa	_	11	advmod	_	_
 13	að	að	SCONJ	c	_	15	mark	_	_
 14	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	15	nsubj	_	_
-15	vildu	vilja	VERB	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	_
+15	vildu	vilja	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	_
 16	frekar	frekar	ADV	aam	_	15	advmod	_	_
-17	horfa	horfa	VERB	sng	VerbForm=Inf|Voice=Act	11	ccomp	_	_
+17	horfa	horfa	VERB	sng	VerbForm=Inf|Voice=Act	15	xcomp	_	_
 18	á	á	ADP	ao	_	19	case	_	_
 19	hana	hún	PRON	fpveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	17	obl:arg	_	_
 20	án	án	ADP	ae	_	21	case	_	_
@@ -4713,9 +4713,9 @@
 # sent_id = n01081022
 # text = Við getum ekki látið forsetaembættið falla í skaut Donalds Trump, manns sem er með svo mikla kynþátta- og kynjafordóma og svo ótrúlega óhæfur til að vera æðsti yfirmaður heraflans.
 # text_en = We can’t let the presidency go to Donald Trump, someone so racist, sexist and incredibly unqualified to be commander-in-chief.
-1	Við	ég	PRON	fp1fn	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
-2	getum	geta	VERB	sfg1fn	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	ekki	ekki	ADV	aa	_	2	advmod	_	_
+1	Við	ég	PRON	fp1fn	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	getum	geta	AUX	sfg1fn	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	ekki	ekki	ADV	aa	_	4	advmod	_	_
 4	látið	láta	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 5	forsetaembættið	forsetaembætti	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
 6	falla	falla	VERB	sng	VerbForm=Inf|Voice=Act	4	ccomp	_	_
@@ -4765,7 +4765,7 @@
 14	vill	vilja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	fixed	_	_
 15	viðráðanleg	viðráðanlegur	ADJ	lhfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	22	advcl	_	_
 16	núna	núna	ADV	aa	_	15	advmod	_	_
-17	gætu	geta	VERB	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
+17	gætu	geta	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
 18	skyndilegar	skyndilegur	ADJ	lvfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
 19	breytingar	breyting	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	22	nsubj	_	_
 20	á	á	ADP	aþ	_	21	case	_	_
@@ -4808,7 +4808,7 @@
 1	Í	í	ADP	aþ	_	3	case	_	_
 2	þessu	þessi	PRON	faheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	_
 3	samhengi	samhengi	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	_
-4	er	vera	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+4	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 5	vit	vit	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
 6	í	í	ADP	aþ	_	7	case	_	_
 7	því	það	PRON	fpheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	0	root	_	_
@@ -4823,7 +4823,7 @@
 # sent_id = n01084008
 # text = Fræðilega séð gæti par stofnað fjóra Tesco-reikninga og grætt 3% á 12.000 - 360 pundum.
 # text_en = Theoretically, a couple could open four Tesco accounts and earn 3% on £12,000 – £360.
-1	Fræðilega	fræðilegur	ADJ	lhenvf	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	fixed	_	_
+1	Fræðilega	fræðilegur	ADJ	lhenvf	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	_
 2	séð	sjá	VERB	ssg	VerbForm=Sup|Voice=Act	5	advmod	_	_
 3	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	par	par	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
@@ -4846,7 +4846,7 @@
 # text_en = Meanwhile, Bank of Scotland customers earn 3% on balances of £3,000-£5,000 when they add the free Vantage option to their account.
 1	Á	á	ADV	aa	_	2	advmod	_	_
 2	meðan	meðan	SCONJ	c	_	8	obl	_	_
-3	geta	geta	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+3	geta	geta	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 4	viðskiptavinir	viðskiptavinur	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	_
 5	Bank	Bank	PROPN	e	_	4	nmod:poss	_	_
 6	of	of	PROPN	e	_	5	flat:name	_	_
@@ -4871,10 +4871,10 @@
 # text = Þannig getur þú, fræðilega séð, nálgast peningana þína hvenær sem þú vilt.
 # text_en = With this, in theory, you are able to access your money whenever you like.
 1	Þannig	þannig	ADV	aa	_	8	advmod	_	_
-2	getur	geta	VERB	sfg2en	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+2	getur	geta	AUX	sfg2en	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 3	þú	þú	PRON	fp2en	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	_	_
-5	fræðilega	fræðilega	ADV	aa	_	6	fixed	_	_
+5	fræðilega	fræðilega	ADV	aa	_	6	advmod	_	_
 6	séð	sjá	VERB	ssg	VerbForm=Sup|Voice=Act	8	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	_	_
 8	nálgast	nálgast	VERB	snm	VerbForm=Inf|Voice=Pass	0	root	_	_
