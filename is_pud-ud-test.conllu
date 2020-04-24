@@ -35,21 +35,21 @@
 # sent_id = n01001013
 # text = Fyrir þau sem fylgjast með umskiptum á samfélagsmiðlum hjá þinginu verður þetta svolítið öðruvísi.
 # text_en = For those who follow social media transitions on Capitol Hill, this will be a little different.
-1	Fyrir	fyrir	ADP	ao	_	2	case	2:case	_
-2	þau	sá	PRON	fahfo	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	14	obl	14:obl	_
-3	sem	sem	SCONJ	ct	_	4	nsubj	4:nsubj	_
+1	Fyrir	fyrir	ADP	ao	_	2	case	_	_
+2	þau	sá	PRON	fahfo	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	14	obl	_	_
+3	sem	sem	SCONJ	ct	_	4	nsubj	_	_
 4	fylgjast	fylgja	VERB	sfm3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	_
-5	með	með	ADP	aþ	_	6	case	6:case	_
+5	með	með	ADP	aþ	_	6	case	_	_
 6	umskiptum	umskipti	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	4	obl:arg	_	_
-7	á	á	ADP	aþ	_	8	case	8:case	_
+7	á	á	ADP	aþ	_	8	case	_	_
 8	samfélagsmiðlum	samfélagsmiðill	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	_
-9	hjá	hjá	ADP	aþ	_	10	case	10:case	_
-10	þinginu	þing	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	nmod	8:nmod	_
+9	hjá	hjá	ADP	aþ	_	10	case	_	_
+10	þinginu	þing	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	_
 11	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-12	þetta	þessi	PRON	fahen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	14:nsubj	_
-13	svolítið	svolítið	ADV	aa	_	14	advmod	14:advmod	_
+12	þetta	þessi	PRON	fahen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	_
+13	svolítið	svolítið	ADV	aa	_	14	advmod	_	_
 14	öðruvísi	öðruvísi	ADJ	lhenof	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	xcomp	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	14	punct	14:punct	_
+15	.	.	PUNCT	.	_	14	punct	_	_
 
 # newdoc id = n01002
 # sent_id = n01002017
@@ -18293,10 +18293,10 @@
 3	hennar	hún	PRON	fpvee	Case=Gen|Gender=Fem|Number=Sing|PronType=Prs	2	nmod:poss	_	_
 4	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	fullmótað	fullmóta	VERB	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	advcl	_	_
-6	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
-7	Jasmín	Jasmín	PROPN	nven-s	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	Jasmín	Jasmín	PROPN	nven-s	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 8	fyrsta	fyrstur	ADJ	lvenve	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	9	amod	_	_
-9	prinsessa	prinsessa	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+9	prinsessa	prinsessa	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	xcomp	_	_
 10	Disney	Disney	PROPN	e	_	9	nmod:poss	_	_
 11	sem	sem	SCONJ	ct	_	14	mark	_	_
 12	ekki	ekki	ADV	aa	_	14	advmod	_	_
@@ -18309,7 +18309,7 @@
 19	af	af	ADP	aþ	_	21	case	_	_
 20	evrópskum	evrópskur	ADJ	lkeþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
 21	uppruna	uppruni	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	9	punct	_	_
+22	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = w01119100
 # text = Hvað þemu varðar er Jasmín einnig fulltrúi mannréttinda, umburðarlyndis í kynþáttamálum, þjóðfélagsstöðu og lífs-, frelsis- og hamingjuleitar.
@@ -19521,7 +19521,7 @@
 18	henni	hún	PRON	fpveþ	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs	16	obl	_	_
 19	svo	svo	ADV	aa	_	22	mark	_	_
 20	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	22	nsubj	_	_
-21	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
+21	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
 22	lært	læra	VERB	ssg	VerbForm=Sup|Voice=Act	16	advcl	_	_
 23	að	að	PART	cn	_	24	mark	_	_
 24	gera	gera	VERB	sng	VerbForm=Inf|Voice=Act	22	xcomp	_	_
@@ -19919,7 +19919,7 @@
 9	hans	hann	PRON	fpkee	Case=Gen|Gender=Masc|Number=Sing|PronType=Prs	8	nmod:poss	_	_
 10	svo	svo	ADV	aa	_	13	mark	_	_
 11	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	13	nsubj	_	_
-12	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
+12	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
 13	sinnt	sinna	VERB	ssg	VerbForm=Sup|Voice=Act	7	advcl	_	_
 14	æðri	æðri	ADJ	lhfþvm	Case=Dat|Definite=Def|Degree=Cmp|Gender=Neut|Number=Plur	15	amod	_	_
 15	verkum	verk	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No
