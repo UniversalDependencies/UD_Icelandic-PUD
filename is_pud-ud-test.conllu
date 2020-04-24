@@ -440,7 +440,7 @@
 2	dag	dagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	_
 3	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 4	Khanzir	Khanzir	NOUN	nken-s	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-5	ef	ef	SCONJ	c	_	9	mark	_	_
+5	ef	ef	ADV	c	_	9	advmod	_	_
 6	til	til	ADV	aa	_	5	flat	_	_
 7	vill	vilja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	flat	_	_
 8	einmana	einmana	ADJ	lhenof	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
@@ -2713,7 +2713,7 @@
 21	nauðsynlegir	nauðsynlegur	ADJ	lkfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	16	ccomp	_	_
 22	svo	svo	SCONJ	aa	_	25	mark	_	_
 23	almenningur	almenningur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	25	nsubj	_	_
-24	geti	geta	VERB	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
+24	geti	geta	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
 25	endurheimt	endurheimta	VERB	ssg	VerbForm=Sup|Voice=Act	21	acl	_	_
 26	trúna	trú	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	25	obj	_	_
 27	á	á	ADP	ao	_	28	case	_	_
@@ -2739,7 +2739,7 @@
 14	blaðamenn	blaðamaður	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	20	nsubj	_	_
 15	í	í	ADP	aþ	_	16	case	_	_
 16	Quebec	Quebec	PROPN	e	_	14	nmod	_	_
-17	hafi	hafa	AUX	svg3fn	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
+17	hafi	hafa	AUX	svg3fn	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
 18	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	20	cop	_	_
 19	undir	undir	ADP	aþ	_	20	case	_	_
 20	eftirliti	eftirlit	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	2	advcl	_	_
@@ -2800,7 +2800,7 @@
 10	úrskurðaði	úrskurða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 11	loks	loks	ADV	aa	_	10	advmod	_	_
 12	að	að	SCONJ	c	_	14	mark	_	_
-13	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	14	nsubj	_	_
+13	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	15	nsubj	_	_
 14	hefðu	hafa	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
 15	samræmst	samræma	VERB	ssm	VerbForm=Sup|Voice=Pass	10	ccomp	_	_
 16	reglum	regla	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	15	obj	_	_
@@ -3099,7 +3099,7 @@
 4	sem	sem	SCONJ	c	_	6	mark	_	_
 5	venjuleg	venjulegur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	sónarskoðun	sónarskoðun	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	acl	_	_
-7	varð	verða	VERB	svg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pass|VerbForm=Fin|Voice=Act	8	aux	_	_
+7	varð	verða	AUX	svg3en	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	flókið	flókinn	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 9	þegar	þegar	SCONJ	c	_	21	mark	_	_
 10	verðandi	verðandi	ADJ	lvenof	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
@@ -3377,7 +3377,7 @@
 # text_en = After all, the internet is not a luxury; it is an essential tool.
 1	Internetið	internet	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
 2	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-3	jú	jú	INTJ	au	_	2	advmod	_	_
+3	jú	jú	INTJ	au	_	5	parataxis	_	_
 4	enginn	enginn	PRON	foken	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	5	nmod	_	_
 5	munaður	munaður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	;	;	PUNCT	;	_	5	punct	_	_
@@ -3482,7 +3482,7 @@
 # text = Hann gat skynjað áhrif kosninganna í umhverfinu, í árásarhrinunum og undarlegu samspili nýrra hugmynda og gamalla.
 # text_en = He could detect the effects of the election around him, in the bursts of conflict and the curious intersection of new ideas with old ones.
 1	Hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	3	nsubj	_	_
-2	gat	geta	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	gat	geta	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	skynjað	skynja	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 4	áhrif	áhrif	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	_
 5	kosninganna	kosning	NOUN	nvfeg	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod:poss	_	_
@@ -3636,7 +3636,7 @@
 26	og	og	CCONJ	c	_	30	cc	_	_
 27	sem	sem	SCONJ	c	_	30	mark	_	_
 28	við	ég	PRON	fp1fn	Case=Nom|Number=Plur|Person=1|PronType=Prs	30	nsubj	_	_
-29	getum	geta	VERB	sfg1fn	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	_
+29	getum	geta	AUX	sfg1fn	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	_
 30	gert	gera	VERB	ssg	VerbForm=Sup|Voice=Act	19	conj	_	_
 31	betur	vel	ADV	aam	_	30	advmod	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	30	punct	_	_
@@ -3731,7 +3731,7 @@
 # text_en = They’re usually artists who want to do a bunch of stuff.
 1	Þetta	þessi	PRON	fahen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	yfirleitt	yfirleitt	ADV	aa	_	2	advmod	_	_
+3	yfirleitt	yfirleitt	ADV	aa	_	4	advmod	_	_
 4	listamenn	listamaður	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_
 5	sem	sem	SCONJ	ct	_	6	nsubj	_	_
 6	vilja	vilja	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
@@ -4080,7 +4080,7 @@
 7	fyrir	fyrir	ADP	ao	_	8	case	_	_
 8	hönd	hönd	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	_
 9	skattgreiðenda	skattgreiðandi	NOUN	nkfe	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	8	nmod:poss	_	_
-10	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+10	verður	verða	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 11	sárt	sárt	ADV	aa	_	12	advmod	_	_
 12	saknað	sakna	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	_	_
