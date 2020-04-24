@@ -6889,8 +6889,8 @@
 7	að	að	SCONJ	c	_	11	mark	_	_
 8	fjölskylduáhorfendur	fjölskylduáhorfandi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	11	nsubj	_	_
 9	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
-10	orðnir	verða	VERB	sþgkfn	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	cop	_	_
-11	afhuga	afhuga	ADJ	lkfnof	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	advcl	_	_
+10	orðnir	verða	VERB	sþgkfn	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	_
+11	afhuga	afhuga	ADJ	lkfnof	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	xcomp	_	_
 12	Hollywood	Hollywood	PROPN	e	_	11	obl:arg	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 14	“	“	PUNCT	“	PunctSide=Fin	4	punct	_	_
@@ -7378,19 +7378,19 @@
 # sent_id = n01129006
 # text = Nú eru kosningar, hvað hryðjuverk varðar, orðnar nýja mjúka skotmarkið.
 # text_en = Voting has, in the vernacular of terror, become the new soft target.
-1	Nú	nú	ADV	aa	_	12	advmod	_	_
-2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
-3	kosningar	kosning	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+1	Nú	nú	ADV	aa	_	9	advmod	_	_
+2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+3	kosningar	kosning	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
 5	hvað	hver	SCONJ	fshen	_	7	mark	_	_
 6	hryðjuverk	hryðjuverk	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
-7	varðar	varða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No
+7	varðar	varða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
-9	orðnar	verða	VERB	sþgvfn	Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	cop	_	_
+9	orðnar	verða	VERB	sþgvfn	Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 10	nýja	nýr	ADJ	lhenvf	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 11	mjúka	mjúkur	ADJ	lhenvf	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
-12	skotmarkið	skotmark	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	.	_	12	punct	_	_
+12	skotmarkið	skotmark	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = n01129010
 # text = Þetta er heimavarnarógn eins og hún gerist alvarlegust.
@@ -7503,7 +7503,7 @@
 # sent_id = n01131013
 # text = Forskot repúblikana má þakka miklu fylgi í utankjörfundaratkvæðum og fyrr í vikunni var heildarforskot þeirra um 16.500.
 # text_en = The GOP lead was carried by strong numbers in absentee voting, and their overall edge stood at about 16,500 earlier this week.
-1	Forskot	forskot	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	_
+1	Forskot	forskot	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
 2	repúblikana	repúbliki	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	1	nmod:poss	_	_
 3	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	þakka	þakka	VERB	sng	VerbForm=Inf|Voice=Act	0	root	_	_
@@ -7791,9 +7791,9 @@
 7	og	og	CCONJ	c	_	8	cc	_	_
 8	Mildred	Mildred	PROPN	e	_	6	conj	_	_
 9	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
-10	þegar	þegar	SCONJ	c	_	11	advmod	_	_
-11	orðin	verða	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	cop	_	_
-12	hjón	hjón	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	advcl	_	_
+10	þegar	þegar	ADV	c	_	11	advmod	_	_
+11	orðin	verða	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	_
+12	hjón	hjón	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	xcomp	_	_
 13	og	og	CCONJ	c	_	16	cc	_	_
 14	því	því	ADV	aa	_	16	advmod	_	_
 15	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
@@ -8328,8 +8328,8 @@
 13	útskýrði	útskýra	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 14	fyrir	fyrir	ADP	aþ	_	15	case	_	_
 15	CNN	CNN	PROPN	e	_	13	obl:arg	_	_
-16	af	af	ADP	aþ	_	17	case	_	_
-17	hverju	hver	PRON	fsheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	19	mark	_	_
+16	af	af	ADP	aþ	_	19	mark	_	_
+17	hverju	hver	PRON	fsheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	16	fixed	_	_
 18	Mexíkóum	Mexíkó	PROPN	nhfþ-s	Case=Dat|Gender=Neut|Number=Plur	19	nsubj	_	_
 19	finnist	finna	VERB	svm3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	ccomp	_	_
 20	tímabært	tímabær	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	nsubj	_	_
@@ -8757,7 +8757,7 @@
 3	ekki	ekki	ADV	aa	_	2	advmod	_	_
 4	að	að	SCONJ	c	_	8	mark	_	_
 5	aðrir	annar	PRON	fokfn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
-6	yrðu	verða	VERB	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
+6	yrðu	verða	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	einnig	einnig	ADV	aa	_	8	advmod	_	_
 8	rannsakaðir	rannsaka	VERB	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	ccomp	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
@@ -8775,7 +8775,7 @@
 7	lengur	lengi	ADV	aam	_	9	advmod	_	_
 8	sú	sá	PRON	faven	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	gamla	gamall	ADJ	lvenvf	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	advcl	_	_
-10	geta	geta	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+10	geta	geta	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 11	margir	margur	ADJ	lkfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
 12	notendur	notandi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	13	nsubj	_	_
 13	sparað	spara	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
@@ -8861,7 +8861,7 @@
 2	tilkynntu	tilkynna	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	að	að	SCONJ	c	_	6	mark	_	_
 4	samningum	samningur	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	_
-5	yrði	verða	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	yrði	verða	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	rift	rifa	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	_
 7	í	í	ADP	ao	_	8	case	_	_
 8	byrjun	byrjun	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	_
@@ -8876,7 +8876,7 @@
 3	fjölda	fjöldi	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	2:obj	_
 4	skilyrða	skilyrði	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	3	nmod:poss	3:nmod:poss	_
 5	sem	sem	SCONJ	ct	_	7	mark	7:mark	_
-6	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+6	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 7	þurft	þurfa	VERB	ssg	VerbForm=Sup|Voice=Act	3	acl:relcl	3:acl:relcl	_
 8	að	að	PART	cn	_	9	mark	9:mark	_
 9	uppfylla	uppfylla	VERB	sng	VerbForm=Inf|Voice=Act	7	xcomp	7:xcomp	_
@@ -8996,7 +8996,7 @@
 # text = Kühn getur aðeins hrist höfuðið.
 # text_en = Kühn can only shake his head.
 1	Kühn	kühn	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
-2	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+2	getur	geta	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	aðeins	aðeins	ADV	aa	_	4	advmod	_	_
 4	hrist	hrista	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 5	höfuðið	höfuð	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
@@ -9045,7 +9045,7 @@
 15	í	í	ADP	aþ	_	16	case	_	_
 16	smellinum	smellur	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	_
 17	frá	frá	ADP	aþ	_	19	case	_	_
-18	7.	7.	NUM	ta	_	19	nummod	_	SpaceAfter=No
+18	7.	7.	NUM	ta	_	19	nummod	_	_
 19	áratugnum	áratugur	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
 21	Monster	Monster	PROPN	e	_	16	appos	_	_
@@ -9234,7 +9234,7 @@
 # sent_id = n02046037
 # text = Nú er aðeins óljóst í hverjum þeirra það er.
 # text_en = It is now only unclear, in which one.
-1	Nú	nú	ADV	aa	_	4	expl	_	_
+1	Nú	nú	ADV	aa	_	4	advmod	_	_
 2	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	aðeins	aðeins	ADV	aa	_	4	advmod	_	_
 4	óljóst	óljós	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
@@ -9265,7 +9265,7 @@
 3	ljóst	ljós	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	:	_	3	punct	_	_
 5	Karlar	karl	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	_
-6	gætu	geta	VERB	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	_	_
+6	gætu	geta	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	axlað	axla	VERB	ssg	VerbForm=Sup|Voice=Act	3	parataxis	_	_
 8	meiri	mikill	ADJ	lveovm	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	9	amod	_	_
 9	ábyrgð	ábyrgð	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	_
@@ -9368,7 +9368,7 @@
 24	á	á	ADP	aþ	_	25	case	25:case	_
 25	yfirborði	yfirborð	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	22	obl	22:obl	_
 26	sjávar	sjár	NOUN	nkee	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	25	nmod:poss	25:nmod:poss	_
-27	-	-	SYM	-	_	31	punct	31:punct	_
+27	-	-	PUNCT	-	_	31	punct	31:punct	_
 28	svo	svo	ADV	aa	_	31	mark	31:mark	_
 29	hún	hún	PRON	fpven	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	31	nsubj	31:nsubj	_
 30	myndi	munu	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	31	aux	31:aux	_
@@ -9544,7 +9544,7 @@
 21	á	á	ADP	aþ	_	22	case	22:case	_
 22	hafi	haf	NOUN	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	nmod	20:nmod	_
 23	úti	úti	ADV	aa	_	22	advmod	22:advmod	_
-24	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	25:aux	_
+24	getur	geta	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	25:aux	_
 25	orðið	verða	VERB	ssg	VerbForm=Sup|Voice=Act	14	parataxis	14:parataxis	_
 26	helsti	heldri	ADJ	lkenve	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	27	amod	27:amod	_
 27	orkugjafinn	orkugjafi	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	xcomp	25:xcomp	_
@@ -9578,7 +9578,7 @@
 # text = Búast má við uppsveiflu frá vaxandi fasteignamarkaðnum og auknum útgjöldum alríkisstjórnarinnar.
 # text_en = One expects a bump from the booming real estate market and increasing federal expenditures.
 1	Búast	búa	VERB	snm	VerbForm=Inf|Voice=Pass	0	root	_	_
-2	má	mega	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
+2	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
 3	við	við	ADP	ao	_	4	case	_	_
 4	uppsveiflu	uppsveifla	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obl:arg	_	_
 5	frá	frá	ADP	aþ	_	7	case	_	_
@@ -9621,15 +9621,15 @@
 8	fullu	fullur	ADJ	lheþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	obl	6:obl	SpaceAfter=No
 9	:	:	PUNCT	:	_	19	punct	19:punct	_
 10	Samkvæmt	samkvæmt	ADP	aþ	_	11	case	11:case	_
-11	upplýsingum	upplýsing	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	19	obl	19:obl	_
+11	upplýsingum	upplýsing	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	18	obl	19:obl	_
 12	frá	frá	ADP	aþ	_	13	case	13:case	_
 13	fréttastofunni	fréttastofa	NOUN	nveþg	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	11	nmod	11:nmod	_
 14	dpa	dpa	PROPN	x	_	13	appos	13:appos	_
-15	munu	munu	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
-16	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	19	nsubj	19:nsubj	_
+15	munu	munu	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	19:aux	_
+16	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	18	nsubj	19:nsubj	_
 17	aðeins	aðeins	ADV	aa	_	18	advmod	18:advmod	_
-18	verða	verða	VERB	sng	VerbForm=Inf|Voice=Act	19	aux	19:aux	_
-19	virk	virkur	ADJ	lhfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	6	parataxis	6:parataxis	_
+18	verða	verða	VERB	sng	VerbForm=Inf|Voice=Act	6	parataxis	19:aux	_
+19	virk	virkur	ADJ	lhfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	18	xcomp	6:parataxis	_
 20	ef	ef	SCONJ	c	_	28	mark	28:mark	_
 21	listamaðurinn	listamaður	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	28	nsubj	28:nsubj	_
 22	eða	eða	CCONJ	c	_	23	cc	23:cc	_
@@ -9648,7 +9648,7 @@
 35	samning	samningur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	28	conj	28:conj	_
 36	við	við	ADP	ao	_	37	case	37:case	_
 37	YouTube	YouTube	PROPN	e	_	35	nmod	35:nmod	SpaceAfter=No
-38	.	.	PUNCT	.	_	19	punct	19:punct	_
+38	.	.	PUNCT	.	_	18	punct	19:punct	_
 
 # newdoc id = n02082
 # sent_id = n02082017
@@ -9664,7 +9664,7 @@
 8	ungviðisins	ungviði	NOUN	nheeg	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	2	punct	_	_
 10	heldur	heldur	CCONJ	c	_	14	cc	_	_
-11	geta	geta	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
+11	geta	geta	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 12	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	14	nsubj	_	_
 13	líka	líka	ADV	aa	_	14	advmod	_	_
 14	valdið	valda	VERB	ssg	VerbForm=Sup|Voice=Act	2	conj	_	_
@@ -9680,7 +9680,7 @@
 # text_en = It is no surprise that the federal and state governments have classified the National Natural Heritage as a nation-wide endeavor of the highest priority and have documented it starting in 2005 in a coalition contract.
 1	Það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	_
 2	kemur	koma	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	ekkert	enginn	PRON	fohen	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	2	advmod	_	_
+3	ekkert	enginn	ADV	fohen	_	2	advmod	_	_
 4	á	á	ADP	ao	_	5	case	_	_
 5	óvart	óvar	ADJ	lheosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	obl:arg	_	_
 6	að	að	SCONJ	c	_	13	mark	_	_
@@ -9737,7 +9737,7 @@
 2	demókratinn	demókratinn	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	andstæðingur	andstæðingur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
 4	hans	hann	PRON	fpkee	Case=Gen|Gender=Masc|Number=Sing|PronType=Prs	3	nmod:poss	_	_
-5	yrði	verða	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	yrði	verða	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	kosinn	kjósa	VERB	sþgken	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	_
 7	hét	heita	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	7	nsubj	_	_
@@ -9791,7 +9791,7 @@
 # text_en = On Tuesday, the United States of America could elect the first female president in its history.
 1	Á	á	ADP	ao	_	2	case	_	_
 2	þriðjudaginn	þriðjudagur	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	_
-3	gætu	geta	VERB	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
+3	gætu	geta	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	Bandaríkin	Bandaríki	PROPN	nhfngs	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
 5	kosið	kjósa	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 6	fyrsta	fyrstur	ADJ	lheove	Case=Acc|Definite=Def|Degree=Sup|Gender=Neut|Number=Sing	7	amod	_	_
