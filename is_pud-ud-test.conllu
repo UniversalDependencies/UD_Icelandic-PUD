@@ -4687,7 +4687,7 @@
 # text = Ég vildi horfa á hana með þeim, en þau ákváðu loks að þau vildu frekar horfa á hana án mín.
 # text_en = I wanted to watch it with them, but they decided they’d rather watch it without me in the end.
 1	Ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	vildi	vilja	AUX	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	vildi	vilja	VERB	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	horfa	horfa	VERB	sng	VerbForm=Inf|Voice=Act	2	xcomp	_	_
 4	á	á	ADP	ao	_	5	case	_	_
 5	hana	hún	PRON	fpveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	3	obl:arg	_	_
@@ -4700,7 +4700,7 @@
 12	loks	loks	ADV	aa	_	11	advmod	_	_
 13	að	að	SCONJ	c	_	15	mark	_	_
 14	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	15	nsubj	_	_
-15	vildu	vilja	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	_
+15	vildu	vilja	VERB	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	_
 16	frekar	frekar	ADV	aam	_	15	advmod	_	_
 17	horfa	horfa	VERB	sng	VerbForm=Inf|Voice=Act	15	xcomp	_	_
 18	á	á	ADP	ao	_	19	case	_	_
@@ -4825,7 +4825,7 @@
 # text_en = Theoretically, a couple could open four Tesco accounts and earn 3% on £12,000 – £360.
 1	Fræðilega	fræðilegur	ADJ	lhenvf	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	_
 2	séð	sjá	ADV	ssg	_	5	advmod	_	_
-3	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
+3	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	par	par	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	stofnað	stofna	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 6	fjóra	fjórir	NUM	tfkfo	Case=Acc|Gender=Masc|Number=Plur	7	nummod	_	_
@@ -5311,7 +5311,7 @@
 15	óvart	óvar	ADJ	lheosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	obl	_	_
 16	ef	ef	SCONJ	c	_	21	mark	_	_
 17	annaðhvort	annaðhvort	CCONJ	c	_	18	cc	_	_
-18	bann	bann	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	conj	_	_
+18	bann	bann	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	conj	_	_
 19	eða	eða	CCONJ	c	_	20	cc	_	_
 20	leyfisveiting	leyfisveiting	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	nsubj	_	_
 21	kæmi	koma	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
@@ -6683,7 +6683,7 @@
 15	vanmeta	vanmeta	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
 16	hve	hve	ADV	aa	_	19	mark	_	_
 17	kalt	kaldur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	nsubj	_	_
-18	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
+18	getur	geta	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
 19	orðið	verða	VERB	ssg	VerbForm=Sup|Voice=Act	15	ccomp	_	_
 20	á	á	ADP	aþ	_	21	case	_	_
 21	Bretlandi	Bretland	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
@@ -6774,7 +6774,7 @@
 13	öflug	öflugur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	acl:relcl	_	_
 14	að	að	SCONJ	c	_	17	mark	_	_
 15	hún	hún	PRON	fpven	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	17	nsubj	_	_
-16	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
+16	getur	geta	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	valdið	valda	VERB	ssg	VerbForm=Sup|Voice=Act	13	acl	_	_
 18	höggbylgjum	höggbylgja	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
 19	?	?	PUNCT	?	_	8	punct	_	_
@@ -6805,7 +6805,7 @@
 # text_en = But having allowed Glenda to score such a blinder, who can blame it?
 1	En	en	SCONJ	c	_	4	cc	_	_
 2	hver	hver	PRON	fsken	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	4	nsubj	_	_
-3	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	getur	geta	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	álasað	álasa	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 5	þeim	hann	PRON	fpkfþ	Case=Dat|Gender=Masc|Number=Plur|PronType=Prs	4	obj	_	_
 6	í	í	ADP	aþ	_	7	case	_	_
@@ -6888,7 +6888,7 @@
 6	gríðarlega	gríðarlega	ADV	aa	_	4	advmod	_	_
 7	að	að	SCONJ	c	_	11	mark	_	_
 8	fjölskylduáhorfendur	fjölskylduáhorfandi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	11	nsubj	_	_
-9	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
+9	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
 10	orðnir	verða	VERB	sþgkfn	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	cop	_	_
 11	afhuga	afhuga	ADJ	lkfnof	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	advcl	_	_
 12	Hollywood	Hollywood	PROPN	e	_	11	obl:arg	_	SpaceAfter=No
@@ -6946,7 +6946,7 @@
 # text_en = And, of course, there's Bob, a constant source of entertainment.
 1	Svo	svo	ADV	aa	_	0	root	_	_
 2	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
-3	auðvitað	auðvitað	ADV	aa	_	2	advmod	_	_
+3	auðvitað	auðvitað	ADV	aa	_	4	advmod	_	_
 4	Bob	Bob	PROPN	e	_	1	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	sem	sem	SCONJ	ct	_	9	nsubj	_	_
@@ -6961,12 +6961,12 @@
 # text_en = The result, then, is hardly the cat's pyjamas.
 1	Útkoman	útkoma	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-3	því	því	PRON	aa	_	5	advmod	_	_
+3	því	því	ADV	aa	_	5	advmod	_	_
 4	varla	varla	ADV	aa	_	5	advmod	_	_
 5	eins	eins	ADV	aa	_	0	root	_	_
 6	og	og	CCONJ	c	_	10	cc	_	_
 7	best	vel	ADV	aae	_	10	advmod	_	_
-8	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+8	verður	verða	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 9	á	á	ADV	aa	_	10	advmod	_	_
 10	kosið	kjósa	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	_	_
@@ -7124,12 +7124,12 @@
 # text_en = Perhaps it won’t matter as I won’t be troubled long.
 1	Ef	ef	SCONJ	c	_	4	mark	_	_
 2	til	til	ADV	aa	_	1	fixed	_	_
-3	vill	vilja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	fixed	_	_
+3	vill	vilja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
 4	skiptir	skipta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	_	_
 6	ekki	ekki	ADV	aa	_	4	advmod	_	_
 7	máli	mál	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
-8	því	það	PRON	fpheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	10	mark	_	_
+8	því	það	SCONJ	fpheþ	_	10	mark	_	_
 9	ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	þarf	þurfa	VERB	sfg1en	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 11	ekki	ekki	ADV	aa	_	10	advmod	_	_
@@ -7379,10 +7379,10 @@
 # text = Nú eru kosningar, hvað hryðjuverk varðar, orðnar nýja mjúka skotmarkið.
 # text_en = Voting has, in the vernacular of terror, become the new soft target.
 1	Nú	nú	ADV	aa	_	12	advmod	_	_
-2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 3	kosningar	kosning	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
-5	hvað	hver	PRON	fshen	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	7	mark	_	_
+5	hvað	hver	SCONJ	fshen	_	7	mark	_	_
 6	hryðjuverk	hryðjuverk	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
 7	varðar	varða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
@@ -7436,14 +7436,14 @@
 2	nóg	nógur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	nsubj	_	_
 3	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	um	um	ADP	ao	_	5	case	_	_
-5	slíkt	slíkur	PRON	fbheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	11	advcl	_	_
+5	slíkt	slíkur	PRON	fbheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	8	advcl	_	_
 6	í	í	ADP	aþ	_	7	case	_	_
 7	baráttukjördæmi	baráttukjördæmi	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	_
-8	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
-9	ringulreið	ringulreið	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	nsubj	_	_
+8	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	ringulreið	ringulreið	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	_
 10	á	á	ADP	ao	_	11	case	_	_
-11	kosningadag	kosningadagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	.	_	11	punct	_	_
+11	kosningadag	kosningadagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
 
 # newdoc id = n01130
 # sent_id = n01130003
@@ -7505,7 +7505,7 @@
 # text_en = The GOP lead was carried by strong numbers in absentee voting, and their overall edge stood at about 16,500 earlier this week.
 1	Forskot	forskot	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	repúblikana	repúbliki	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	1	nmod:poss	_	_
-3	má	mega	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	þakka	þakka	VERB	sng	VerbForm=Inf|Voice=Act	0	root	_	_
 5	miklu	mikill	ADJ	lheþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
 6	fylgi	fylgi	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
@@ -7604,7 +7604,7 @@
 4	að	að	SCONJ	c	_	19	mark	_	_
 5	tímasetningarnar	tímasetning	NOUN	nvfng	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	19	nsubj	_	_
 6	sem	sem	SCONJ	ct	_	9	nsubj	_	_
-7	hafa	hafa	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+7	hafa	hafa	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 8	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	9	aux	_	_
 9	nefndar	nefna	VERB	sþgvfn	Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	acl:relcl	_	_
 10	í	í	ADP	aþ	_	11	case	_	_
@@ -7714,7 +7714,7 @@
 5	steiktan	steikta	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	_
 6	kjúkling	kjúklingur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	nmod:poss	_	_
 7	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
-8	áður	áður	ADV	aa	_	7	advmod	_	_
+8	áður	áður	ADV	aa	_	10	advmod	_	_
 9	stór	stór	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	ástæða	ástæða	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
 11	fyrir	fyrir	ADP	ao	_	12	case	_	_
@@ -7783,7 +7783,7 @@
 # text = „Loving“ hefst þegar Richard og Mildred eru þegar orðin hjón og því er hlaupið yfir tilhugalífið, sem hefði verið áhugavert að sjá, þótt ekki væri nema stuttlega.
 # text_en = "Loving" opens with Richard and Mildred already a couple, eliding over a courtship that would have been interesting to see, if only in brief.
 1	„	„	PUNCT	„	PunctSide=Ini	2	punct	_	SpaceAfter=No
-2	Loving	Loving	PROPN	nven-s	Case=Nom|Gender=Fem|Number=Sing	nsubj	_	SpaceAfter=No
+2	Loving	Loving	PROPN	nven-s	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
 3	“	“	PUNCT	“	PunctSide=Fin	2	punct	_	_
 4	hefst	hefja	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	þegar	þegar	SCONJ	c	_	12	mark	_	_
@@ -8131,8 +8131,8 @@
 12	ótrúlegt	ótrúlegur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
 13	afrek	afrek	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	parataxis	_	_
 14	að	að	PART	cn	_	15	mark	_	_
-15	verða	verða	VERB	sng	VerbForm=Inf|Voice=Act	16	cop	_	_
-16	númer	númer	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	csubj	_	_
+15	verða	verða	VERB	sng	VerbForm=Inf|Voice=Act	13	csubj	_	_
+16	númer	númer	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	xcomp	_	_
 17	eitt	eitt	NUM	ta	_	16	nummod	_	_
 18	í	í	ADP	aþ	_	19	case	_	_
 19	heiminum	heimur	NOUN	nkeþg	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
