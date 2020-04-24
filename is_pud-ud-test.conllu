@@ -440,7 +440,7 @@
 2	dag	dagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	_
 3	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 4	Khanzir	Khanzir	NOUN	nken-s	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-5	ef	ef	SCONJ	c	_	9	conj	_	_
+5	ef	ef	SCONJ	c	_	9	mark	_	_
 6	til	til	ADV	aa	_	5	flat	_	_
 7	vill	vilja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	flat	_	_
 8	einmana	einmana	ADJ	lhenof	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
@@ -1422,7 +1422,7 @@
 1	„	„	PUNCT	„	PunctSide=Ini	7	punct	_	SpaceAfter=No
 2	Það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	7	nsubj	_	_
 3	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
-4	enn	enn	ADV	aa	_	3	advmod	_	_
+4	enn	enn	ADV	aa	_	7	advmod	_	_
 5	eitthvað	einhver	PRON	fohen	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	7	det	_	_
 6	„	„	PUNCT	„	PunctSide=Ini	7	punct	_	SpaceAfter=No
 7	vibbalegt	vibbalegur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -1716,20 +1716,20 @@
 5	Press	Press	PROPN	e	_	3	iobj	_	_
 6	að	að	SCONJ	c	_	11	mark	_	_
 7	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	11	nsubj	_	_
-8	hefðu	hafa	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
+8	hefðu	hafa	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
 9	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	11	cop	_	_
 10	„	„	PUNCT	„	PunctSide=Ini	11	punct	_	SpaceAfter=No
 11	orðaskipti	orðaskipti	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	ccomp	_	SpaceAfter=No
 12	“	“	PUNCT	“	PunctSide=Fin	11	punct	_	_
 13	og	og	CCONJ	c	_	16	cc	_	_
-14	svo	svo	ADV	aa	_	13	advmod	_	_
+14	svo	svo	ADV	aa	_	16	advmod	_	_
 15	„	„	PUNCT	„	PunctSide=Ini	16	punct	_	SpaceAfter=No
 16	átök	átök	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	conj	_	SpaceAfter=No
 17	“	“	PUNCT	“	PunctSide=Fin	16	punct	_	_
 18	en	en	CCONJ	c	_	23	cc	_	_
 19	að	að	SCONJ	c	_	23	mark	_	_
 20	ekki	ekki	ADV	aa	_	23	advmod	_	_
-21	hefði	hafa	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
+21	hefði	hafa	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	aux	_	_
 22	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	23	aux	_	_
 23	greint	greina	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	conj	_	_
 24	frá	frá	ADP	aþ	_	26	case	_	_
@@ -2222,7 +2222,7 @@
 6	hámarkssektin	hámarkssekti	NOUN	nhfng	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	0	root	_	_
 7	sem	sem	SCONJ	ct	_	10	mark	_	_
 8	RECO	RECO	PROPN	e	_	10	nsubj	_	_
-9	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+9	getur	geta	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	sektað	sektaður	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	acl:relcl	_	_
 11	fasteignasala	fasteignasali	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	6	punct	_	_
@@ -2236,7 +2236,7 @@
 3	millistéttin	millistétt	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	_
 4	í	í	ADP	aþ	_	5	case	_	_
 5	Kína	Kína	NOUN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
-6	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+6	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 7	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	9	cop	_	_
 8	óvenju	óvenja	ADV	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	_
 9	hávær	hávær	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
@@ -2318,7 +2318,7 @@
 # text = Hann gæti líka beðið þar til í lok fyrsta kjörtímabils síns með að nýta sér ákvæði í Parísarsamkomulaginu og draga sig út úr því.
 # text_en = He could also wait until the end of his first term to use a provision in the Paris agreement to pull out of the pact.
 1	Hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	_
-2	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
+2	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	líka	líka	ADV	aa	_	4	advmod	_	_
 4	beðið	bíða	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 5	þar	þar	ADV	aa	_	4	advmod	_	_
@@ -2348,7 +2348,7 @@
 # text = Á meðan leitast Clinton og bandamenn hennar við að beina kastljósinu áfram að Trump og saka hann um að vera óhæfan til að gegna embætti sökum niðrandi ummæla hans um konur og minnihlutahópa og geðslags hans.
 # text_en = Clinton and allies, meanwhile, are seeking to keep the spotlight on Trump, charging that his disparaging comments about women and minorities, and his temperament make him unfit for office.
 1	Á	á	ADV	aa	_	2	advmod	_	_
-2	meðan	meðan	SCONJ	c	_	3	advmod	_	_
+2	meðan	meðan	ADV	c	_	3	advmod	_	_
 3	leitast	leita	VERB	sfm3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	Clinton	Clinton	PROPN	e	_	3	nsubj	_	_
 5	og	og	CCONJ	c	_	6	cc	_	_
@@ -2364,7 +2364,7 @@
 15	og	og	CCONJ	c	_	16	cc	_	_
 16	saka	saka	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
 17	hann	hann	PRON	fpkeo	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	16	obj	_	_
-18	um	um	ADP	ao	_	16	advmod	_	_
+18	um	um	ADV	ao	_	16	advmod	_	_
 19	að	að	PART	cn	_	21	mark	_	_
 20	vera	vera	AUX	sng	VerbForm=Inf|Voice=Act	21	cop	_	_
 21	óhæfan	óhæfa	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	xcomp	_	_
