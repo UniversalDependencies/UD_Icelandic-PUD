@@ -7802,7 +7802,7 @@
 18	tilhugalífið	tilhugalíf	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	23	punct	_	_
 20	sem	sem	SCONJ	ct	_	23	nsubj	_	_
-21	hefði	hafa	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
+21	hefði	hafa	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	aux	_	_
 22	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	23	cop	_	_
 23	áhugavert	áhugaverður	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	acl:relcl	_	_
 24	að	að	PART	cn	_	25	mark	_	_
@@ -7811,7 +7811,7 @@
 27	þótt	þótt	SCONJ	c	_	31	mark	_	_
 28	ekki	ekki	ADV	aa	_	31	advmod	_	_
 29	væri	vera	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	31	cop	_	_
-30	nema	nema	SCONJ	c	_	31	advmod	_	_
+30	nema	nema	ADV	c	_	31	advmod	_	_
 31	stuttlega	stuttlega	ADV	aa	_	25	advcl	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -8479,7 +8479,7 @@
 # sent_id = n01148035
 # text = Ekki hafa allar umbreytingar á svæðinu borið árangur.
 # text_en = Not all transformations in the region have been successful.
-1	Ekki	ekki	ADV	aa	_	2	advmod	_	_
+1	Ekki	ekki	ADV	aa	_	7	advmod	_	_
 2	hafa	hafa	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 3	allar	allur	PRON	fovfn	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
 4	umbreytingar	umbreyting	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	7	nsubj	_	_
@@ -9619,7 +9619,7 @@
 6	hverfa	hverfa	VERB	sng	VerbForm=Inf|Voice=Act	0	root	0:root	_
 7	að	að	ADP	aþ	_	8	case	8:case	_
 8	fullu	fullur	ADJ	lheþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	obl	6:obl	SpaceAfter=No
-9	:	:	PUNCT	:	_	19	punct	19:punct	_
+9	:	:	PUNCT	:	_	6	punct	19:punct	_
 10	Samkvæmt	samkvæmt	ADP	aþ	_	11	case	11:case	_
 11	upplýsingum	upplýsing	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	18	obl	19:obl	_
 12	frá	frá	ADP	aþ	_	13	case	13:case	_
@@ -9940,7 +9940,7 @@
 17	(	(	PUNCT	(	_	18	punct	_	SpaceAfter=No
 18	-hálfvita	-hálfvita	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No
 19	)	)	PUNCT	)	_	18	punct	_	SpaceAfter=No
-20	“	“	PUNCT	“	PunctSide=Fin	16	punct	_	SpaceAfter=No
+20	“	“	PUNCT	“	PunctSide=Fin	16	punct	_	_
 21	og	og	CCONJ	c	_	23	cc	_	_
 22	„	„	PUNCT	„	PunctSide=Ini	23	punct	_	SpaceAfter=No
 23	dólg	dólg	PROPN	e	_	12	conj	_	SpaceAfter=No
@@ -9955,7 +9955,7 @@
 2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	takmörkin	takmark	NOUN	nhfng	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	0	root	_	_
 4	sem	sem	SCONJ	ct	_	6	nsubj	_	_
-5	gætu	geta	VERB	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	gætu	geta	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	hindrað	hindra	VERB	ssg	VerbForm=Sup|Voice=Act	3	acl:relcl	_	_
 7	tjáningu	tjáning	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	_
 8	trúarskoðana	trúarskoðun	NOUN	nvfe	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur	7	nmod:poss	_	_
@@ -10154,16 +10154,16 @@
 # text = Hann lét þess einnig getið að „tilvist slíks skjals gæti haft afleiðingar sem eru jafnlíklegar og þær eru óviðunandi“.
 # text_en = He also remarked that "the existence of such a document could lead to consequences that are as likely as they are unacceptable".
 1	Hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	_	_
-2	lét	láta	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
+2	lét	láta	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	þess	það	PRON	fphee	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	5	obj	_	_
 4	einnig	einnig	ADV	aa	_	5	advmod	_	_
-5	getið	geta	VERB	sþgheo	Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	getið	geta	VERB	sþgheo	Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	xcomp	_	_
 6	að	að	SCONJ	c	_	12	mark	_	_
 7	„	„	PUNCT	„	PunctSide=Ini	12	punct	_	SpaceAfter=No
 8	tilvist	tilvist	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	nsubj	_	_
 9	slíks	slíkur	PRON	fbhee	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	10	det	_	_
 10	skjals	skjal	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	8	nmod:poss	_	_
-11	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
+11	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	haft	hafa	VERB	ssg	VerbForm=Sup|Voice=Act	5	ccomp	_	_
 13	afleiðingar	afleiðing	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	_
 14	sem	sem	SCONJ	ct	_	16	nsubj	_	_
@@ -10174,7 +10174,7 @@
 19	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	_
 20	óviðunandi	óviðunandi	ADJ	lvfnof	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
 21	“	“	PUNCT	“	PunctSide=Fin	12	punct	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	5	punct	_	_
+22	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n03009011
 # text = Stafræna ráðið í Frakklandi, sem veitir ráðgjöf um frumvörp með tilliti til spurninga um stafræna tækni, gæti einnig grandskoðað það.
@@ -10340,7 +10340,7 @@
 5	áhersla	áhersla	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_
 6	að	að	SCONJ	c	_	11	mark	_	_
 7	við	ég	PRON	fp1fn	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
-8	getum	geta	VERB	svg1fn	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+8	getum	geta	AUX	svg1fn	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 9	alls	allur	PRON	fohee	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	11	advmod	_	_
 10	ekki	ekki	ADV	aa	_	9	fixed	_	_
 11	haldið	halda	VERB	ssg	VerbForm=Sup|Voice=Act	4	ccomp	_	_
@@ -10638,7 +10638,7 @@
 # text = Það verður sent í mat.
 # text_en = It will go for assessment.
 1	Það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj	_	_
-2	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	verður	verða	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	sent	senda	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	í	í	ADP	ao	_	5	case	_	_
 5	mat	matur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -10945,7 +10945,7 @@
 18	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
 19	stoltust	stoltust	ADJ	sfm1fþ	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	14	acl	_	_
 20	af	af	ADP	aþ	_	19	compound:prt	_	_
-21	verði	verð	AUX	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	22	aux	_	_
+21	verði	verða	AUX	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	22	aux	_	_
 22	afturkölluð	afturkölluð	VERB	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	12	acl	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -11467,7 +11467,7 @@
 # text_en = The 2019 Winter Universiade will be hosted by Krasnoyarsk.
 1	Vetrarháskóleikarnir	Vetrarháskóleikarnir	PROPN	nkfn	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	2019	2019	NUM	ta	_	1	nmod	_	_
-3	verða	verða	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	verða	verða	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	haldnir	halda	VERB	sþgkfn	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	í	í	ADP	aþ	_	6	case	_	_
 6	Krasnoyarsk	Krasnoyarsk	PROPN	e	_	4	obl:arg	_	SpaceAfter=No
@@ -11629,7 +11629,7 @@
 21	hendi	hönd	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	_
 22	svo	svo	ADV	aa	_	26	mark	_	_
 23	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	26	nsubj	_	_
-24	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	aux	_	_
+24	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	aux	_	_
 25	orðið	verða	VERB	ssg	VerbForm=Sup|Voice=Act	26	cop	_	_
 26	lénsríki	lénsríki	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	advcl	_	_
 27	Persaveldis	Persaveldis	PROPN	e	_	26	nmod:poss	_	_
@@ -11842,8 +11842,8 @@
 22	grundvelli	grundvöllur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	_
 23	þessarar	þessi	PRON	favee	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
 24	hugmyndar	hugmynd	NOUN	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	22	nmod:poss	_	_
-25	árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
-26	1973	1973	NUM	ta	_	17	obl	_	_
+25	árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	26	nmod	_	_
+26	1973	1973	NUM	ta	_	17	obl	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = w01009027
@@ -11907,7 +11907,7 @@
 8	til	til	ADP	ae	_	9	case	_	_
 9	sögunnar	saga	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_
 10	þar	þar	ADV	aa	_	14	advmod	_	_
-11	sem	sem	SCONJ	c	_	14	fixed	_	_
+11	sem	sem	SCONJ	c	_	10	fixed	_	_
 12	nú	nú	ADV	aa	_	14	advmod	_	_
 13	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
 14	suðaustur-Móravía	suðaustur-Móravía	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	acl:relcl	_	SpaceAfter=No
@@ -11925,13 +11925,13 @@
 # text = Árið 833 eftir Krist varð það að Stór-Moravíuríkinu þegar furstadæmið Nitra (þar sem nú er Slóvakía) var hernumið.
 # text_en = In 833 AD, this became the state of Great Moravia with the conquest of the Principality of Nitra (present-day Slovakia).
 1	Árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_
-2	833	833	NUM	ta	_	8	obl	_	_
+2	833	833	NUM	ta	_	5	obl	_	_
 3	eftir	eftir	ADP	ao	_	2	fixed	_	_
 4	Krist	Kristur	PROPN	nkeo-s	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
-5	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
-6	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	8	nsubj	_	_
+5	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	5	nsubj	_	_
 7	að	að	ADP	aþ	_	8	case	_	_
-8	Stór-Moravíuríkinu	Stór-Moravíuríki	PROPN	nheþgs	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+8	Stór-Moravíuríkinu	Stór-Moravíuríki	PROPN	nheþgs	Case=Dat|Gender=Neut|Number=Sing	5	xcomp	_	_
 9	þegar	þegar	SCONJ	c	_	20	mark	_	_
 10	furstadæmið	furstadæmi	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	nsubj	_	_
 11	Nitra	Nitra	PROPN	e	_	10	appos	_	_
@@ -11943,8 +11943,8 @@
 17	Slóvakía	Slóvakía	PROPN	nven-s	Case=Nom|Gender=Fem|Number=Sing	10	acl:relcl	_	SpaceAfter=No
 18	)	)	PUNCT	)	_	17	punct	_	_
 19	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	_	_
-20	hernumið	hernema	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	8	punct	_	_
+20	hernumið	hernema	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w01010047
 # text = Fyrsti konungur þeirra var Mojmír I (sem ríkti 830–846).
@@ -11977,11 +11977,11 @@
 10	frænda	frændi	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	_
 11	sinn	sinn	PRON	fekeo	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	10	nmod:poss	_	_
 12	Rastiz	Rastiz	PROPN	e	_	10	appos	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	17	punct	_	_
-14	sem	sem	SCONJ	ct	_	17	nsubj	_	_
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	sem	sem	SCONJ	ct	_	16	nsubj	_	_
 15	síðar	síðar	ADV	aam	_	16	advmod	_	_
-16	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
-17	dýrlingurinn	dýrlingur	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	acl:relcl	_	_
+16	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+17	dýrlingurinn	dýrlingur	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	xcomp	_	_
 18	Rastislav	Rastislav	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	17	punct	_	_
 20	á	á	ADP	aþ	_	21	case	_	_
@@ -12015,7 +12015,7 @@
 # text_en = Although Iceland was under the political control of Denmark until a much later date (1918), very little influence and borrowing from Danish has occurred in the Icelandic language.
 1	Þótt	þótt	SCONJ	c	_	7	mark	_	_
 2	Ísland	Ísland	PROPN	nhen-s	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
-3	hafi	hafa	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	hafi	hafa	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 4	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	7	cop	_	_
 5	undir	undir	ADP	aþ	_	7	case	_	_
 6	pólitískum	pólitískur	ADJ	lhfþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	7	amod	_	_
@@ -12028,7 +12028,7 @@
 13	(	(	PUNCT	(	_	14	punct	_	SpaceAfter=No
 14	1918	1918	NUM	ta	_	12	appos	_	SpaceAfter=No
 15	)	)	PUNCT	)	_	14	punct	_	_
-16	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
+16	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	_	_
 17	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	22	cop	_	_
 18	mjög	mjög	ADV	aa	_	19	advmod	_	_
 19	lítið	lítill	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	nsubj	_	_
@@ -12171,7 +12171,7 @@
 3	þar	þar	ADV	aa	_	5	mark	_	_
 4	sem	sem	SCONJ	c	_	3	fixed	_	_
 5	finna	finna	VERB	sng	VerbForm=Inf|Voice=Act	1	acl	_	_
-6	má	mega	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+6	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 7	Kilimanjaro	Kilimanjaro	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
 8	og	og	CCONJ	c	_	9	cc	_	_
 9	Kenýafjall	Kenýafjall	PROPN	nheo-s	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
@@ -12235,7 +12235,7 @@
 10	nauðungarvinnukerfinu	nauðungarvinnukerfi	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	9	obj	_	_
 11	með	með	ADP	aþ	_	14	mark	_	_
 12	því	það	PRON	fpheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	11	fixed	_	_
-13	að	að	PART	cn	_	12	fixed	_	_
+13	að	að	PART	cn	_	11	fixed	_	_
 14	bæta	bæta	VERB	sng	VerbForm=Inf|Voice=Act	9	xcomp	_	_
 15	innviði	innviðir	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	14	obj	_	_
 16	með	með	ADP	aþ	_	17	case	_	_
@@ -12645,8 +12645,8 @@
 11	deila	deila	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
 12	enn	enn	ADV	aa	_	11	advmod	_	_
 13	um	um	ADV	aa	_	11	advmod	_	_
-14	af	af	ADP	aþ	_	15	case	_	_
-15	hverju	hver	PRON	fsheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	22	mark	_	_
+14	af	af	ADP	aþ	_	22	mark	_	_
+15	hverju	hver	PRON	fsheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	14	fixed	_	_
 16	járnbrautin	járnbraut	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	_
 17	til	til	ADP	ae	_	18	case	_	_
 18	Flensborgar	Flensborg	PROPN	nvee-s	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
@@ -12672,7 +12672,7 @@
 9	almenning	almenningur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	sem	sem	SCONJ	ct	_	13	nsubj	_	_
-12	hafði	hafa	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
+12	hafði	hafa	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
 13	talið	telja	VERB	ssg	VerbForm=Sup|Voice=Act	9	acl:relcl	_	_
 14	Danavirki	Danavirki	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	15	nsubj	_	_
 15	óvinnandi	óvinnandi	ADJ	lkfoof	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	13	ccomp	_	SpaceAfter=No
@@ -12692,7 +12692,7 @@
 # text = Danavirki hefur verið undir yfirráðum Þjóðverja allar götur síðan.
 # text_en = The Danevirke has remained in German possession ever since.
 1	Danavirki	danavirki	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
-2	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 3	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	5	cop	_	_
 4	undir	undir	ADP	aþ	_	5	case	_	_
 5	yfirráðum	yfirráð	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
@@ -12872,7 +12872,7 @@
 5	grænum	grænn	ADJ	lvfþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
 6	litaafbrigðum	litaafbrigði	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	_	_
-8	allt	allur	PRON	fohen	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	9	advmod	_	_
+8	allt	allur	ADV	fohen	_	9	advmod	_	_
 9	frá	frá	ADP	aþ	_	10	case	_	_
 10	gulleitum	gulleitur	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	_
 11	til	til	ADP	ae	_	12	case	_	_
@@ -13141,7 +13141,7 @@
 6	lón	lón	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
 7	sem	sem	SCONJ	ct	_	11	nsubj	_	_
 8	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
-9	næstum	næstum	ADV	aa	_	8	advmod	_	_
+9	næstum	næstum	ADV	aa	_	11	advmod	_	_
 10	því	það	PRON	fpheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	9	fixed	_	_
 11	þornað	þorna	VERB	ssg	VerbForm=Sup|Voice=Act	6	acl:relcl	_	_
 12	alveg	alveg	ADV	aa	_	11	advmod	_	_
@@ -13180,7 +13180,7 @@
 # text_en = Such settlements probably began around 1000 BC, when eastern Melanesians travelled north.
 1	Slíkar	slíkur	PRON	fbvfo	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	byggðir	byggð	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	_
-3	má	mega	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+3	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	líklega	líklega	ADV	aa	_	5	advmod	_	_
 5	rekja	rekja	VERB	sng	VerbForm=Inf|Voice=Act	0	root	_	_
 6	til	til	ADV	aa	_	5	compound:prt	_	_
@@ -13273,7 +13273,7 @@
 # text = Ræktarland getur reyndar skaðast vegna eyðileggingar á nærliggjandi umhverfi.
 # text_en = Agricultural land can actually suffer from the destruction of the surrounding landscape.
 1	Ræktarland	ræktarland	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
-2	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+2	getur	geta	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	reyndar	reyndar	ADV	aa	_	4	advmod	_	_
 4	skaðast	skaða	VERB	ssm	VerbForm=Sup|Voice=Pass	0	root	_	_
 5	vegna	vegna	ADP	ae	_	6	case	_	_
@@ -13418,14 +13418,14 @@
 # text_en = These are not very popular due to the often remote and roadless locations.
 1	Þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	5	nsubj	_	_
 2	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-3	ekki	ekki	ADV	aa	_	2	advmod	_	_
+3	ekki	ekki	ADV	aa	_	5	advmod	_	_
 4	mjög	mjög	ADV	aa	_	5	advmod	_	_
 5	vinsæl	vinsæll	ADJ	lhfnsf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	_
 6	þar	þar	ADV	aa	_	13	mark	_	_
 7	sem	sem	SCONJ	c	_	6	fixed	_	_
 8	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	13	nsubj	_	_
 9	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
-10	gjarnan	gjarnan	ADV	aa	_	9	advmod	_	_
+10	gjarnan	gjarnan	ADV	aa	_	13	advmod	_	_
 11	á	á	ADP	aþ	_	13	case	_	_
 12	afskekktum	afskekktur	ADJ	lkfþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
 13	stöðum	staður	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	5	advcl	_	_
@@ -13706,14 +13706,14 @@
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	en	en	CCONJ	c	_	14	cc	_	_
 6	samkvæmt	samkvæmt	ADP	aþ	_	7	case	_	_
-7	borgaryfirvöldum	borgaryfirvöld	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	_
-8	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+7	borgaryfirvöldum	borgaryfirvöld	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	_
+8	verður	verða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 9	aðeins	aðeins	ADV	aa	_	10	advmod	_	_
-10	vart	var	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	nsubj	_	_
+10	vart	var	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	_
 11	við	við	ADP	ao	_	12	case	_	_
-12	þrumur	þruma	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	_
+12	þrumur	þruma	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	_
 13	sjö	sjö	NUM	tfkfe	Case=Gen|Gender=Masc|Number=Plur	14	nummod	_	_
-14	daga	dagur	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	_
+14	daga	dagur	NOUN	nkfo	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	_
 15	á	á	ADP	aþ	_	16	case	_	_
 16	ári	ár	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
@@ -13723,25 +13723,25 @@
 # text = Árið 1340 voru íbúar Kaíró orðnir tæp hálf milljón og borgin var því orðin sú stærsta vestur af Kína.
 # text_en = By 1340, Cairo had a population of close to half a million, making it the largest city west of China.
 1	Árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_
-2	1340	1340	NUM	ta	_	9	obl	_	_
+2	1340	1340	NUM	ta	_	6	obl	_	_
 3	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
-4	íbúar	íbúi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	_
+4	íbúar	íbúi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	_
 5	Kaíró	Kaíró	PROPN	e	_	4	nmod:poss	_	_
-6	orðnir	verða	VERB	sþgkfn	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	cop	_	_
+6	orðnir	verða	VERB	sþgkfn	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 7	tæp	tæpur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 8	hálf	hálfur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
-9	milljón	milljón	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+9	milljón	milljón	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	xcomp	_	_
 10	og	og	CCONJ	c	_	16	cc	_	_
 11	borgin	borg	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	_
 12	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
 13	því	því	ADV	aa	_	14	advmod	_	_
 14	orðin	verða	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	cop	_	_
 15	sú	sá	PRON	faven	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
-16	stærsta	stór	ADJ	lvenve	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	9	conj	_	_
+16	stærsta	stór	ADJ	lvenve	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	6	conj	_	_
 17	vestur	vestur	ADV	aa	_	16	obl	_	_
 18	af	af	ADP	aþ	_	19	case	_	_
 19	Kína	Kína	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	9	punct	_	_
+20	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = w01043065
 # text = Um leið og farið var að stýra Níl í auknum mæli jókst uppbygging á Gezira-eyju og meðfram hafnarbakka borgarinnar.
