@@ -4687,8 +4687,8 @@
 # text = Ég vildi horfa á hana með þeim, en þau ákváðu loks að þau vildu frekar horfa á hana án mín.
 # text_en = I wanted to watch it with them, but they decided they’d rather watch it without me in the end.
 1	Ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	vildi	vilja	AUX	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
-3	horfa	horfa	VERB	sng	VerbForm=Inf|Voice=Act	0	root	_	_
+2	vildi	vilja	AUX	sfg1eþ	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	horfa	horfa	VERB	sng	VerbForm=Inf|Voice=Act	2	xcomp	_	_
 4	á	á	ADP	ao	_	5	case	_	_
 5	hana	hún	PRON	fpveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	3	obl:arg	_	_
 6	með	með	ADP	aþ	_	7	case	_	_
@@ -4696,7 +4696,7 @@
 8	,	,	PUNCT	,	_	3	punct	_	_
 9	en	en	CCONJ	c	_	11	cc	_	_
 10	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	11	nsubj	_	_
-11	ákváðu	ákveða	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	ákváðu	ákveða	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 12	loks	loks	ADV	aa	_	11	advmod	_	_
 13	að	að	SCONJ	c	_	15	mark	_	_
 14	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	15	nsubj	_	_
@@ -4707,7 +4707,7 @@
 19	hana	hún	PRON	fpveo	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs	17	obl:arg	_	_
 20	án	án	ADP	ae	_	21	case	_	_
 21	mín	ég	PRON	fp1ee	Case=Gen|Number=Sing|Person=1|PronType=Prs	17	obl	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	3	punct	_	_
+22	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01081
 # sent_id = n01081022
@@ -4824,7 +4824,7 @@
 # text = Fræðilega séð gæti par stofnað fjóra Tesco-reikninga og grætt 3% á 12.000 - 360 pundum.
 # text_en = Theoretically, a couple could open four Tesco accounts and earn 3% on £12,000 – £360.
 1	Fræðilega	fræðilegur	ADJ	lhenvf	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	_
-2	séð	sjá	VERB	ssg	VerbForm=Sup|Voice=Act	5	advmod	_	_
+2	séð	sjá	ADV	ssg	_	5	advmod	_	_
 3	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	par	par	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	stofnað	stofna	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
@@ -4875,7 +4875,7 @@
 3	þú	þú	PRON	fp2en	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	_	_
 5	fræðilega	fræðilega	ADV	aa	_	6	advmod	_	_
-6	séð	sjá	VERB	ssg	VerbForm=Sup|Voice=Act	8	advmod	_	SpaceAfter=No
+6	séð	sjá	ADV	ssg	_	8	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	_	_
 8	nálgast	nálgast	VERB	snm	VerbForm=Inf|Voice=Pass	0	root	_	_
 9	peningana	peningur	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	8	obj	_	_
@@ -4958,7 +4958,7 @@
 # text_en = Surprising as it may seem, even acid rain clouds can have a silver lining.
 1	Þótt	þótt	SCONJ	c	_	4	mark	_	_
 2	ótrúlegt	ótrúlegur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	nsubj	_	_
-3	megi	mega	VERB	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	megi	mega	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	virðast	virða	VERB	snm	VerbForm=Inf|Voice=Pass	9	advcl	_	_
 5	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 6	meira	mikill	ADJ	lheovm	Case=Acc|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	9	advmod	_	_
@@ -5030,7 +5030,7 @@
 # text = Það má með sanni segja að retróið sé líf, starf og yndi Roccos Catalano.
 # text_en = It’s fair to say that Rocco Catalano works, lives and breathes retro.
 1	Það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	5	nsubj	_	_
-2	má	mega	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+2	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 3	með	með	ADP	aþ	_	4	case	_	_
 4	sanni	sannur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	_
 5	segja	segja	VERB	sng	VerbForm=Inf|Voice=Act	0	root	_	_
@@ -5079,7 +5079,7 @@
 10	í	í	ADP	aþ	_	11	case	_	_
 11	London	London	PROPN	nxeþ-s	Case=Dat|Number=Sing	9	obl:arg	_	_
 12	og	og	CCONJ	c	_	14	cc	_	_
-13	svo	svo	ADV	aa	_	12	advmod	_	_
+13	svo	svo	ADV	aa	_	14	advmod	_	_
 14	Glasgow	Glasgow	PROPN	e	_	11	conj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	_	_
 16	þar	þar	ADV	aa	_	19	mark	_	_
@@ -5311,7 +5311,7 @@
 15	óvart	óvar	ADJ	lheosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	obl	_	_
 16	ef	ef	SCONJ	c	_	21	mark	_	_
 17	annaðhvort	annaðhvort	CCONJ	c	_	18	cc	_	_
-18	bann	bann	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	conj	_	_
+18	bann	bann	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	conj	_	_
 19	eða	eða	CCONJ	c	_	20	cc	_	_
 20	leyfisveiting	leyfisveiting	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	nsubj	_	_
 21	kæmi	koma	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
@@ -5337,7 +5337,7 @@
 9	leiðandi	leiða	VERB	slg	Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
 10	náttúruverndarsinna	náttúruverndarsinr	NOUN	nkfog	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
-12	allt	allur	PRON	foheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	14	advmod	_	_
+12	allt	allur	ADV	foheo	_	13	advmod	_	_
 13	frá	frá	ADP	aþ	_	14	case	_	_
 14	upphafsmanni	upphafsmann	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_
 15	undirskriftasöfnunarinnar	undirskriftasöfnun	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod:poss	_	SpaceAfter=No
@@ -5442,10 +5442,10 @@
 # text = „Þorskstofninn í Eystrasalti gæti hrunið“ án takmarkananna sem stungið er upp á, sagði einn embættismaður ESB.
 # text_en = “Celtic Sea cod could collapse,” without the proposed limits, one EU official said.
 1	„	„	PUNCT	„	PunctSide=Ini	6	punct	_	SpaceAfter=No
-2	Þorskstofninn	þorskstofn	NOUN	nkeng	Case=NOM|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Þorskstofninn	þorskstofn	NOUN	nkeng	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	í	í	ADP	aþ	_	4	case	_	_
 4	Eystrasalti	Eystrasalt	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
-5	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	hrunið	hrynja	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No
 7	“	“	PUNCT	“	PunctSide=Fin	6	punct	_	_
 8	án	án	ADP	ae	_	9	case	_	_
@@ -5629,7 +5629,7 @@
 2	reyna	reyna	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ef	ef	SCONJ	c	_	7	mark	_	_
 4	til	til	ADV	aa	_	3	fixed	_	_
-5	vill	vilja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	fixed	_	_
+5	vill	vilja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	fixed	_	_
 6	að	að	PART	cn	_	7	mark	_	_
 7	setja	setja	VERB	sng	VerbForm=Inf|Voice=Act	2	xcomp	_	_
 8	upp	upp	ADV	aa	_	9	case	_	_
@@ -5654,7 +5654,7 @@
 # text_en = But they can at least lay booby-traps to confuse and deter – a concept known as “active defence”.
 1	En	en	SCONJ	c	_	7	cc	_	_
 2	þeir	hann	PRON	fpkfn	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	7	nsubj	_	_
-3	geta	geta	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+3	geta	geta	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 4	að	að	ADP	aþ	_	6	case	_	_
 5	minnsta	lítill	ADJ	lkeþve	Case=Dat|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	6	amod	_	_
 6	kosti	kostur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	_
@@ -5833,7 +5833,7 @@
 # text = Íhlutunin gæti orðið sú víðtækasta af hálfu Beijing síðan Bretland lét Hong Kong af hendi árið 1997.
 # text_en = The intervention is potentially the most far-reaching by Beijing since the 1997 handover of Hong Kong from the UK.
 1	Íhlutunin	íhlutun	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
-2	gæti	geta	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	orðið	verða	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 4	sú	sá	PRON	faven	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	víðtækasta	víðtækur	ADJ	lvenve	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	3	xcomp	_	_
@@ -6026,7 +6026,7 @@
 2	erum	vera	AUX	sfg1fn	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	svo	svo	ADV	aa	_	4	advmod	_	_
 4	vonsviknir	vonsvikn	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	_
-5	því	það	PRON	fpheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	7	mark	_	_
+5	því	það	SCONJ	fpheþ	_	7	mark	_	_
 6	við	ég	PRON	fp1fn	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 7	töpuðum	tapa	VERB	sfg1fþ	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
 8	sex	sex	NUM	tfhfþ	Case=Dat|Gender=Neut|Number=Plur	9	nummod	_	_
@@ -6155,7 +6155,7 @@
 8	staðið	standa	VERB	ssg	VerbForm=Sup|Voice=Act	3	acl:relcl	_	_
 9	yfir	yfir	ADP	aþ	_	10	case	_	_
 10	árum	ár	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	8	obl:arg	_	_
-11	saman	saman	ADV	aa	_	10	advmod	_	_
+11	saman	saman	ADV	aa	_	10	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	8	punct	_	_
 13	lækkuðu	lækka	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 14	virði	virði	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	_
@@ -6272,7 +6272,7 @@
 19	þess	það	PRON	fphee	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	21	nmod:poss	_	_
 20	í	í	ADP	ao	_	21	case	_	_
 21	stað	staður	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	_
-22	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
+22	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
 23	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	21	cop	_	_
 24	stöðugur	stöðugur	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
 25	vöxtur	vöxtur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
@@ -6403,7 +6403,7 @@
 6	pund	pund	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	_
 7	í	í	ADP	aþ	_	8	case	_	_
 8	skuldabréfum	skuldabréf	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	_
-9	má	mega	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+9	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	búast	búa	VERB	snm	VerbForm=Inf|Voice=Pass	0	root	_	_
 11	við	við	ADP	aþ	_	12	case	_	_
 12	því	það	PRON	fpheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	10	obl:arg	_	_
@@ -6564,7 +6564,7 @@
 # text = Neytendur geta aukið kröfur um breytingar.
 # text_en = The consumer can boost the demand for change.
 1	Neytendur	neytandi	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	_
-2	geta	geta	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	geta	geta	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	aukið	auka	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 4	kröfur	krafa	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	_
 5	um	um	ADP	ao	_	6	case	_	_
@@ -6644,7 +6644,7 @@
 5	að	að	SCONJ	c	_	12	mark	_	_
 6	NHS	NHS	PROPN	as	_	12	nsubj	_	_
 7	væri	vera	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
-8	nú	nú	ADV	aa	_	7	advmod	_	_
+8	nú	nú	ADV	aa	_	9	advmod	_	_
 9	undir	undir	ADP	aþ	_	12	case	_	_
 10	„	„	PUNCT	„	PunctSide=Ini	12	punct	_	SpaceAfter=No
 11	gríðarlegu	gríðarlegur	ADJ	lheþsf	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
