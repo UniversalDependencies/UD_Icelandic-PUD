@@ -11627,11 +11627,11 @@
 19	sitt	sinn	PRON	feheo	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	18	nmod:poss	_	_
 20	af	af	ADP	aþ	_	21	case	_	_
 21	hendi	hönd	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	_
-22	svo	svo	ADV	aa	_	26	mark	_	_
-23	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	26	nsubj	_	_
-24	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	aux	_	_
-25	orðið	verða	VERB	ssg	VerbForm=Sup|Voice=Act	26	cop	_	_
-26	lénsríki	lénsríki	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	17	advcl	_	_
+22	svo	svo	ADV	aa	_	25	mark	_	_
+23	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	25	nsubj	_	_
+24	gæti	geta	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	25	aux	_	_
+25	orðið	verða	VERB	ssg	VerbForm=Sup|Voice=Act	17	advcl	_	_
+26	lénsríki	lénsríki	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	25	xcomp	_	_
 27	Persaveldis	Persaveldis	PROPN	e	_	26	nmod:poss	_	_
 28	Akkemenída	Akkemenídi	PROPN	nkfe-s	Case=Gen|Gender=Masc|Number=Plur	27	nmod:poss	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	9	punct	_	_
@@ -11820,7 +11820,7 @@
 # text_en = While air mass identification was originally used in weather forecasting during the 1950s, climatologists began to establish synoptic climatologies based on this idea in 1973.
 1	Þótt	þótt	SCONJ	c	_	2	mark	_	_
 2	byrjað	byrja	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	_	_
-3	hafi	hafa	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	hafi	hafa	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
 4	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	2	aux	_	_
 5	að	að	PART	cn	_	6	mark	_	_
 6	nota	nota	VERB	sng	VerbForm=Inf|Voice=Act	2	csubj	_	_
@@ -12118,7 +12118,7 @@
 9	einum	einn	PRON	fokeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	hluta	hluti	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	_
 11	þess	það	PRON	fphee	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs	10	nmod:poss	_	_
-12	geta	geta	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+12	geta	geta	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 13	haft	hafa	VERB	ssg	VerbForm=Sup|Voice=Act	4	advcl	_	_
 14	mikil	mikill	ADJ	lhfosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_
 15	áhrif	áhrif	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	_
@@ -13731,13 +13731,13 @@
 7	tæp	tæpur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 8	hálf	hálfur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
 9	milljón	milljón	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	xcomp	_	_
-10	og	og	CCONJ	c	_	16	cc	_	_
+10	og	og	CCONJ	c	_	14	cc	_	_
 11	borgin	borg	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	_
 12	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
 13	því	því	ADV	aa	_	14	advmod	_	_
-14	orðin	verða	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	cop	_	_
+14	orðin	verða	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	_
 15	sú	sá	PRON	faven	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
-16	stærsta	stór	ADJ	lvenve	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	6	conj	_	_
+16	stærsta	stór	ADJ	lvenve	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	14	xcomp	_	_
 17	vestur	vestur	ADV	aa	_	16	obl	_	_
 18	af	af	ADP	aþ	_	19	case	_	_
 19	Kína	Kína	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
@@ -13888,7 +13888,7 @@
 2	16.	16.	NUM	ta	_	3	nummod	_	_
 3	öld	öld	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	_
 4	höfðu	hafa	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
-5	Evrópubúar	Evrópubúi	PROPN	nkfn-s	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+5	Evrópubúar	Evrópubúi	PROPN	nkfn-s	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
 6	sem	sem	SCONJ	ct	_	7	nsubj	_	_
 7	heimsóttu	heimsækja	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 8	karabíska	karabískur	ADJ	lheovf	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
@@ -14281,7 +14281,7 @@
 5	Mongólíu	Mongólía	PROPN	nveþ-s	Case=Dat|Gender=Fem|Number=Sing	11	nsubj	_	_
 6	og	og	CCONJ	c	_	7	cc	_	_
 7	Kína	Kína	PROPN	nhen-s	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
-8	hafa	hafa	AUX	sng	VerbForm=Inf|Voice=Act	9	aux	_	_
+8	hafa	hafa	AUX	sng	VerbForm=Inf|Voice=Act	11	aux	_	_
 9	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	11	cop	_	_
 10	undir	undir	ADP	aþ	_	11	case	_	_
 11	stjórn	stjórn	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	3	ccomp	_	_
@@ -14296,7 +14296,7 @@
 20	árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	21	nmod	_	_
 21	1911	1911	NUM	ta	_	19	nmod	_	_
 22	hefðu	hafa	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	aux	_	_
-23	yfirráð	yfirráð	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	22	nsubj	_	_
+23	yfirráð	yfirráð	NOUN	nhfn	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	27	nsubj	_	_
 24	mansjúmanna	mansjúmur	NOUN	nkfeg	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	23	nmod:poss	_	_
 25	yfir	yfir	ADP	aþ	_	26	case	_	_
 26	Mongólum	Mongóli	PROPN	nkfþ-s	Case=Dat|Gender=Masc|Number=Plur	23	nmod	_	_
@@ -14503,7 +14503,7 @@
 16	Heródesar	Heródes	PROPN	nvee-s	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
 17	svo	svo	ADV	aa	_	18	mark	_	_
 18	rétta	réttur	ADJ	lkeovf	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	advcl	_	_
-19	mætti	mæta	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
+19	mætti	mæta	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
 20	yfir	yfir	ADP	aþ	_	21	case	_	_
 21	honum	hann	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	18	obl:arg	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	_	_
@@ -14536,13 +14536,13 @@
 # text = Síðarnefnda dagsetningin getur aðeins hafa verið á föstudegi ef aukalegur hlaupmánuður hefði verið þetta ár, sem er það sem Newton aðhylltist.
 # text_en = The latter date can only have fallen on a Friday if an exceptional leap month had been introduced that year, but this was favoured by Newton.
 1	Síðarnefnda	síðarnefnda	ADJ	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	amod	_	_
-2	dagsetningin	dagsetning	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_
-3	getur	geta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	aðeins	aðeins	ADV	aa	_	3	advmod	_	_
-5	hafa	hafa	AUX	sng	VerbForm=Inf|Voice=Act	6	aux	_	_
+2	dagsetningin	dagsetning	NOUN	nveng	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	getur	geta	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+4	aðeins	aðeins	ADV	aa	_	8	advmod	_	_
+5	hafa	hafa	AUX	sng	VerbForm=Inf|Voice=Act	8	aux	_	_
 6	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	8	cop	_	_
 7	á	á	ADP	aþ	_	8	case	_	_
-8	föstudegi	föstudagur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	_
+8	föstudegi	föstudagur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 9	ef	ef	SCONJ	c	_	15	mark	_	_
 10	aukalegur	aukalegur	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	hlaupmánuður	hlaupmánuður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -15052,7 +15052,7 @@
 # sent_id = w01065019
 # text = Enn er deilt um tilganginn með þessum jötunsteinum, en ef til vill voru þeir „helgistaður“ frá miðri bronsöld, um 1600 árum fyrir okkar tímatal.
 # text_en = The exact purpose of these megaliths is still debated, but they may have constituted a Canaanite "high place" from the Middle Bronze Age, ca. 1600 B.C.E.
-1	Enn	enn	ADV	aa	_	3	expl	_	_
+1	Enn	enn	ADV	aa	_	3	advmod	_	_
 2	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	deilt	deila	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	um	um	ADP	ao	_	5	case	_	_
@@ -15363,23 +15363,23 @@
 # text = Árið 1519 varð hann þjóðhöfðingi yfir ríki Habsborgara og varð keisari hins heilaga rómverska ríkis árið 1530.
 # text_en = In 1519, he became ruler of the Habsburg empire, and he gained the title Holy Roman Emperor in 1530.
 1	Árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_
-2	1519	1519	NUM	ta	_	5	obl	_	_
-3	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+2	1519	1519	NUM	ta	_	3	obl	_	_
+3	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	_	_
-5	þjóðhöfðingi	þjóðhöfðing	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+5	þjóðhöfðingi	þjóðhöfðing	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	3	xcomp	_	_
 6	yfir	yfir	ADP	aþ	_	7	case	_	_
 7	ríki	ríki	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	_
 8	Habsborgara	Habsborgari	PROPN	nkfe-s	Case=Gen|Gender=Masc|Number=Plur	7	nmod:poss	_	_
 9	og	og	CCONJ	c	_	11	cc	_	_
-10	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
-11	keisari	keisari	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	_
+10	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	keisari	keisari	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	xomp	_	_
 12	hins	hinn	DET	ghee	Case=Gen|Gender=Neut|Number=Sing	15	det	_	_
 13	heilaga	heilagur	ADJ	lheevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
 14	rómverska	rómverskur	ADJ	lheevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
 15	ríkis	ríki	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	11	nmod:poss	_	_
 16	árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	_
 17	1530	1530	NUM	ta	_	11	obl	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	5	punct	_	_
+18	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = w01069040
 # text = Þrátt fyrir harkalegt framferði Karls hafði verið litið á hann sem valdhafa sem hefði skilning á þörfum Hollands.
@@ -15699,9 +15699,9 @@
 9	Kipling	Kipling	PROPN	e	_	8	nsubj	_	_
 10	líka	líka	ADV	aa	_	8	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
-12	og	og	CCONJ	c	_	14	cc	_	_
-13	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
-14	ástfanginn	ástfanginn	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	_
+12	og	og	CCONJ	c	_	13	cc	_	_
+13	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+14	ástfanginn	ástfanginn	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	13	xcomp	_	_
 15	af	af	ADV	aa	_	14	compound:prt	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
 17	Florence	Florence	PROPN	e	_	8	obj	_	_
@@ -16145,11 +16145,11 @@
 18	fluttu	flytja	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
 19	til	til	ADP	ae	_	20	case	_	_
 20	Portúgal	Portúgal	PROPN	nhee-s	Case=Gen|Gender=Neut|Number=Sing	18	obl	_	_
-21	en	en	CCONJ	c	_	25	cc	_	_
-22	urðu	verða	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	25	cop	_	_
+21	en	en	CCONJ	c	_	22	cc	_	_
+22	urðu	verða	VERB	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	_
 23	loks	loks	ADV	aa	_	25	advmod	_	_
 24	fyrir	fyrir	ADP	aþ	_	25	case	_	_
-25	ofsóknum	ofsókn	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	15	conj	_	_
+25	ofsóknum	ofsókn	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	22	obl:arg	_	_
 26	þar	þar	ADV	aa	_	25	advmod	_	_
 27	líka	líka	ADV	aa	_	25	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	3	punct	_	_
@@ -17080,7 +17080,7 @@
 4	á	á	ADP	aþ	_	5	case	_	_
 5	sjálfslitningsgögnum	sjálfslitningsgögn	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	_
 6	Rómafólks	Rómafólk	PROPN	nhee-s	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	_	_
-7	má	mega	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+7	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	rekja	rekja	VERB	sng	VerbForm=Inf|Voice=Act	0	root	_	_
 9	suðurasískan	suðurasískur	ADJ	lkeosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	uppruna	uppruni	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -17296,11 +17296,11 @@
 13	upp	upp	ADV	aa	_	12	advmod	_	_
 14	í	í	ADP	aþ	_	15	case	_	_
 15	vatni	vatn	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	_
-16	svo	svo	ADV	aa	_	20	mark	_	_
-17	úr	úr	ADV	aa	_	20	advmod	_	_
-18	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
+16	svo	svo	ADV	aa	_	18	mark	_	_
+17	úr	úr	ADV	aa	_	18	advmod	_	_
+18	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
 19	kolsýrður	kolsýrður	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
-20	drykkur	drykkur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	12	advcl	_	SpaceAfter=No
+20	drykkur	drykkur	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w01101084
@@ -17329,12 +17329,12 @@
 # text_en = Joseph Darnand, who became an SS officer and led the Milice paramilitaries who hunted down members of the Resistance, was executed in October 1945.
 1	Joseph	Joseph	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
 2	Darnand	Darnand	PROPN	e	_	1	flat:name	_	SpaceAfter=No
-3	,	,	PUNCT	,	_	6	punct	_	_
-4	sem	sem	SCONJ	ct	_	6	nsubj	_	_
-5	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
-6	SS-foringi	SS-foringi	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	1	acl:relcl	_	_
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	sem	sem	SCONJ	ct	_	5	nsubj	_	_
+5	varð	verða	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+6	SS-foringi	SS-foringi	PROPN	nken-s	Case=Nom|Gender=Masc|Number=Sing	5	xcomp	_	_
 7	og	og	CCONJ	c	_	8	cc	_	_
-8	fór	fara	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+8	fór	fara	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
 9	fyrir	fyrir	ADP	aþ	_	10	case	_	_
 10	hliðarhernum	hliðarherna	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	_
 11	í	í	ADP	aþ	_	12	case	_	_
@@ -17361,7 +17361,7 @@
 3	hafði	hafa	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	gefið	gefa	VERB	ssg	VerbForm=Sup|Voice=Act	0	root	_	_
 5	fyrirmæli	fyrirmæli	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	_
-6	um	um	ADP	ao	_	4	advmod	_	_
+6	um	um	ADV	ao	_	4	advmod	_	_
 7	að	að	SCONJ	c	_	11	mark	_	_
 8	Churchill	Churchill	PROPN	e	_	11	obj	_	_
 9	skyldi	skulu	AUX	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
@@ -17497,7 +17497,7 @@
 7	mikil	mikill	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	sundurgreining	sundurgreining	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_
 9	og	og	CCONJ	c	_	13	cc	_	_
-10	þannig	þannig	ADV	aa	_	13	aux	_	_
+10	þannig	þannig	ADV	aa	_	13	advmod	_	_
 11	gat	geta	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
 12	ratsjáraðflugskerfið	ratsjáraðflugskerfi	NOUN	nheng	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	_
 13	gert	gera	VERB	ssg	VerbForm=Sup|Voice=Act	5	conj	_	_
