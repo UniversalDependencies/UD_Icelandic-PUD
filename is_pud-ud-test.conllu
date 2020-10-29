@@ -11418,8 +11418,8 @@
 4	rík	ríkur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 5	af	af	ADP	aþ	_	6	case	_	_
 6	steinefnum	steinefni	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	4	nmod	_	_
-7	og	og	CCONJ	c	_	9	cc	_	_
-8	þar	þar	ADV	aa	_	9	advmod	_	_
+7	og	og	CCONJ	c	_	10	cc	_	_
+8	þar	þar	ADV	aa	_	10	advmod	_	_
 9	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	finna	finna	VERB	sng	VerbForm=Inf|Voice=Act	4	conj	_	_
 11	mikið	mikill	ADJ	lheosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
