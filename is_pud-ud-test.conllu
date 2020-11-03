@@ -499,10 +499,10 @@
 9	fannst	finna	VERB	sfm3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 10	honum	hann	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	9	nsubj	_	_
 11	að	að	SCONJ	c	_	15	mark	_	_
-12	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	15	nsubj	_	_
-13	ættu	eiga	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
+12	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	13	nsubj	_	_
+13	ættu	eiga	VERB	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	_
 14	að	að	PART	cn	_	15	mark	_	_
-15	yfirgefa	yfirgefa	VERB	sng	VerbForm=Inf|Voice=Act	9	ccomp	_	_
+15	yfirgefa	yfirgefa	VERB	sng	VerbForm=Inf|Voice=Act	13	acl	_	_
 16	bygginguna	bygging	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	9	punct	_	_
 
