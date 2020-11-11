@@ -499,10 +499,10 @@
 9	fannst	finna	VERB	sfm3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 10	honum	hann	PRON	fpkeþ	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	9	nsubj	_	_
 11	að	að	SCONJ	c	_	15	mark	_	_
-12	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	15	nsubj	_	_
-13	ættu	eiga	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
+12	þau	það	PRON	fphfn	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs	13	nsubj	_	_
+13	ættu	eiga	VERB	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	_
 14	að	að	PART	cn	_	15	mark	_	_
-15	yfirgefa	yfirgefa	VERB	sng	VerbForm=Inf|Voice=Act	9	ccomp	_	_
+15	yfirgefa	yfirgefa	VERB	sng	VerbForm=Inf|Voice=Act	13	acl	_	_
 16	bygginguna	bygging	NOUN	nveog	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -11418,10 +11418,10 @@
 4	rík	ríkur	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 5	af	af	ADP	aþ	_	6	case	_	_
 6	steinefnum	steinefni	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	4	nmod	_	_
-7	og	og	CCONJ	c	_	9	cc	_	_
-8	þar	þar	ADV	aa	_	9	advmod	_	_
-9	má	mega	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
-10	finna	finna	VERB	sng	VerbForm=Inf|Voice=Act	9	xcomp	_	_
+7	og	og	CCONJ	c	_	10	cc	_	_
+8	þar	þar	ADV	aa	_	10	advmod	_	_
+9	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	finna	finna	VERB	sng	VerbForm=Inf|Voice=Act	4	conj	_	_
 11	mikið	mikill	ADJ	lheosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 12	magn	magn	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	_
 13	gulls	gull	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	12	nmod:poss	_	SpaceAfter=No
@@ -13569,7 +13569,7 @@
 # sent_id = w01040100
 # text = Sand- og rykstormar eru náttúruatburðir sem eiga sér stað á þurrkasvæðum þar sem landið er ekki þakið gróðrarlagi.
 # text_en = Sand and dust storms are natural events that occur in arid regions where the land is not protected by a covering of vegetation.
-1	Sand-	sand-	PRON	fahfe	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	5	nsubj	_	_
+1	Sand-	sand-	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	og	og	CCONJ	c	_	3	cc	_	_
 3	rykstormar	rykstormur	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	_
 4	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
@@ -20688,7 +20688,7 @@
 8	til	til	ADP	ae	_	10	mark	_	_
 9	að	að	PART	cn	_	8	fixed	_	_
 10	hafa	hafa	VERB	sng	VerbForm=Inf|Voice=Act	5	advcl	_	_
-11	herflota	herflotur	PRON	fokfo	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	obj	_	_
+11	herflota	herfloti	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	_
 12	sinn	sinn	PRON	fekeo	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	11	nmod:poss	_	_
 13	á	á	ADP	aþ	_	14	case	_	_
 14	Svartahafi	Svartahaf	PROPN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
