@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Icelandic-PUD:
-commit 31d385c7fe7166d49dda922863f117755ea26e01
+commit 1fa44bfbc5550d2d47ce1ec324a402f8bd6fbbbc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:27:24 2021 +0200
+Date:   Wed Nov 3 16:30:30 2021 +0100
 Size: counted 18833 of 18833 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.87122130042522.
 Size: maximum value 13.815511 is for 1000000 words or more.
