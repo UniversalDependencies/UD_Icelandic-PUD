@@ -837,7 +837,7 @@
 3	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	5	expl	_	_
 4	má	mega	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	vera	vera	AUX	sng	VerbForm=Inf|Voice=Act	0	root	_	_
-6	að	að	SCONJ	c	_	11	csubj	_	_
+6	að	að	SCONJ	c	_	11	mark	_	_
 7	BA	BA	ADP	as	_	11	nsubj	_	_
 8	og	og	CCONJ	c	_	9	cc	_	_
 9	IAG	IAG	ADP	as	_	7	conj	_	_
@@ -1765,7 +1765,7 @@
 # text = Samkvæmt lögregludeild borgarinnar brutust út slagsmál þegar „stór hópur fólks ... sem sagðist vera valdhafar á svæðinu“ kom á tökustað á þriðjudaginn.
 # text_en = According to the city's police department, a fight broke out after "a large group of people... who identified themselves as district authorities" arrived on set on Tuesday.
 1	Samkvæmt	samkvæmt	ADP	aþ	_	2	case	_	_
-2	lögregludeild	lögregludeild	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	lögregludeild	lögregludeild	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	_
 3	borgarinnar	borg	NOUN	nveeg	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod:poss	_	_
 4	brutust	brjóta	VERB	sfm3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	út	út	ADV	aa	_	4	compound:prt	_	_
@@ -2238,7 +2238,7 @@
 5	Kína	Kína	NOUN	nheþ-s	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
 6	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 7	verið	vera	AUX	ssg	VerbForm=Sup|Voice=Act	9	cop	_	_
-8	óvenju	óvenja	ADV	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	óvenju	óvenja	ADV	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	9	advmod	_	_
 9	hávær	hávær	ADJ	lvensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
 10	í	í	ADP	aþ	_	11	case	_	_
 11	kvörtunum	kvörtun	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	_
@@ -8247,7 +8247,7 @@
 6	upp	upp	ADV	aa	_	3	compound:prt	_	_
 7	við	við	ADP	ao	_	8	case	_	_
 8	það	það	PRON	fpheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Prs	3	obl:arg	_	_
-9	þótt	þótt	SCONJ	c	_	12	nsubj	_	_
+9	þótt	þótt	SCONJ	c	_	12	cc	_	_
 10	Johnny	Johnny	PROPN	e	_	12	nsubj	_	_
 11	Cash	Cash	PROPN	e	_	10	flat:name	_	_
 12	næði	ná	VERB	svg3eþ	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -15324,7 +15324,7 @@
 # sent_id = w01068027
 # text = 9. september 2002 var Aldrin lokkaður á hótel í Beverly Hills undir því yfirskini að taka viðtal við hann um geimferðir fyrir japanskan barnaþátt.
 # text_en = On September 9, 2002, Aldrin was lured to a Beverly Hills hotel on the pretext of being interviewed for a Japanese children's television show on the subject of space.
-1	9.	9.	ADJ	lkeovf	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
+1	9.	9.	ADJ	lkeovf	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	advmod	_	_
 2	september	september	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	_
 3	2002	2002	NUM	ta	_	1	flat	_	_
 4	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
@@ -23200,7 +23200,7 @@
 43	hann	hann	PRON	fpken	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	44	nsubj	_	_
 44	gefa	gefa	VERB	sng	VerbForm=Inf|Voice=Act	36	ccomp	_	_
 45	sig	sig	PRON	fpkeo	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	44	obj	_	_
-46	vopnlaus	vopnlaus	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	44	nsubj	_	_
+46	vopnlaus	vopnlaus	ADJ	lkensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_
 47	fram	fram	ADV	aa	_	44	compound:prt	_	_
 48	í	í	ADP	ao	_	49	case	_	_
 49	hendur	hönd	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	44	obl	_	_
