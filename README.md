@@ -5,13 +5,13 @@ Icelandic-PUD is the Icelandic part of the Parallel Universal Dependencies (PUD)
 # Introduction
 
 The Icelandic-PUD consists of Icelandic translations of 1.000 sentences from the news domain and from Wikipedia. The morphological and syntactic annotation have been manually validated.
-Icelandic-PUD was not created and a part of the CoNLL 2017 shared task like the other PUD treebanks. 
+Icelandic-PUD was not created and a part of the CoNLL 2017 shared task like the other PUD treebanks.
 
 # Acknowledgments
 
 Translations were produced by Ölvir Gíslason, a professional translator. The automatic tagging was carried out using ABLTagger, which is based on BiLSTM models, a morphological lexicon and lexical category identification. It is developed by Steinþór Steingrímsson, Örvar Kárason and Hrafn Loftsson and available from https://github.com/steinst/ABLTagger. For lemmatizing the high accuracy lemmatizer Nefnir was run, it is developed by Jón Daði Ingólfsson, Svanhvít Lilja Ingólfsdóttir and Hrafn Loftsson and available at https://github.com/jonfd/nefnir. For preprocessing the syntactic annotation, a delexicalized parser was run using UDPipe, developed by Milan Straka, see https://ufal.mff.cuni.cz/udpipe.
 
-The morphological and syntactic annotation were checked and corrected manually by Hildur Jónsdóttir. 
+The morphological and syntactic annotation were checked and corrected manually by Hildur Jónsdóttir.
 
 # PUD Treebanks
 
@@ -42,6 +42,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Minor fixes of multi-subject clauses.
 * 2020-05-15 v2.6
   * Initial release in Universal Dependencies.
 
