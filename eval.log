@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Icelandic-PUD:
-commit 43c9729ecfe4505e80e947c010504e796575622c
-Merge: 0a33c45 127c49e
+commit 997425ff02edde9246101da5fa5012181be45212
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 14 11:20:43 2022 +0100
 Size: counted 18833 of 18833 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.87122130042522.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,7 +24,7 @@ Udapi:
 Udapi: found 683 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 18833 words.
 Genres: found 2 out of 17 known.
-validate.py --lang is --max-err=10 UD_Icelandic-PUD/is_pud-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang is --max-err=10 UD_Icelandic-PUD/is_pud-ud-test.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
