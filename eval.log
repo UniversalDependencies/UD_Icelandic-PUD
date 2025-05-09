@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Icelandic-PUD:
-commit d5edf392ca94213907a92146eac9231942078a5f
+commit 6ccbb5af14e7ed91ed92033f1fc0525b76683f31
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:36:18 2024 +0200
+Date:   Mon Nov 11 15:44:25 2024 +0100
 Size: counted 18833 of 18833 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.87122130042522.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,21 +20,46 @@ Features: source of annotation (from README) factor is 0.5.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Udapi:
-               TOTAL        683
-Udapi: found 683 bugs.
+               TOTAL        616
+Udapi: found 616 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 18833 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang is --max-err=10 UD_Icelandic-PUD/is_pud-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 189 Sent n01003010 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+[Line 248 Sent n01004009 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Frekar en' does not have the 'ExtPos' feature
+[Line 264 Sent n01004009 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'með því að' does not have the 'ExtPos' feature
+[Line 284 Sent n01004017 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'fyrir ofan' does not have the 'ExtPos' feature
+[Line 427 Sent n01008017 Node 27]: [L3 Warning fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+[Line 537 Sent n01011011 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'með því að' does not have the 'ExtPos' feature
+[Line 663 Sent n01014012 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+[Line 774 Sent n01016019 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+[Line 791 Sent n01016032 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'svo sem' does not have the 'ExtPos' feature
+[Line 820 Sent n01017005 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 1038 Sent n01021007 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'Því'
+[Line 1978 Sent n01034033 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'engu'
+[Line 3367 Sent n01055038 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ef'
+[Line 4763 Sent n01082014 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ef'
+[Line 9409 Sent n02068010 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ef'
+[Line 10219 Sent n03010012 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'allt'
+[Line 10344 Sent n04002027 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'alls'
+[Line 10772 Sent n04010016 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'sem'
+[Line 13002 Sent w01030095 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'allt'
+[Line 15032 Sent w01065018 Node 25]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'allt'
+...suppressing further errors regarding Syntax
+Syntax errors: 12
+Warnings: 337
+*** FAILED *** with 12 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
 (weight=0.256410256410256) * (score{size}=0.424973168801251) = 0.108967479179808
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.1) = 0.00769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.637338713959539) = 0.196104219679858
+(weight=0.307692307692308) * (score{udapi}=0.672914564859555) = 0.207050635341402
 (weight=0.0769230769230769) * (score{udeprels}=0.0810810810810811) = 0.00623700623700624
-(TOTAL score=0.422409760903611) * (availability=1) * (validity=1) = 0.422409760903611
-STARS = 2
-UD_Icelandic-PUD	0.422409760903611	2
+(TOTAL score=0.432853411356506) * (availability=1) * (validity=0.01) = 0.00432853411356506
+STARS = 0
+UD_Icelandic-PUD	0.00432853411356506	0
