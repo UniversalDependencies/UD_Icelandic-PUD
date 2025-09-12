@@ -52,7 +52,7 @@ employ ten-fold cross-validation.
 Data available since: UD v2.6
 License: CC BY-SA 4.0
 Includes text: yes
-Parallel: no
+Parallel: pud
 Genre: news wiki
 Lemmas: automatic with corrections
 UPOS: automatic with corrections
