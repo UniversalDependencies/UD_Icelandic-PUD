@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Icelandic-PUD:
-commit 43a60603bd3aa6b4ff5e83c41f58b32b9e7bc91d
-Merge: 556b1c9 e6fab82
+commit d72cbdfa9b8dbb55710a1482309e55ea4a6bcc9f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:47:07 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'is_pud'
 Language code (from CoNLL-U file name) = 'is'
@@ -25,31 +25,42 @@ Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang is --max-err=10 UD_Icelandic-PUD/is_pud-ud-test.conllu
-[Line 68 Sent n01002017]: [L3 Warning pron-det-without-prontype] The word 'sinni' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 197 Sent n01003010]: [L3 Warning fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
-[Line 238 Sent n01003012]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'einkaklúbbnum') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 259 Sent n01004009]: [L3 Warning fixed-without-extpos] Fixed expression 'Frekar en' does not have the 'ExtPos' feature
-[Line 275 Sent n01004009]: [L3 Warning fixed-without-extpos] Fixed expression 'með því að' does not have the 'ExtPos' feature
-[Line 296 Sent n01004017]: [L3 Warning fixed-without-extpos] Fixed expression 'fyrir ofan' does not have the 'ExtPos' feature
-[Line 364 Sent n01005031]: [L3 Syntax too-many-objects] Multiple direct objects [5, 8] ('farþega', 'mínútur') under the predicate 'tæki'.
-[Line 391 Sent n01006011]: [L3 Warning pron-det-without-prontype] The word 'hinn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 445 Sent n01008017]: [L3 Warning fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
-[Line 548 Sent n01011004]: [L3 Warning pron-det-without-prontype] The word 'sína' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 560 Sent n01011011]: [L3 Warning fixed-without-extpos] Fixed expression 'með því að' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 1083 Sent n01021007]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('Því')
-[Line 2062 Sent n01034033]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('engu')
-[Line 3501 Sent n01055038]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('ef')
-[Line 4675 Sent n01076006]: [L3 Syntax too-many-objects] Multiple direct objects [7, 8] ('heiminn', 'kvíðvænlegri') under the predicate 'gera'.
-[Line 4961 Sent n01082014]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('ef')
-[Line 5808 Sent n01095009]: [L3 Syntax too-many-objects] Multiple direct objects [3, 5] ('þetta', 'ófreskju') under the predicate 'kalla'.
-[Line 6427 Sent n01107005]: [L3 Syntax too-many-objects] Multiple direct objects [21, 24] ('framkvæmdastjórann', 'starfið') under the predicate 'kostuðu'.
-[Line 6773 Sent n01111021]: [L3 Syntax too-many-objects] Multiple direct objects [17, 22] ('2', 'hvorn') under the predicate 'lögðu'.
-[Line 8600 Sent n01144038]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('sér', 'ekkert') under the predicate 'kippti'.
-...suppressing further errors regarding Syntax
-Syntax errors: 25
-Warnings: 490
-*** FAILED *** with 25 errors
+[Line 68 Sent n01002017]: [L3 WARNING pron-det-without-prontype] The word 'sinni' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 197 Sent n01003010]: [L3 WARNING fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+[Line 238 Sent n01003012]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'einkaklúbbnum') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 259 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'Frekar en' does not have the 'ExtPos' feature
+[Line 275 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'með því að' does not have the 'ExtPos' feature
+[Line 296 Sent n01004017]: [L3 WARNING fixed-without-extpos] Fixed expression 'fyrir ofan' does not have the 'ExtPos' feature
+[Line 364 Sent n01005031]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 8] ('farþega', 'mínútur') under the predicate 'tæki'.
+[Line 391 Sent n01006011]: [L3 WARNING pron-det-without-prontype] The word 'hinn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 445 Sent n01008017]: [L3 WARNING fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+[Line 548 Sent n01011004]: [L3 WARNING pron-det-without-prontype] The word 'sína' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 560 Sent n01011011]: [L3 WARNING fixed-without-extpos] Fixed expression 'með því að' does not have the 'ExtPos' feature
+[Line 578 Sent n01011011]: [L3 WARNING pron-det-without-prontype] The word 'hið' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 582 Sent n01011011]: [L3 WARNING pron-det-without-prontype] The word 'sína' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 691 Sent n01014012]: [L3 WARNING fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+[Line 702 Sent n01014012]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'þjóðaratkvæðagreiðsluna') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 705 Sent n01014012]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'þjóðaratkvæðagreiðsluna') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 806 Sent n01016019]: [L3 WARNING fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+[Line 824 Sent n01016032]: [L3 WARNING fixed-without-extpos] Fixed expression 'svo sem' does not have the 'ExtPos' feature
+[Line 854 Sent n01017005]: [L3 WARNING fixed-without-extpos] Fixed expression 'til að' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1069 Sent n01020021]: [L3 WARNING pron-det-without-prontype] The word 'sinn' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1083 Sent n01021007]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('Því')
+[Line 1180 Sent n01022002]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'úttekt') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1447 Sent n01024013]: [L3 SYNTAX obl-should-be-nmod] The parent (node [32] 'áhrif') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1906 Sent n01031021]: [L3 SYNTAX obl-should-be-nmod] The parent (node [17] 'samsetninguna') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1963 Sent n01033012]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'tengsl') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1984 Sent n01033021]: [L3 WARNING pron-det-without-prontype] The word 'sama' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2062 Sent n01034033]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('engu')
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 2196 Sent n01035025]: [L3 WARNING pron-det-without-prontype] The word 'hinn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2233 Sent n01035030]: [L3 WARNING pron-det-without-prontype] The word 'sínum' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2338 Sent n01037020]: [L3 WARNING pron-det-without-prontype] The word 'sínum' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 460
+SYNTAX errors: 55
+*** FAILED *** with 55 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
